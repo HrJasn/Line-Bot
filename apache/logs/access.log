@@ -32,3 +32,12 @@
 192.168.74.254 - - [09/Dec/2017:21:31:33 +0800] "GET /favicon.ico HTTP/1.1" 404 1064 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:57.0) Gecko/20100101 Firefox/57.0"
 192.168.74.254 - - [09/Dec/2017:21:32:40 +0800] "GET /.well-known/acme-challenge/9QDruE3yHf_HpYkxZkgLbq3hn2o3-98jR5MGr9q-NB0 HTTP/1.1" 200 87 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:57.0) Gecko/20100101 Firefox/57.0"
 192.168.74.254 - - [09/Dec/2017:21:32:40 +0800] "GET /favicon.ico HTTP/1.1" 404 1064 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:57.0) Gecko/20100101 Firefox/57.0"
+192.168.74.254 - - [09/Dec/2017:21:37:26 +0800] "GET / HTTP/1.1" 200 9 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:57.0) Gecko/20100101 Firefox/57.0"
+192.168.74.254 - - [09/Dec/2017:21:37:27 +0800] "GET /favicon.ico HTTP/1.1" 404 1064 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:57.0) Gecko/20100101 Firefox/57.0"
+192.168.74.254 - - [09/Dec/2017:21:37:28 +0800] "GET / HTTP/1.1" 200 9 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:57.0) Gecko/20100101 Firefox/57.0"
+192.168.74.254 - - [09/Dec/2017:21:37:28 +0800] "GET /favicon.ico HTTP/1.1" 404 1064 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:57.0) Gecko/20100101 Firefox/57.0"
+192.168.74.254 - - [09/Dec/2017:21:37:33 +0800] "GET / HTTP/1.1" 200 9
+192.168.74.254 - - [09/Dec/2017:21:37:33 +0800] "GET /favicon.ico HTTP/1.1" 404 1058
+192.168.74.254 - - [09/Dec/2017:21:39:49 +0800] "GET / HTTP/1.1" 302 322 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:57.0) Gecko/20100101 Firefox/57.0"
+192.168.74.254 - - [09/Dec/2017:21:39:49 +0800] "GET / HTTP/1.1" 200 9
+192.168.74.254 - - [09/Dec/2017:21:39:49 +0800] "GET /favicon.ico HTTP/1.1" 404 1058
