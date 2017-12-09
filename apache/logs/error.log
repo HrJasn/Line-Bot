@@ -1,0 +1,10 @@
+[Sat Dec 09 20:52:36.174896 2017] [ssl:warn] [pid 6900:tid 164] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Dec 09 20:52:36.334905 2017] [ssl:warn] [pid 6900:tid 164] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Dec 09 20:52:37.438968 2017] [mpm_winnt:notice] [pid 6900:tid 164] AH00455: Apache/2.4.29 (Win32) OpenSSL/1.0.2l PHP/7.1.11 configured -- resuming normal operations
+[Sat Dec 09 20:52:37.438968 2017] [mpm_winnt:notice] [pid 6900:tid 164] AH00456: Apache Lounge VC14 Server built: Oct 22 2017 11:52:30
+[Sat Dec 09 20:52:37.438968 2017] [core:notice] [pid 6900:tid 164] AH00094: Command line: 'c:\\web\\apache\\bin\\httpd.exe -d C:/web/apache'
+[Sat Dec 09 20:52:37.455969 2017] [mpm_winnt:notice] [pid 6900:tid 164] AH00418: Parent: Created child process 7076
+[Sat Dec 09 20:52:37.930996 2017] [ssl:warn] [pid 7076:tid 176] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Dec 09 20:52:38.052003 2017] [ssl:warn] [pid 7076:tid 176] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Dec 09 20:52:38.095005 2017] [mpm_winnt:notice] [pid 7076:tid 176] AH00354: Child: Starting 150 worker threads.
+[Sat Dec 09 20:53:47.219959 2017] [mpm_winnt:crit] [pid 7076:tid 176] AH02538: Child: Parent process exited abruptly. Child process is ending
