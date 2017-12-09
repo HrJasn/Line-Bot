@@ -9,3 +9,7 @@
 127.0.0.1 - - [09/Dec/2017:20:52:44 +0800] "GET /dashboard/images/xampp-logo.svg HTTP/1.1" 200 5427 "http://127.0.0.1/dashboard/" "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:57.0) Gecko/20100101 Firefox/57.0"
 127.0.0.1 - - [09/Dec/2017:20:52:44 +0800] "GET /dashboard/images/social-icons.png HTTP/1.1" 200 3361 "http://127.0.0.1/dashboard/stylesheets/all.css" "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:57.0) Gecko/20100101 Firefox/57.0"
 127.0.0.1 - - [09/Dec/2017:20:52:45 +0800] "GET /dashboard/images/favicon.png HTTP/1.1" 200 2508 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:57.0) Gecko/20100101 Firefox/57.0"
+127.0.0.1 - - [09/Dec/2017:20:59:28 +0800] "GET / HTTP/1.1" 200 9 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:57.0) Gecko/20100101 Firefox/57.0"
+127.0.0.1 - - [09/Dec/2017:20:59:28 +0800] "GET /favicon.ico HTTP/1.1" 404 1054 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:57.0) Gecko/20100101 Firefox/57.0"
+192.168.74.254 - - [09/Dec/2017:21:00:57 +0800] "GET /line-bot-sdk-php-master/line-bot-sdk-tiny/echo_bot.php HTTP/1.1" 405 -
+192.168.74.254 - - [09/Dec/2017:21:00:57 +0800] "GET /favicon.ico HTTP/1.1" 404 1058

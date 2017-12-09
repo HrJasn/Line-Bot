@@ -8,3 +8,44 @@
 [Sat Dec 09 20:52:38.052003 2017] [ssl:warn] [pid 7076:tid 176] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
 [Sat Dec 09 20:52:38.095005 2017] [mpm_winnt:notice] [pid 7076:tid 176] AH00354: Child: Starting 150 worker threads.
 [Sat Dec 09 20:53:47.219959 2017] [mpm_winnt:crit] [pid 7076:tid 176] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Sat Dec 09 20:59:23.456191 2017] [ssl:warn] [pid 6396:tid 164] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Dec 09 20:59:23.484192 2017] [core:warn] [pid 6396:tid 164] AH00098: pid file C:/web/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Dec 09 20:59:23.581198 2017] [ssl:warn] [pid 6396:tid 164] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\\xampp\\php\\ext\\php_bz2.dll' - \xef\xbf\xbd\xe4\xa4\xa3\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbdw\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xd2\xb2\xd5\xa1C\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\\xampp\\php\\ext\\php_curl.dll' - \xef\xbf\xbd\xe4\xa4\xa3\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbdw\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xd2\xb2\xd5\xa1C\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\\xampp\\php\\ext\\php_fileinfo.dll' - \xef\xbf\xbd\xe4\xa4\xa3\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbdw\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xd2\xb2\xd5\xa1C\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\\xampp\\php\\ext\\php_gd2.dll' - \xef\xbf\xbd\xe4\xa4\xa3\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbdw\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xd2\xb2\xd5\xa1C\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\\xampp\\php\\ext\\php_gettext.dll' - \xef\xbf\xbd\xe4\xa4\xa3\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbdw\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xd2\xb2\xd5\xa1C\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\\xampp\\php\\ext\\php_mbstring.dll' - \xef\xbf\xbd\xe4\xa4\xa3\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbdw\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xd2\xb2\xd5\xa1C\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\\xampp\\php\\ext\\php_exif.dll' - \xef\xbf\xbd\xe4\xa4\xa3\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbdw\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xd2\xb2\xd5\xa1C\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\\xampp\\php\\ext\\php_mysqli.dll' - \xef\xbf\xbd\xe4\xa4\xa3\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbdw\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xd2\xb2\xd5\xa1C\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\\xampp\\php\\ext\\php_pdo_mysql.dll' - \xef\xbf\xbd\xe4\xa4\xa3\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbdw\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xd2\xb2\xd5\xa1C\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\\xampp\\php\\ext\\php_pdo_sqlite.dll' - \xef\xbf\xbd\xe4\xa4\xa3\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbdw\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xd2\xb2\xd5\xa1C\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\\xampp\\php\\ext\\php_igbinary.dll' - \xef\xbf\xbd\xe4\xa4\xa3\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbdw\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xd2\xb2\xd5\xa1C\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\\xampp\\php\\ext\\php_redis.dll' - \xef\xbf\xbd\xe4\xa4\xa3\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbdw\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xd2\xb2\xd5\xa1C\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\\xampp\\php\\ext\\php_openssl.dll' - \xef\xbf\xbd\xe4\xa4\xa3\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbdw\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xd2\xb2\xd5\xa1C\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\\xampp\\php\\ext\\php_ftp.dll' - \xef\xbf\xbd\xe4\xa4\xa3\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbdw\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xd2\xb2\xd5\xa1C\r\n in Unknown on line 0
+PHP Warning:  Cannot open 'C:\\xampp\\php\\extras\\browscap.ini' for reading in Unknown on line 0
+[Sat Dec 09 20:59:23.591198 2017] [mpm_winnt:notice] [pid 6396:tid 164] AH00455: Apache/2.4.29 (Win32) OpenSSL/1.0.2l PHP/7.1.11 configured -- resuming normal operations
+[Sat Dec 09 20:59:23.591198 2017] [mpm_winnt:notice] [pid 6396:tid 164] AH00456: Apache Lounge VC14 Server built: Oct 22 2017 11:52:30
+[Sat Dec 09 20:59:23.591198 2017] [core:notice] [pid 6396:tid 164] AH00094: Command line: 'c:\\web\\apache\\bin\\httpd.exe -d C:/web/apache'
+[Sat Dec 09 20:59:23.594199 2017] [mpm_winnt:notice] [pid 6396:tid 164] AH00418: Parent: Created child process 6752
+[Sat Dec 09 20:59:24.050225 2017] [ssl:warn] [pid 6752:tid 176] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Dec 09 20:59:24.172232 2017] [ssl:warn] [pid 6752:tid 176] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\\xampp\\php\\ext\\php_bz2.dll' - \xef\xbf\xbd\xe4\xa4\xa3\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbdw\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xd2\xb2\xd5\xa1C\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\\xampp\\php\\ext\\php_curl.dll' - \xef\xbf\xbd\xe4\xa4\xa3\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbdw\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xd2\xb2\xd5\xa1C\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\\xampp\\php\\ext\\php_fileinfo.dll' - \xef\xbf\xbd\xe4\xa4\xa3\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbdw\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xd2\xb2\xd5\xa1C\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\\xampp\\php\\ext\\php_gd2.dll' - \xef\xbf\xbd\xe4\xa4\xa3\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbdw\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xd2\xb2\xd5\xa1C\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\\xampp\\php\\ext\\php_gettext.dll' - \xef\xbf\xbd\xe4\xa4\xa3\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbdw\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xd2\xb2\xd5\xa1C\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\\xampp\\php\\ext\\php_mbstring.dll' - \xef\xbf\xbd\xe4\xa4\xa3\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbdw\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xd2\xb2\xd5\xa1C\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\\xampp\\php\\ext\\php_exif.dll' - \xef\xbf\xbd\xe4\xa4\xa3\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbdw\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xd2\xb2\xd5\xa1C\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\\xampp\\php\\ext\\php_mysqli.dll' - \xef\xbf\xbd\xe4\xa4\xa3\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbdw\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xd2\xb2\xd5\xa1C\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\\xampp\\php\\ext\\php_pdo_mysql.dll' - \xef\xbf\xbd\xe4\xa4\xa3\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbdw\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xd2\xb2\xd5\xa1C\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\\xampp\\php\\ext\\php_pdo_sqlite.dll' - \xef\xbf\xbd\xe4\xa4\xa3\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbdw\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xd2\xb2\xd5\xa1C\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\\xampp\\php\\ext\\php_igbinary.dll' - \xef\xbf\xbd\xe4\xa4\xa3\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbdw\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xd2\xb2\xd5\xa1C\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\\xampp\\php\\ext\\php_redis.dll' - \xef\xbf\xbd\xe4\xa4\xa3\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbdw\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xd2\xb2\xd5\xa1C\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\\xampp\\php\\ext\\php_openssl.dll' - \xef\xbf\xbd\xe4\xa4\xa3\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbdw\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xd2\xb2\xd5\xa1C\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\\xampp\\php\\ext\\php_ftp.dll' - \xef\xbf\xbd\xe4\xa4\xa3\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbdw\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xd2\xb2\xd5\xa1C\r\n in Unknown on line 0
+PHP Warning:  Cannot open 'C:\\xampp\\php\\extras\\browscap.ini' for reading in Unknown on line 0
+[Sat Dec 09 20:59:24.181232 2017] [mpm_winnt:notice] [pid 6752:tid 176] AH00354: Child: Starting 150 worker threads.
+[Sat Dec 09 21:00:57.480569 2017] [php7:notice] [pid 6752:tid 1632] [client 192.168.74.254:5172] Method not allowed
