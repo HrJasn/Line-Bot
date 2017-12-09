@@ -1,0 +1,22 @@
+下午 08:06:39  [main] 	Initializing Control Panel
+下午 08:06:39  [main] 	Windows Version: Windows 7 Ultimate SP1 64-bit
+下午 08:06:39  [main] 	XAMPP Version: 7.1.11
+下午 08:06:39  [main] 	Control Panel Version: 3.2.2  [ Compiled: Nov 12th 2015 ]
+下午 08:06:39  [main] 	Running with Administrator rights - good!
+下午 08:06:39  [main] 	XAMPP Installation Directory: "c:\web\"
+下午 08:06:39  [main] 	Checking for prerequisites
+下午 08:06:39  [main] 	All prerequisites found
+下午 08:06:39  [main] 	Initializing Modules
+下午 08:06:39  [main] 	Starting Check-Timer
+下午 08:06:39  [main] 	Control Panel Ready
+下午 08:06:47  [filezilla] 	Setting Service Name...
+下午 08:06:47  [filezilla] 	Setting Service Display Name...
+下午 08:06:47  [filezilla] 	Installing service...
+下午 08:06:47  [filezilla] 	Successful!
+下午 08:06:56  [filezilla] 	Attempting to start FileZilla service...
+下午 08:06:57  [filezilla] 	Status change detected: running
+下午 08:07:13  [filezilla] 	Attempting to stop FileZilla service...
+下午 08:07:14  [filezilla] 	Status change detected: stopped
+下午 08:07:16  [main] 	Deinitializing Modules
+下午 08:07:16  [main] 	Deinitializing Control Panel
+
