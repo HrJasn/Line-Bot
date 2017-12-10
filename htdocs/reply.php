@@ -1,5 +1,7 @@
 <?php
 
+error_reporting(0);
+
 $access_token ='bxFwr3Y8HcIg2vkudiwGpjVy7bIXcJQqtH0fYIcaTyFD1TFIV3CC8SSDDNkFWql3dDuwpWUwjSV4SqnwEFNMkvkJixqkTajgOR/w9mziLCq0auUlLDOq2cbu42CLBaPG8Z9imBTsNX6A05Kq2cpOvAdB04t89/1O/w1cDnyilFU=';
 //define('TOKEN', '你的Channel Access Token');
  
@@ -41,5 +43,7 @@ $result = curl_exec($ch);
 fwrite($file, $result."\n"); 
 fclose($file);
 curl_close($ch);
+
+header('Location: index.php');
 
 ?>
