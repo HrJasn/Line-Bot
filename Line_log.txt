@@ -1,6 +1,6 @@
-{"events":[{"type":"message","replyToken":"bc9b9b35b70d45f38de12c18039320b9","source":{"userId":"U1ddc6f73c2cad9824edfcd1c1b879bd3","type":"user"},"timestamp":1512904327685,"message":{"type":"text","id":"7120995117159","text":"嗨"}}]}
-{"replyToken":"bc9b9b35b70d45f38de12c18039320b9","messages":[{"type":"text","text":"\u55e8"}]}
+{"events":[{"type":"message","replyToken":"5cab9198ec53406bbdc0449a15647ca9","source":{"userId":"U1ddc6f73c2cad9824edfcd1c1b879bd3","type":"user"},"timestamp":1512906706673,"message":{"type":"text","id":"7121181077063","text":"~"}}]}
+{"replyToken":"5cab9198ec53406bbdc0449a15647ca9","messages":[{"type":"text","text":"~"}]}
 {}
-{"events":[{"type":"message","replyToken":"6b6b9974ae0c49e7b2217a8bdb9b4e70","source":{"userId":"U1ddc6f73c2cad9824edfcd1c1b879bd3","type":"user"},"timestamp":1512904386587,"message":{"type":"text","id":"7120999555562","text":"唷~"}}]}
-{"replyToken":"6b6b9974ae0c49e7b2217a8bdb9b4e70","messages":[{"type":"text","text":"\u5537~"}]}
+{"events":[{"type":"message","replyToken":"6cb165f2ad6c413aa45aa69e33803fd8","source":{"userId":"U1ddc6f73c2cad9824edfcd1c1b879bd3","type":"user"},"timestamp":1512907522548,"message":{"type":"text","id":"7121249326238","text":"嗨嗨~"}}]}
+{"replyToken":"6cb165f2ad6c413aa45aa69e33803fd8","messages":[{"type":"text","text":"\u55e8\u55e8~"}]}
 {}

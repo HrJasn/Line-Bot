@@ -67,3 +67,63 @@
 [Sun Dec 10 19:03:50.513125 2017] [php7:notice] [pid 8052:tid 1624] [client 203.104.146.153:42974] Unsupporeted message type: sticker
 [Sun Dec 10 19:06:48.830324 2017] [core:error] [pid 8052:tid 1624] (20024)The given path is misformatted or contained invalid characters: [client 183.78.180.27:45433] AH00127: Cannot map GET /w00tw00t.at.blackhats.romanian.anti-sec:) HTTP/1.1 to file
 [Sun Dec 10 19:06:49.105340 2017] [authz_core:error] [pid 8052:tid 1632] [client 183.78.180.27:45600] AH01630: client denied by server configuration: C:/web/phpMyAdmin/scripts
+[Sun Dec 10 19:15:24.658828 2017] [php7:notice] [pid 8052:tid 1600] [client 192.168.74.254:13031] PHP Notice:  Trying to get property of non-object in C:\\web\\htdocs\\index.php on line 34
+[Sun Dec 10 19:15:24.658828 2017] [php7:notice] [pid 8052:tid 1600] [client 192.168.74.254:13031] PHP Notice:  Trying to get property of non-object in C:\\web\\htdocs\\index.php on line 35
+[Sun Dec 10 19:15:24.658828 2017] [php7:notice] [pid 8052:tid 1600] [client 192.168.74.254:13031] PHP Notice:  Trying to get property of non-object in C:\\web\\htdocs\\index.php on line 35
+[Sun Dec 10 19:15:24.658828 2017] [php7:notice] [pid 8052:tid 1600] [client 192.168.74.254:13031] PHP Notice:  Trying to get property of non-object in C:\\web\\htdocs\\index.php on line 36
+[Sun Dec 10 19:15:24.658828 2017] [php7:notice] [pid 8052:tid 1600] [client 192.168.74.254:13031] PHP Notice:  Trying to get property of non-object in C:\\web\\htdocs\\index.php on line 37
+[Sun Dec 10 19:15:24.659828 2017] [php7:notice] [pid 8052:tid 1600] [client 192.168.74.254:13031] PHP Notice:  Trying to get property of non-object in C:\\web\\htdocs\\index.php on line 44
+[Sun Dec 10 19:16:12.594570 2017] [php7:notice] [pid 8052:tid 1600] [client 192.168.74.254:13043] PHP Notice:  Undefined variable: reply_token in C:\\web\\htdocs\\index.php on line 40
+[Sun Dec 10 19:16:12.594570 2017] [php7:notice] [pid 8052:tid 1600] [client 192.168.74.254:13043] PHP Notice:  Undefined variable: message in C:\\web\\htdocs\\index.php on line 44
+[Sun Dec 10 19:16:12.594570 2017] [php7:notice] [pid 8052:tid 1600] [client 192.168.74.254:13043] PHP Notice:  Trying to get property of non-object in C:\\web\\htdocs\\index.php on line 44
+[Sun Dec 10 19:16:53.754924 2017] [php7:notice] [pid 8052:tid 1600] [client 203.104.146.153:48592] PHP Notice:  Undefined variable: reply_token in C:\\web\\htdocs\\index.php on line 40
+[Sun Dec 10 19:16:53.754924 2017] [php7:notice] [pid 8052:tid 1600] [client 203.104.146.153:48592] PHP Notice:  Undefined variable: message in C:\\web\\htdocs\\index.php on line 44
+[Sun Dec 10 19:16:53.754924 2017] [php7:notice] [pid 8052:tid 1600] [client 203.104.146.153:48592] PHP Notice:  Trying to get property of non-object in C:\\web\\htdocs\\index.php on line 44
+[Sun Dec 10 19:17:10.641890 2017] [php7:notice] [pid 8052:tid 1600] [client 192.168.74.254:13055] PHP Notice:  Trying to get property of non-object in C:\\web\\htdocs\\index.php on line 34
+[Sun Dec 10 19:17:10.642890 2017] [php7:notice] [pid 8052:tid 1600] [client 192.168.74.254:13055] PHP Notice:  Trying to get property of non-object in C:\\web\\htdocs\\index.php on line 35
+[Sun Dec 10 19:17:10.642890 2017] [php7:notice] [pid 8052:tid 1600] [client 192.168.74.254:13055] PHP Notice:  Trying to get property of non-object in C:\\web\\htdocs\\index.php on line 35
+[Sun Dec 10 19:17:10.642890 2017] [php7:notice] [pid 8052:tid 1600] [client 192.168.74.254:13055] PHP Notice:  Trying to get property of non-object in C:\\web\\htdocs\\index.php on line 36
+[Sun Dec 10 19:17:10.642890 2017] [php7:notice] [pid 8052:tid 1600] [client 192.168.74.254:13055] PHP Notice:  Trying to get property of non-object in C:\\web\\htdocs\\index.php on line 37
+[Sun Dec 10 19:17:10.643890 2017] [php7:notice] [pid 8052:tid 1600] [client 192.168.74.254:13055] PHP Notice:  Trying to get property of non-object in C:\\web\\htdocs\\index.php on line 44
+[Sun Dec 10 19:20:01.646671 2017] [php7:notice] [pid 8052:tid 1608] [client 192.168.74.254:13113] PHP Notice:  Trying to get property of non-object in C:\\web\\htdocs\\reply.php on line 12
+[Sun Dec 10 19:20:01.646671 2017] [php7:notice] [pid 8052:tid 1608] [client 192.168.74.254:13113] PHP Notice:  Trying to get property of non-object in C:\\web\\htdocs\\reply.php on line 13
+[Sun Dec 10 19:20:01.646671 2017] [php7:notice] [pid 8052:tid 1608] [client 192.168.74.254:13113] PHP Notice:  Trying to get property of non-object in C:\\web\\htdocs\\reply.php on line 13
+[Sun Dec 10 19:20:01.646671 2017] [php7:notice] [pid 8052:tid 1608] [client 192.168.74.254:13113] PHP Notice:  Trying to get property of non-object in C:\\web\\htdocs\\reply.php on line 14
+[Sun Dec 10 19:20:01.647671 2017] [php7:notice] [pid 8052:tid 1608] [client 192.168.74.254:13113] PHP Notice:  Trying to get property of non-object in C:\\web\\htdocs\\reply.php on line 15
+[Sun Dec 10 19:20:01.647671 2017] [php7:notice] [pid 8052:tid 1608] [client 192.168.74.254:13113] PHP Notice:  Trying to get property of non-object in C:\\web\\htdocs\\reply.php on line 22
+[Sun Dec 10 19:21:01.259080 2017] [php7:notice] [pid 8052:tid 1608] [client 192.168.74.254:13138] PHP Notice:  Trying to get property of non-object in C:\\web\\htdocs\\reply.php on line 12
+[Sun Dec 10 19:21:01.259080 2017] [php7:notice] [pid 8052:tid 1608] [client 192.168.74.254:13138] PHP Notice:  Trying to get property of non-object in C:\\web\\htdocs\\reply.php on line 13
+[Sun Dec 10 19:21:01.259080 2017] [php7:notice] [pid 8052:tid 1608] [client 192.168.74.254:13138] PHP Notice:  Trying to get property of non-object in C:\\web\\htdocs\\reply.php on line 13
+[Sun Dec 10 19:21:01.259080 2017] [php7:notice] [pid 8052:tid 1608] [client 192.168.74.254:13138] PHP Notice:  Trying to get property of non-object in C:\\web\\htdocs\\reply.php on line 14
+[Sun Dec 10 19:21:01.259080 2017] [php7:notice] [pid 8052:tid 1608] [client 192.168.74.254:13138] PHP Notice:  Trying to get property of non-object in C:\\web\\htdocs\\reply.php on line 15
+[Sun Dec 10 19:21:01.259080 2017] [php7:notice] [pid 8052:tid 1608] [client 192.168.74.254:13138] PHP Notice:  Trying to get property of non-object in C:\\web\\htdocs\\reply.php on line 22
+[Sun Dec 10 19:21:02.441148 2017] [php7:notice] [pid 8052:tid 1608] [client 192.168.74.254:13138] PHP Notice:  Trying to get property of non-object in C:\\web\\htdocs\\reply.php on line 12
+[Sun Dec 10 19:21:02.441148 2017] [php7:notice] [pid 8052:tid 1608] [client 192.168.74.254:13138] PHP Notice:  Trying to get property of non-object in C:\\web\\htdocs\\reply.php on line 13
+[Sun Dec 10 19:21:02.442148 2017] [php7:notice] [pid 8052:tid 1608] [client 192.168.74.254:13138] PHP Notice:  Trying to get property of non-object in C:\\web\\htdocs\\reply.php on line 13
+[Sun Dec 10 19:21:02.442148 2017] [php7:notice] [pid 8052:tid 1608] [client 192.168.74.254:13138] PHP Notice:  Trying to get property of non-object in C:\\web\\htdocs\\reply.php on line 14
+[Sun Dec 10 19:21:02.442148 2017] [php7:notice] [pid 8052:tid 1608] [client 192.168.74.254:13138] PHP Notice:  Trying to get property of non-object in C:\\web\\htdocs\\reply.php on line 15
+[Sun Dec 10 19:21:02.442148 2017] [php7:notice] [pid 8052:tid 1608] [client 192.168.74.254:13138] PHP Notice:  Trying to get property of non-object in C:\\web\\htdocs\\reply.php on line 22
+[Sun Dec 10 19:21:30.023726 2017] [core:alert] [pid 8052:tid 1608] [client 192.168.74.254:13145] C:/web/htdocs/.htaccess: RewriteRule: unknown flag 'QSAR'
+[Sun Dec 10 19:21:30.105730 2017] [core:alert] [pid 8052:tid 1608] [client 192.168.74.254:13146] C:/web/htdocs/.htaccess: RewriteRule: unknown flag 'QSAR'
+[Sun Dec 10 19:21:47.158706 2017] [php7:notice] [pid 8052:tid 1608] [client 192.168.74.254:13147] PHP Notice:  Trying to get property of non-object in C:\\web\\htdocs\\reply.php on line 12
+[Sun Dec 10 19:21:47.158706 2017] [php7:notice] [pid 8052:tid 1608] [client 192.168.74.254:13147] PHP Notice:  Trying to get property of non-object in C:\\web\\htdocs\\reply.php on line 13
+[Sun Dec 10 19:21:47.158706 2017] [php7:notice] [pid 8052:tid 1608] [client 192.168.74.254:13147] PHP Notice:  Trying to get property of non-object in C:\\web\\htdocs\\reply.php on line 13
+[Sun Dec 10 19:21:47.159706 2017] [php7:notice] [pid 8052:tid 1608] [client 192.168.74.254:13147] PHP Notice:  Trying to get property of non-object in C:\\web\\htdocs\\reply.php on line 14
+[Sun Dec 10 19:21:47.159706 2017] [php7:notice] [pid 8052:tid 1608] [client 192.168.74.254:13147] PHP Notice:  Trying to get property of non-object in C:\\web\\htdocs\\reply.php on line 15
+[Sun Dec 10 19:21:47.159706 2017] [php7:notice] [pid 8052:tid 1608] [client 192.168.74.254:13147] PHP Notice:  Trying to get property of non-object in C:\\web\\htdocs\\reply.php on line 22
+[Sun Dec 10 19:38:28.439976 2017] [php7:error] [pid 8052:tid 1608] [client 203.104.146.153:51164] PHP Recoverable fatal error:  Object of class stdClass could not be converted to string in C:\\web\\htdocs\\reply.php on line 14
+[Sun Dec 10 19:39:14.740624 2017] [php7:notice] [pid 8052:tid 1608] [client 203.104.146.153:53284] PHP Notice:  Undefined property: stdClass::$text in C:\\web\\htdocs\\reply.php on line 22
+[Sun Dec 10 19:46:32.780679 2017] [php7:notice] [pid 8052:tid 1608] [client 192.168.74.254:13837] PHP Notice:  Undefined variable: access_token in C:\\web\\htdocs\\push.php on line 25
+[Sun Dec 10 19:46:35.738848 2017] [php7:notice] [pid 8052:tid 1608] [client 192.168.74.254:13837] PHP Notice:  Undefined variable: access_token in C:\\web\\htdocs\\push.php on line 25
+[Sun Dec 10 19:48:59.439067 2017] [php7:notice] [pid 8052:tid 1600] [client 192.168.74.254:13883] PHP Notice:  Undefined variable: user_id in C:\\web\\htdocs\\push.php on line 14
+[Sun Dec 10 19:49:01.842204 2017] [php7:notice] [pid 8052:tid 1600] [client 192.168.74.254:13883] PHP Notice:  Undefined variable: user_id in C:\\web\\htdocs\\push.php on line 14
+[Sun Dec 10 19:51:12.043651 2017] [php7:notice] [pid 8052:tid 1600] [client 192.168.74.254:13903] PHP Notice:  Undefined variable: file in C:\\web\\htdocs\\push.php on line 29
+[Sun Dec 10 19:51:12.044652 2017] [php7:warn] [pid 8052:tid 1600] [client 192.168.74.254:13903] PHP Warning:  fwrite() expects parameter 1 to be resource, null given in C:\\web\\htdocs\\push.php on line 29
+[Sun Dec 10 19:51:12.044652 2017] [php7:notice] [pid 8052:tid 1600] [client 192.168.74.254:13903] PHP Notice:  Undefined variable: file in C:\\web\\htdocs\\push.php on line 30
+[Sun Dec 10 19:51:12.044652 2017] [php7:warn] [pid 8052:tid 1600] [client 192.168.74.254:13903] PHP Warning:  fclose() expects parameter 1 to be resource, null given in C:\\web\\htdocs\\push.php on line 30
+[Sun Dec 10 19:51:14.622799 2017] [php7:notice] [pid 8052:tid 1600] [client 192.168.74.254:13903] PHP Notice:  Undefined variable: file in C:\\web\\htdocs\\push.php on line 29
+[Sun Dec 10 19:51:14.622799 2017] [php7:warn] [pid 8052:tid 1600] [client 192.168.74.254:13903] PHP Warning:  fwrite() expects parameter 1 to be resource, null given in C:\\web\\htdocs\\push.php on line 29
+[Sun Dec 10 19:51:14.622799 2017] [php7:notice] [pid 8052:tid 1600] [client 192.168.74.254:13903] PHP Notice:  Undefined variable: file in C:\\web\\htdocs\\push.php on line 30
+[Sun Dec 10 19:51:14.622799 2017] [php7:warn] [pid 8052:tid 1600] [client 192.168.74.254:13903] PHP Warning:  fclose() expects parameter 1 to be resource, null given in C:\\web\\htdocs\\push.php on line 30
+[Sun Dec 10 20:00:46.100486 2017] [php7:notice] [pid 8052:tid 1600] [client 192.168.74.254:14092] PHP Notice:  Use of undefined constant send_text - assumed 'send_text' in C:\\web\\htdocs\\push.php on line 5, referer: https://hrjasn.asuscomm.com/push.html
+[Sun Dec 10 20:09:34.429704 2017] [php7:notice] [pid 8052:tid 1608] [client 192.168.74.254:14246] PHP Notice:  Undefined index: send_text in C:\\web\\htdocs\\push.php on line 3
