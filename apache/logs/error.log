@@ -27,3 +27,9 @@
 [Sun Dec 10 17:28:27.183857 2017] [php7:notice] [pid 8052:tid 1640] [client 203.104.146.153:34914] PHP Notice:  Undefined variable: userString in C:\\web\\htdocs\\index.php on line 18
 [Sun Dec 10 17:28:27.323857 2017] [php7:warn] [pid 8052:tid 1640] [client 203.104.146.153:34914] PHP Warning:  file_get_contents(https://api.line.me/v2/bot/message/reply): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request\r\n in C:\\web\\htdocs\\LINEBotTiny.php on line 84
 [Sun Dec 10 17:28:27.323857 2017] [php7:notice] [pid 8052:tid 1640] [client 203.104.146.153:34914] Request failed: 
+[Sun Dec 10 17:33:42.084540 2017] [php7:warn] [pid 8052:tid 1640] [client 203.104.156.73:35842] PHP Warning:  file_get_contents(https://api.line.me/v2/bot/message/reply): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request\r\n in C:\\web\\htdocs\\line-bot-sdk-php-master\\line-bot-sdk-tiny\\LINEBotTiny.php on line 108
+[Sun Dec 10 17:33:42.084540 2017] [php7:notice] [pid 8052:tid 1640] [client 203.104.156.73:35842] Request failed: 
+[Sun Dec 10 17:33:42.084540 2017] [php7:notice] [pid 8052:tid 1640] [client 203.104.156.73:35842] Unsupporeted message type: sticker
+[Sun Dec 10 17:35:42.082847 2017] [php7:warn] [pid 8052:tid 1640] [client 203.104.156.73:36134] PHP Warning:  file_get_contents(https://api.line.me/v2/bot/message/reply): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request\r\n in C:\\web\\htdocs\\LINEBotTiny.php on line 108
+[Sun Dec 10 17:35:42.082847 2017] [php7:notice] [pid 8052:tid 1640] [client 203.104.156.73:36134] Request failed: 
+[Sun Dec 10 17:35:42.082847 2017] [php7:notice] [pid 8052:tid 1640] [client 203.104.156.73:36134] Unsupporeted message type: sticker
