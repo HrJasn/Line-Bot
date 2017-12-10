@@ -1,65 +1,31 @@
 <?php
 
-echo "建置中";
+/**
+ * Copyright 2016 LINE Corporation
+ *
+ * LINE Corporation licenses this file to you under the Apache License,
+ * version 2.0 (the "License"); you may not use this file except in compliance
+ * with the License. You may obtain a copy of the License at:
+ *
+ *   https://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations
+ * under the License.
+ */
 
-/*$access_token ='cVsroaGRUpS+p4UblzflT7SSczaCCBXxmJjq5T6u2cj+Q5M73X3qVdjlFiEVnHFHdDuwpWUwjSV4SqnwEFNMkvkJixqkTajgOR/w9mziLCrHzjdgYNmvFGoqWT1jj5PjkJ3HNzhO+KucRDyCCBt+jAdB04t89/1O/w1cDnyilFU=';
-//define('TOKEN', '你的Channel Access Token');
- 
-$json_string = file_get_contents('php://input');
-$json_obj = json_decode($json_string);
- 
-$event = $json_obj->{"events"}[0];
-$type  = $event->{"message"}->{"type"};
-$message = $event->{"message"};
-$reply_token = $event->{"replyToken"};
-         
-$post_data = [
-  "replyToken" => $reply_token,
-  "messages" => [
-    [
-      "type" => "text",
-      "text" => $message->{"text"}
-    ]
-  ]
-];
- 
-$ch = curl_init("https://api.line.me/v2/bot/message/reply");
-curl_setopt($ch, CURLOPT_POST, true);
-curl_setopt($ch, CURLOPT_CUSTOMREQUEST, 'POST');
-curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($post_data));
-curl_setopt($ch, CURLOPT_HTTPHEADER, array(
-    'Content-Type: application/json',
-    'Authorization: Bearer '.$access_token
-    //'Authorization: Bearer '. TOKEN
-));
-$result = curl_exec($ch);
-curl_close($ch);*/
+use LINE\LINEBot\EchoBot\Dependency;
+use LINE\LINEBot\EchoBot\Route;
+use LINE\LINEBot\EchoBot\Setting;
 
-	//header('Location: /line-bot-sdk-php-master/line-bot-sdk-tiny/echo_bot.php');
-    //exit;
+require_once __DIR__ . '/../vendor/autoload.php';
 
-/*phpinfo();
-$redis = new Redis();
-$redis->connect("127.0.0.1","6379"); 
-$redis->set("ceshi","hello"); 
-echo $redis->get("ceshi"); */
+$setting = Setting::getSetting();
+$app = new Slim\App($setting);
 
-/*require './vendor/autoload.php';
+(new Dependency())->register($app);
+(new Route())->register($app);
 
-$httpClient = new \LINE\LINEBot\HTTPClient\CurlHTTPClient('cVsroaGRUpS+p4UblzflT7SSczaCCBXxmJjq5T6u2cj+Q5M73X3qVdjlFiEVnHFHdDuwpWUwjSV4SqnwEFNMkvkJixqkTajgOR/w9mziLCrHzjdgYNmvFGoqWT1jj5PjkJ3HNzhO+KucRDyCCBt+jAdB04t89/1O/w1cDnyilFU=');
-$bot = new \LINE\LINEBot($httpClient, ['channelSecret' => '3c7176983193ed3aec81757c0984986c']);
-
-$textMessageBuilder = new \LINE\LINEBot\MessageBuilder\TextMessageBuilder('hello');
-$redis = new Redis();
-$redis->connect('127.0.0.1', 6379, 3.1);
-$msg = $redis->lPop('msgq');
-
-if ($msg){
-        $json_array = json_decode($msg,true);
-        $response = $bot->pushMessage($json_array["events"][0]["source"]["userId"], $textMessageBuilder);
-		echo $response;
-};
-$redis->close();*/
-
-?>
+$app->run();
