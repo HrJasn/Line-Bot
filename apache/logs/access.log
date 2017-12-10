@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 192.168.74.254 - - [10/Dec/2017:11:41:04 +0800] "GET / HTTP/1.1" 405 9
 192.168.74.254 - - [10/Dec/2017:11:41:04 +0800] "GET /favicon.ico HTTP/1.1" 404 1058
 192.168.74.254 - - [10/Dec/2017:11:41:06 +0800] "GET / HTTP/1.1" 405 9
@@ -6,3 +7,52 @@
 192.168.74.254 - - [10/Dec/2017:11:46:07 +0800] "GET /favicon.ico HTTP/1.1" 200 383
 192.168.74.254 - - [10/Dec/2017:11:53:06 +0800] "GET / HTTP/1.1" 200 383
 192.168.74.254 - - [10/Dec/2017:11:53:06 +0800] "GET /favicon.ico HTTP/1.1" 200 383
+=======
+127.0.0.1 - - [09/Dec/2017:20:52:44 +0800] "GET / HTTP/1.1" 302 - "-" "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:57.0) Gecko/20100101 Firefox/57.0"
+127.0.0.1 - - [09/Dec/2017:20:52:44 +0800] "GET /dashboard/ HTTP/1.1" 200 7577 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:57.0) Gecko/20100101 Firefox/57.0"
+127.0.0.1 - - [09/Dec/2017:20:52:44 +0800] "GET /dashboard/stylesheets/normalize.css HTTP/1.1" 200 6876 "http://127.0.0.1/dashboard/" "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:57.0) Gecko/20100101 Firefox/57.0"
+127.0.0.1 - - [09/Dec/2017:20:52:44 +0800] "GET /dashboard/javascripts/modernizr.js HTTP/1.1" 200 51365 "http://127.0.0.1/dashboard/" "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:57.0) Gecko/20100101 Firefox/57.0"
+127.0.0.1 - - [09/Dec/2017:20:52:44 +0800] "GET /dashboard/javascripts/all.js HTTP/1.1" 200 189003 "http://127.0.0.1/dashboard/" "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:57.0) Gecko/20100101 Firefox/57.0"
+127.0.0.1 - - [09/Dec/2017:20:52:44 +0800] "GET /dashboard/stylesheets/all.css HTTP/1.1" 200 481698 "http://127.0.0.1/dashboard/" "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:57.0) Gecko/20100101 Firefox/57.0"
+127.0.0.1 - - [09/Dec/2017:20:52:44 +0800] "GET /dashboard/images/fastly-logo.png HTTP/1.1" 200 1770 "http://127.0.0.1/dashboard/" "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:57.0) Gecko/20100101 Firefox/57.0"
+127.0.0.1 - - [09/Dec/2017:20:52:44 +0800] "GET /dashboard/images/bitnami-xampp.png HTTP/1.1" 200 22133 "http://127.0.0.1/dashboard/" "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:57.0) Gecko/20100101 Firefox/57.0"
+127.0.0.1 - - [09/Dec/2017:20:52:44 +0800] "GET /dashboard/images/xampp-logo.svg HTTP/1.1" 200 5427 "http://127.0.0.1/dashboard/" "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:57.0) Gecko/20100101 Firefox/57.0"
+127.0.0.1 - - [09/Dec/2017:20:52:44 +0800] "GET /dashboard/images/social-icons.png HTTP/1.1" 200 3361 "http://127.0.0.1/dashboard/stylesheets/all.css" "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:57.0) Gecko/20100101 Firefox/57.0"
+127.0.0.1 - - [09/Dec/2017:20:52:45 +0800] "GET /dashboard/images/favicon.png HTTP/1.1" 200 2508 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:57.0) Gecko/20100101 Firefox/57.0"
+127.0.0.1 - - [09/Dec/2017:20:59:28 +0800] "GET / HTTP/1.1" 200 9 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:57.0) Gecko/20100101 Firefox/57.0"
+127.0.0.1 - - [09/Dec/2017:20:59:28 +0800] "GET /favicon.ico HTTP/1.1" 404 1054 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:57.0) Gecko/20100101 Firefox/57.0"
+192.168.74.254 - - [09/Dec/2017:21:00:57 +0800] "GET /line-bot-sdk-php-master/line-bot-sdk-tiny/echo_bot.php HTTP/1.1" 405 -
+192.168.74.254 - - [09/Dec/2017:21:00:57 +0800] "GET /favicon.ico HTTP/1.1" 404 1058
+192.168.74.254 - - [09/Dec/2017:21:05:30 +0800] "GET /line-bot-sdk-php-master/line-bot-sdk-tiny/echo_bot.php HTTP/1.1" 405 -
+192.168.74.254 - - [09/Dec/2017:21:05:30 +0800] "GET /favicon.ico HTTP/1.1" 404 1058
+66.133.109.36 - - [09/Dec/2017:21:10:36 +0800] "GET /.well-known/acme-challenge/ACeDfCWEeJhV9OuACbCpYLdNPHTxnUtMy4Gt44094os HTTP/1.1" 404 1064 "-" "Mozilla/5.0 (compatible; Let's Encrypt validation server; +https://www.letsencrypt.org)"
+192.168.74.254 - - [09/Dec/2017:21:17:30 +0800] "GET /.well-known/acme-challenge/wpHJKCWuMNgzpoohm3tHa1RDzDo-Mn0F-hpSSscFBqE HTTP/1.1" 404 1064 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:57.0) Gecko/20100101 Firefox/57.0"
+192.168.74.254 - - [09/Dec/2017:21:17:31 +0800] "GET /favicon.ico HTTP/1.1" 404 1064 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:57.0) Gecko/20100101 Firefox/57.0"
+192.168.74.254 - - [09/Dec/2017:21:18:40 +0800] "GET /.well-known/acme-challenge/wpHJKCWuMNgzpoohm3tHa1RDzDo-Mn0F-hpSSscFBqE HTTP/1.1" 404 1064 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:57.0) Gecko/20100101 Firefox/57.0"
+192.168.74.254 - - [09/Dec/2017:21:18:40 +0800] "GET /favicon.ico HTTP/1.1" 404 1064 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:57.0) Gecko/20100101 Firefox/57.0"
+192.168.74.254 - - [09/Dec/2017:21:18:46 +0800] "GET /.well-known/acme-challenge/ HTTP/1.1" 404 1064 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:57.0) Gecko/20100101 Firefox/57.0"
+192.168.74.254 - - [09/Dec/2017:21:18:46 +0800] "GET /favicon.ico HTTP/1.1" 404 1064 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:57.0) Gecko/20100101 Firefox/57.0"
+192.168.74.254 - - [09/Dec/2017:21:18:48 +0800] "GET /.well-known/acme-challenge/ HTTP/1.1" 404 1064 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:57.0) Gecko/20100101 Firefox/57.0"
+192.168.74.254 - - [09/Dec/2017:21:18:48 +0800] "GET /favicon.ico HTTP/1.1" 404 1064 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:57.0) Gecko/20100101 Firefox/57.0"
+66.133.109.36 - - [09/Dec/2017:21:19:55 +0800] "GET /.well-known/acme-challenge/wpHJKCWuMNgzpoohm3tHa1RDzDo-Mn0F-hpSSscFBqE HTTP/1.1" 404 1064 "-" "Mozilla/5.0 (compatible; Let's Encrypt validation server; +https://www.letsencrypt.org)"
+192.168.74.254 - - [09/Dec/2017:21:20:55 +0800] "GET /.well-known/acme-challenge/9QDruE3yHf_HpYkxZkgLbq3hn2o3-98jR5MGr9q-NB0 HTTP/1.1" 200 87 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:57.0) Gecko/20100101 Firefox/57.0"
+192.168.74.254 - - [09/Dec/2017:21:20:55 +0800] "GET /favicon.ico HTTP/1.1" 404 1064 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:57.0) Gecko/20100101 Firefox/57.0"
+66.133.109.36 - - [09/Dec/2017:21:21:07 +0800] "GET /.well-known/acme-challenge/9QDruE3yHf_HpYkxZkgLbq3hn2o3-98jR5MGr9q-NB0 HTTP/1.1" 200 87 "-" "Mozilla/5.0 (compatible; Let's Encrypt validation server; +https://www.letsencrypt.org)"
+192.168.74.254 - - [09/Dec/2017:21:31:33 +0800] "GET / HTTP/1.1" 200 9 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:57.0) Gecko/20100101 Firefox/57.0"
+192.168.74.254 - - [09/Dec/2017:21:31:33 +0800] "GET /favicon.ico HTTP/1.1" 404 1064 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:57.0) Gecko/20100101 Firefox/57.0"
+192.168.74.254 - - [09/Dec/2017:21:32:40 +0800] "GET /.well-known/acme-challenge/9QDruE3yHf_HpYkxZkgLbq3hn2o3-98jR5MGr9q-NB0 HTTP/1.1" 200 87 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:57.0) Gecko/20100101 Firefox/57.0"
+192.168.74.254 - - [09/Dec/2017:21:32:40 +0800] "GET /favicon.ico HTTP/1.1" 404 1064 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:57.0) Gecko/20100101 Firefox/57.0"
+192.168.74.254 - - [09/Dec/2017:21:37:26 +0800] "GET / HTTP/1.1" 200 9 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:57.0) Gecko/20100101 Firefox/57.0"
+192.168.74.254 - - [09/Dec/2017:21:37:27 +0800] "GET /favicon.ico HTTP/1.1" 404 1064 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:57.0) Gecko/20100101 Firefox/57.0"
+192.168.74.254 - - [09/Dec/2017:21:37:28 +0800] "GET / HTTP/1.1" 200 9 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:57.0) Gecko/20100101 Firefox/57.0"
+192.168.74.254 - - [09/Dec/2017:21:37:28 +0800] "GET /favicon.ico HTTP/1.1" 404 1064 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:57.0) Gecko/20100101 Firefox/57.0"
+192.168.74.254 - - [09/Dec/2017:21:37:33 +0800] "GET / HTTP/1.1" 200 9
+192.168.74.254 - - [09/Dec/2017:21:37:33 +0800] "GET /favicon.ico HTTP/1.1" 404 1058
+192.168.74.254 - - [09/Dec/2017:21:39:49 +0800] "GET / HTTP/1.1" 302 322 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:57.0) Gecko/20100101 Firefox/57.0"
+192.168.74.254 - - [09/Dec/2017:21:39:49 +0800] "GET / HTTP/1.1" 200 9
+192.168.74.254 - - [09/Dec/2017:21:39:49 +0800] "GET /favicon.ico HTTP/1.1" 404 1058
+>>>>>>> parent of e8331ec... 改用LineBot測試
+192.168.74.254 - - [10/Dec/2017:11:56:19 +0800] "GET / HTTP/1.1" 200 9
+192.168.74.254 - - [10/Dec/2017:11:56:19 +0800] "GET /favicon.ico HTTP/1.1" 404 1058
+192.168.74.254 - - [10/Dec/2017:12:00:47 +0800] "GET / HTTP/1.1" 200 9
+192.168.74.254 - - [10/Dec/2017:12:00:47 +0800] "GET /favicon.ico HTTP/1.1" 404 1068
