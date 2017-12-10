@@ -33,3 +33,37 @@
 [Sun Dec 10 17:35:42.082847 2017] [php7:warn] [pid 8052:tid 1640] [client 203.104.156.73:36134] PHP Warning:  file_get_contents(https://api.line.me/v2/bot/message/reply): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request\r\n in C:\\web\\htdocs\\LINEBotTiny.php on line 108
 [Sun Dec 10 17:35:42.082847 2017] [php7:notice] [pid 8052:tid 1640] [client 203.104.156.73:36134] Request failed: 
 [Sun Dec 10 17:35:42.082847 2017] [php7:notice] [pid 8052:tid 1640] [client 203.104.156.73:36134] Unsupporeted message type: sticker
+[Sun Dec 10 17:36:29.501792 2017] [php7:notice] [pid 8052:tid 1640] [client 192.168.74.254:11690] Method not allowed
+[Sun Dec 10 17:39:43.869263 2017] [php7:notice] [pid 8052:tid 1640] [client 192.168.74.254:11720] Method not allowed
+[Sun Dec 10 17:41:23.893576 2017] [php7:notice] [pid 8052:tid 1632] [client 203.104.145.38:43424] Method not allowed, referer: http://hrjasn.asuscomm.com:80/
+[Sun Dec 10 17:43:18.316004 2017] [php7:warn] [pid 8052:tid 1632] [client 203.104.146.153:40228] PHP Warning:  A non-numeric value encountered in C:\\web\\htdocs\\index.php on line 60
+[Sun Dec 10 17:43:18.316004 2017] [php7:warn] [pid 8052:tid 1632] [client 203.104.146.153:40228] PHP Warning:  A non-numeric value encountered in C:\\web\\htdocs\\index.php on line 60
+[Sun Dec 10 17:44:13.709088 2017] [php7:warn] [pid 8052:tid 1632] [client 203.104.146.153:42388] PHP Warning:  A non-numeric value encountered in C:\\web\\htdocs\\index.php on line 52
+[Sun Dec 10 17:44:13.709088 2017] [php7:notice] [pid 8052:tid 1632] [client 203.104.146.153:42388] Unsupporeted message type: 
+[Sun Dec 10 17:44:20.221099 2017] [php7:warn] [pid 8052:tid 1632] [client 203.104.146.153:42604] PHP Warning:  A non-numeric value encountered in C:\\web\\htdocs\\index.php on line 52
+[Sun Dec 10 17:44:20.221099 2017] [php7:error] [pid 8052:tid 1632] [client 203.104.146.153:42604] PHP Fatal error:  Uncaught Error: Unsupported operand types in C:\\web\\htdocs\\index.php:52\nStack trace:\n#0 {main}\n  thrown in C:\\web\\htdocs\\index.php on line 52
+[Sun Dec 10 17:45:29.650204 2017] [php7:notice] [pid 8052:tid 1632] [client 203.104.146.153:45528] PHP Notice:  Array to string conversion in C:\\web\\htdocs\\index.php on line 52
+[Sun Dec 10 17:45:29.650204 2017] [php7:warn] [pid 8052:tid 1632] [client 203.104.146.153:45528] PHP Warning:  Illegal string offset 'type' in C:\\web\\htdocs\\index.php on line 53
+[Sun Dec 10 17:45:29.650204 2017] [php7:warn] [pid 8052:tid 1632] [client 203.104.146.153:45528] PHP Warning:  Illegal string offset 'type' in C:\\web\\htdocs\\index.php on line 66
+[Sun Dec 10 17:45:29.650204 2017] [php7:notice] [pid 8052:tid 1632] [client 203.104.146.153:45528] Unsupporeted message type: \xe4
+[Sun Dec 10 17:46:16.747273 2017] [php7:notice] [pid 8052:tid 1632] [client 203.104.146.153:47570] PHP Notice:  Array to string conversion in C:\\web\\htdocs\\index.php on line 53
+[Sun Dec 10 17:46:16.747273 2017] [php7:warn] [pid 8052:tid 1632] [client 203.104.146.153:47570] PHP Warning:  Illegal string offset 'type' in C:\\web\\htdocs\\index.php on line 54
+[Sun Dec 10 17:46:16.747273 2017] [php7:warn] [pid 8052:tid 1632] [client 203.104.146.153:47570] PHP Warning:  Illegal string offset 'type' in C:\\web\\htdocs\\index.php on line 67
+[Sun Dec 10 17:46:16.747273 2017] [php7:notice] [pid 8052:tid 1632] [client 203.104.146.153:47570] Unsupporeted message type: \xe4
+[Sun Dec 10 17:47:00.821343 2017] [php7:notice] [pid 8052:tid 1632] [client 203.104.145.48:35307] Method not allowed, referer: http://hrjasn.asuscomm.com:80/
+[Sun Dec 10 17:48:32.939483 2017] [php7:notice] [pid 8052:tid 1632] [client 203.104.145.40:45855] Method not allowed, referer: http://hrjasn.asuscomm.com:80/
+[Sun Dec 10 17:50:20.460281 2017] [php7:notice] [pid 8052:tid 1632] [client 203.104.145.28:46331] Method not allowed, referer: http://hrjasn.asuscomm.com:80/
+[Sun Dec 10 17:50:23.146435 2017] [php7:notice] [pid 8052:tid 1632] [client 203.104.146.153:58220] Unsupporeted message type: sticker
+[Sun Dec 10 17:53:04.680891 2017] [php7:notice] [pid 8052:tid 1632] [client 203.104.145.49:40933] Method not allowed, referer: http://hrjasn.asuscomm.com:80/
+[Sun Dec 10 17:58:22.894349 2017] [php7:notice] [pid 8052:tid 1632] [client 203.104.145.39:55848] Method not allowed, referer: http://hrjasn.asuscomm.com:80/
+[Sun Dec 10 17:58:26.469356 2017] [php7:notice] [pid 8052:tid 1624] [client 192.168.74.254:12117] Method not allowed
+[Sun Dec 10 18:09:26.617454 2017] [php7:notice] [pid 8052:tid 1624] [client 203.104.145.30:39583] Method not allowed, referer: http://hrjasn.asuscomm.com:80/
+[Sun Dec 10 18:09:33.876869 2017] [php7:notice] [pid 8052:tid 1624] [client 192.168.74.254:12190] Method not allowed
+[Sun Dec 10 18:09:41.024278 2017] [php7:notice] [pid 8052:tid 1640] [client 192.168.74.254:12194] Method not allowed
+[Sun Dec 10 18:16:34.116905 2017] [php7:notice] [pid 8052:tid 1624] [client 223.137.237.180:28287] Method not allowed
+[Sun Dec 10 18:23:59.932405 2017] [php7:notice] [pid 8052:tid 1624] [client 203.104.146.153:54120] Unsupporeted message type: sticker
+[Sun Dec 10 18:24:50.820315 2017] [php7:notice] [pid 8052:tid 1624] [client 203.104.145.39:38408] Method not allowed, referer: http://hrjasn.asuscomm.com:80/
+[Sun Dec 10 18:25:10.094418 2017] [php7:notice] [pid 8052:tid 1624] [client 192.168.74.254:12508] Method not allowed
+[Sun Dec 10 19:03:50.513125 2017] [php7:notice] [pid 8052:tid 1624] [client 203.104.146.153:42974] Unsupporeted message type: sticker
+[Sun Dec 10 19:06:48.830324 2017] [core:error] [pid 8052:tid 1624] (20024)The given path is misformatted or contained invalid characters: [client 183.78.180.27:45433] AH00127: Cannot map GET /w00tw00t.at.blackhats.romanian.anti-sec:) HTTP/1.1 to file
+[Sun Dec 10 19:06:49.105340 2017] [authz_core:error] [pid 8052:tid 1632] [client 183.78.180.27:45600] AH01630: client denied by server configuration: C:/web/phpMyAdmin/scripts
