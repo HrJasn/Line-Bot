@@ -2,64 +2,23 @@
 
 echo "建置中";
 
-/*$access_token ='cVsroaGRUpS+p4UblzflT7SSczaCCBXxmJjq5T6u2cj+Q5M73X3qVdjlFiEVnHFHdDuwpWUwjSV4SqnwEFNMkvkJixqkTajgOR/w9mziLCrHzjdgYNmvFGoqWT1jj5PjkJ3HNzhO+KucRDyCCBt+jAdB04t89/1O/w1cDnyilFU=';
-//define('TOKEN', '你的Channel Access Token');
- 
-$json_string = file_get_contents('php://input');
-$json_obj = json_decode($json_string);
- 
-$event = $json_obj->{"events"}[0];
-$type  = $event->{"message"}->{"type"};
-$message = $event->{"message"};
-$reply_token = $event->{"replyToken"};
-         
-$post_data = [
-  "replyToken" => $reply_token,
-  "messages" => [
-    [
-      "type" => "text",
-      "text" => $message->{"text"}
-    ]
-  ]
-];
- 
-$ch = curl_init("https://api.line.me/v2/bot/message/reply");
-curl_setopt($ch, CURLOPT_POST, true);
-curl_setopt($ch, CURLOPT_CUSTOMREQUEST, 'POST');
-curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($post_data));
-curl_setopt($ch, CURLOPT_HTTPHEADER, array(
-    'Content-Type: application/json',
-    'Authorization: Bearer '.$access_token
-    //'Authorization: Bearer '. TOKEN
-));
-$result = curl_exec($ch);
-curl_close($ch);*/
+require_once('LINEBotTiny.php');
 
-	//header('Location: /line-bot-sdk-php-master/line-bot-sdk-tiny/echo_bot.php');
-    //exit;
+$channelAccessToken = 'Your Channel Access Token';
+$channelSecret = 'Your Channel Secret';
 
-/*phpinfo();
-$redis = new Redis();
-$redis->connect("127.0.0.1","6379"); 
-$redis->set("ceshi","hello"); 
-echo $redis->get("ceshi"); */
+$client = new LINEBotTiny($channelAccessToken, $channelSecret);
 
-/*require './vendor/autoload.php';
-
-$httpClient = new \LINE\LINEBot\HTTPClient\CurlHTTPClient('cVsroaGRUpS+p4UblzflT7SSczaCCBXxmJjq5T6u2cj+Q5M73X3qVdjlFiEVnHFHdDuwpWUwjSV4SqnwEFNMkvkJixqkTajgOR/w9mziLCrHzjdgYNmvFGoqWT1jj5PjkJ3HNzhO+KucRDyCCBt+jAdB04t89/1O/w1cDnyilFU=');
-$bot = new \LINE\LINEBot($httpClient, ['channelSecret' => '3c7176983193ed3aec81757c0984986c']);
-
-$textMessageBuilder = new \LINE\LINEBot\MessageBuilder\TextMessageBuilder('hello');
-$redis = new Redis();
-$redis->connect('127.0.0.1', 6379, 3.1);
-$msg = $redis->lPop('msgq');
-
-if ($msg){
-        $json_array = json_decode($msg,true);
-        $response = $bot->pushMessage($json_array["events"][0]["source"]["userId"], $textMessageBuilder);
-		echo $response;
+foreach ($client->parseEvents() as $event) {
+    $client->replyMessage(array(
+        'replyToken' => $event['replyToken'],
+        'messages' => array(
+            array(
+                'type' => 'text',
+                'text' => $message['text']
+            )
+        )
+    ));
 };
-$redis->close();*/
 
 ?>
