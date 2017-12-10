@@ -1,28 +1,29 @@
-[Sun Dec 10 12:00:21.030804 2017] [mpm_winnt:notice] [pid 552:tid 300] AH00422: Parent: Received shutdown signal -- Shutting down the server.
-[Sun Dec 10 12:00:23.031918 2017] [mpm_winnt:notice] [pid 7504:tid 184] AH00364: Child: All worker threads have exited.
-[Sun Dec 10 12:00:23.057920 2017] [mpm_winnt:notice] [pid 552:tid 300] AH00430: Parent: Child process 7504 exited successfully.
-[Sun Dec 10 12:00:25.568063 2017] [mpm_winnt:notice] [pid 5672:tid 300] AH00455: Apache/2.4.29 (Win32) OpenSSL/1.0.2l PHP/7.1.11 configured -- resuming normal operations
-[Sun Dec 10 12:00:25.568063 2017] [mpm_winnt:notice] [pid 5672:tid 300] AH00456: Apache Lounge VC14 Server built: Oct 22 2017 11:52:30
-[Sun Dec 10 12:00:25.568063 2017] [core:notice] [pid 5672:tid 300] AH00094: Command line: 'C:\\web\\apache\\bin\\httpd.exe -d C:/web/apache'
-[Sun Dec 10 12:00:25.572063 2017] [mpm_winnt:notice] [pid 5672:tid 300] AH00418: Parent: Created child process 6460
-[Sun Dec 10 12:00:26.167097 2017] [mpm_winnt:notice] [pid 6460:tid 184] AH00354: Child: Starting 150 worker threads.
-[Sun Dec 10 12:05:35.546649 2017] [php7:notice] [pid 6460:tid 1640] [client 192.168.74.254:5590] Method not allowed
-[Sun Dec 10 12:07:07.320863 2017] [mpm_winnt:notice] [pid 5672:tid 300] AH00422: Parent: Received shutdown signal -- Shutting down the server.
-[Sun Dec 10 12:07:09.321978 2017] [mpm_winnt:notice] [pid 6460:tid 184] AH00364: Child: All worker threads have exited.
-[Sun Dec 10 12:07:09.363980 2017] [mpm_winnt:notice] [pid 5672:tid 300] AH00430: Parent: Child process 6460 exited successfully.
-[Sun Dec 10 12:07:11.398096 2017] [mpm_winnt:notice] [pid 4536:tid 300] AH00455: Apache/2.4.29 (Win32) OpenSSL/1.0.2l PHP/7.1.11 configured -- resuming normal operations
-[Sun Dec 10 12:07:11.398096 2017] [mpm_winnt:notice] [pid 4536:tid 300] AH00456: Apache Lounge VC14 Server built: Oct 22 2017 11:52:30
-[Sun Dec 10 12:07:11.398096 2017] [core:notice] [pid 4536:tid 300] AH00094: Command line: 'C:\\web\\apache\\bin\\httpd.exe -d C:/web/apache'
-[Sun Dec 10 12:07:11.401096 2017] [mpm_winnt:notice] [pid 4536:tid 300] AH00418: Parent: Created child process 4960
-[Sun Dec 10 12:07:12.000131 2017] [mpm_winnt:notice] [pid 4960:tid 184] AH00354: Child: Starting 150 worker threads.
-[Sun Dec 10 12:07:13.304205 2017] [php7:notice] [pid 4960:tid 1640] [client 192.168.74.254:5605] Method not allowed
-[Sun Dec 10 12:07:46.076062 2017] [php7:notice] [pid 4960:tid 1640] [client 192.168.74.254:5608] Method not allowed
-[Sun Dec 10 12:09:00.837298 2017] [mpm_winnt:notice] [pid 4536:tid 300] AH00422: Parent: Received shutdown signal -- Shutting down the server.
-[Sun Dec 10 12:09:02.838413 2017] [mpm_winnt:notice] [pid 4960:tid 184] AH00364: Child: All worker threads have exited.
-[Sun Dec 10 12:09:02.880415 2017] [mpm_winnt:notice] [pid 4536:tid 300] AH00430: Parent: Child process 4960 exited successfully.
-[Sun Dec 10 12:09:05.746579 2017] [mpm_winnt:notice] [pid 7544:tid 300] AH00455: Apache/2.4.29 (Win32) OpenSSL/1.0.2l PHP/7.1.11 configured -- resuming normal operations
-[Sun Dec 10 12:09:05.746579 2017] [mpm_winnt:notice] [pid 7544:tid 300] AH00456: Apache Lounge VC14 Server built: Oct 22 2017 11:52:30
-[Sun Dec 10 12:09:05.746579 2017] [core:notice] [pid 7544:tid 300] AH00094: Command line: 'C:\\web\\apache\\bin\\httpd.exe -d C:/web/apache'
-[Sun Dec 10 12:09:05.749579 2017] [mpm_winnt:notice] [pid 7544:tid 300] AH00418: Parent: Created child process 5856
-[Sun Dec 10 12:09:06.341613 2017] [mpm_winnt:notice] [pid 5856:tid 184] AH00354: Child: Starting 150 worker threads.
-[Sun Dec 10 12:09:11.054883 2017] [php7:notice] [pid 5856:tid 1632] [client 192.168.74.254:5677] Method not allowed
+[Sun Dec 10 17:23:50.178454 2017] [php7:notice] [pid 4396:tid 1640] [client 203.104.146.153:50626] PHP Notice:  Undefined variable: message in C:\\web\\htdocs\\index.php on line 18
+[Sun Dec 10 17:23:50.328454 2017] [php7:warn] [pid 4396:tid 1640] [client 203.104.146.153:50626] PHP Warning:  file_get_contents(https://api.line.me/v2/bot/message/reply): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request\r\n in C:\\web\\htdocs\\LINEBotTiny.php on line 84
+[Sun Dec 10 17:23:50.328454 2017] [php7:notice] [pid 4396:tid 1640] [client 203.104.146.153:50626] Request failed: 
+[Sun Dec 10 17:24:02.973475 2017] [php7:notice] [pid 4396:tid 1640] [client 192.168.74.254:11590] Method not allowed
+[Sun Dec 10 17:24:07.833482 2017] [php7:notice] [pid 4396:tid 1632] [client 203.104.156.74:47532] PHP Notice:  Undefined variable: message in C:\\web\\htdocs\\index.php on line 18
+[Sun Dec 10 17:24:08.013482 2017] [php7:warn] [pid 4396:tid 1632] [client 203.104.156.74:47532] PHP Warning:  file_get_contents(https://api.line.me/v2/bot/message/reply): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request\r\n in C:\\web\\htdocs\\LINEBotTiny.php on line 84
+[Sun Dec 10 17:24:08.013482 2017] [php7:notice] [pid 4396:tid 1632] [client 203.104.156.74:47532] Request failed: 
+[Sun Dec 10 17:24:08.013482 2017] [php7:notice] [pid 4396:tid 1632] [client 203.104.156.74:47532] PHP Notice:  Undefined variable: message in C:\\web\\htdocs\\index.php on line 18
+[Sun Dec 10 17:24:08.293483 2017] [php7:warn] [pid 4396:tid 1632] [client 203.104.156.74:47532] PHP Warning:  file_get_contents(https://api.line.me/v2/bot/message/reply): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request\r\n in C:\\web\\htdocs\\LINEBotTiny.php on line 84
+[Sun Dec 10 17:24:08.293483 2017] [php7:notice] [pid 4396:tid 1632] [client 203.104.156.74:47532] Request failed: 
+[Sun Dec 10 17:24:58.257553 2017] [mpm_winnt:notice] [pid 5316:tid 300] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Dec 10 17:25:00.257556 2017] [mpm_winnt:notice] [pid 4396:tid 184] AH00364: Child: All worker threads have exited.
+[Sun Dec 10 17:25:00.287556 2017] [mpm_winnt:notice] [pid 5316:tid 300] AH00430: Parent: Child process 4396 exited successfully.
+[Sun Dec 10 17:25:03.487560 2017] [mpm_winnt:notice] [pid 4880:tid 300] AH00455: Apache/2.4.29 (Win32) OpenSSL/1.0.2l PHP/7.1.11 configured -- resuming normal operations
+[Sun Dec 10 17:25:03.487560 2017] [mpm_winnt:notice] [pid 4880:tid 300] AH00456: Apache Lounge VC14 Server built: Oct 22 2017 11:52:30
+[Sun Dec 10 17:25:03.487560 2017] [core:notice] [pid 4880:tid 300] AH00094: Command line: 'C:\\web\\apache\\bin\\httpd.exe -d C:/web/apache'
+[Sun Dec 10 17:25:03.497560 2017] [mpm_winnt:notice] [pid 4880:tid 300] AH00418: Parent: Created child process 8052
+[Sun Dec 10 17:25:04.087561 2017] [mpm_winnt:notice] [pid 8052:tid 184] AH00354: Child: Starting 150 worker threads.
+[Sun Dec 10 17:26:33.364686 2017] [php7:notice] [pid 8052:tid 1640] [client 192.168.74.254:11604] Method not allowed
+[Sun Dec 10 17:26:35.494689 2017] [php7:warn] [pid 8052:tid 1632] [client 203.104.156.76:36486] PHP Warning:  file_get_contents(https://api.line.me/v2/bot/message/reply): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request\r\n in C:\\web\\htdocs\\LINEBotTiny.php on line 84
+[Sun Dec 10 17:26:35.494689 2017] [php7:notice] [pid 8052:tid 1632] [client 203.104.156.76:36486] Request failed: 
+[Sun Dec 10 17:26:35.604689 2017] [php7:warn] [pid 8052:tid 1632] [client 203.104.156.76:36486] PHP Warning:  file_get_contents(https://api.line.me/v2/bot/message/reply): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request\r\n in C:\\web\\htdocs\\LINEBotTiny.php on line 84
+[Sun Dec 10 17:26:35.604689 2017] [php7:notice] [pid 8052:tid 1632] [client 203.104.156.76:36486] Request failed: 
+[Sun Dec 10 17:27:19.916760 2017] [php7:notice] [pid 8052:tid 1640] [client 203.104.146.153:60234] PHP Notice:  Undefined variable: message in C:\\web\\htdocs\\index.php on line 18
+[Sun Dec 10 17:27:20.038760 2017] [php7:warn] [pid 8052:tid 1640] [client 203.104.146.153:60234] PHP Warning:  file_get_contents(https://api.line.me/v2/bot/message/reply): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request\r\n in C:\\web\\htdocs\\LINEBotTiny.php on line 84
+[Sun Dec 10 17:27:20.038760 2017] [php7:notice] [pid 8052:tid 1640] [client 203.104.146.153:60234] Request failed: 
+[Sun Dec 10 17:28:27.183857 2017] [php7:notice] [pid 8052:tid 1640] [client 203.104.146.153:34914] PHP Notice:  Undefined variable: userString in C:\\web\\htdocs\\index.php on line 18
+[Sun Dec 10 17:28:27.323857 2017] [php7:warn] [pid 8052:tid 1640] [client 203.104.146.153:34914] PHP Warning:  file_get_contents(https://api.line.me/v2/bot/message/reply): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request\r\n in C:\\web\\htdocs\\LINEBotTiny.php on line 84
+[Sun Dec 10 17:28:27.323857 2017] [php7:notice] [pid 8052:tid 1640] [client 203.104.146.153:34914] Request failed: 
