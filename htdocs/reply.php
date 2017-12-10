@@ -21,7 +21,7 @@ $post_data = [
   "messages" => [
     [
       "type" => "text",
-      "text" => $message->{"text"}
+      "text" => '你發送了： '.$message->{"text"}
     ]
   ]
 ];

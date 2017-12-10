@@ -1,0 +1,7 @@
+{"events":[{"type":"message","replyToken":"b72ff99d0e7449feb5a0beb203f7290e","source":{"userId":"U1ddc6f73c2cad9824edfcd1c1b879bd3","type":"user"},"timestamp":1512917127560,"message":{"type":"text","id":"7122101138692","text":"+.+"}}]}
+{"events":[{"type":"message","replyToken":"7111a09509c34a01bf33e7142d1082e4","source":{"userId":"U1ddc6f73c2cad9824edfcd1c1b879bd3","type":"user"},"timestamp":1512917154000,"message":{"type":"text","id":"7122103306913","text":"=..="}}]}
+{"replyToken":"7111a09509c34a01bf33e7142d1082e4","messages":[{"type":"text","text":"\u4f60\u767c\u9001\u4e86\uff1a=..="}]}
+{}
+{"events":[{"type":"message","replyToken":"b455ef705e2d4626a3216539adea5158","source":{"userId":"U1ddc6f73c2cad9824edfcd1c1b879bd3","type":"user"},"timestamp":1512917186229,"message":{"type":"text","id":"7122105952034","text":"安安"}}]}
+{"replyToken":"b455ef705e2d4626a3216539adea5158","messages":[{"type":"text","text":"\u4f60\u767c\u9001\u4e86\uff1a \u5b89\u5b89"}]}
+{}
