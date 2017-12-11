@@ -133,3 +133,6 @@
 [Mon Dec 11 20:36:23.595192 2017] [core:notice] [pid 4412:tid 300] AH00094: Command line: 'C:\\web\\apache\\bin\\httpd.exe -d C:/web/apache'
 [Mon Dec 11 20:36:23.605192 2017] [mpm_winnt:notice] [pid 4412:tid 300] AH00418: Parent: Created child process 6752
 [Mon Dec 11 20:36:24.205193 2017] [mpm_winnt:notice] [pid 6752:tid 184] AH00354: Child: Starting 150 worker threads.
+[Mon Dec 11 21:04:41.794352 2017] [mpm_winnt:notice] [pid 4412:tid 300] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Dec 11 21:04:43.794355 2017] [mpm_winnt:notice] [pid 6752:tid 184] AH00364: Child: All worker threads have exited.
+[Mon Dec 11 21:04:43.814355 2017] [mpm_winnt:notice] [pid 4412:tid 300] AH00430: Parent: Child process 6752 exited successfully.

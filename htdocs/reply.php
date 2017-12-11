@@ -17,14 +17,20 @@ $json_string = file_get_contents('php://input');
 
 $file = fopen("C:\\web\\Line_log\\Line_Reply_log.txt", "a+");
 fwrite($file, "IP:".$myip."\n");
-fwrite($file, $json_string."\n");
 $json_obj = json_decode($json_string);
  
 $event = $json_obj->{"events"}[0];
 $type  = $event->{"message"}->{"type"};
+$userId = $event->{"source"}->{"userId"};
+fwrite($file, "User ID:".$userId."\n");
+$text = $event->{"message"}->{"text"};
+fwrite($file, "對方發訊：".$text."\n");
 $message = $event->{"message"};
 $reply_token = $event->{"replyToken"};
-         
+
+fwrite($file, "-------------------------------------------------\n");         
+fwrite($file, $json_string."\n");
+
 $post_data = [
   "replyToken" => $reply_token,
   "messages" => [
@@ -34,6 +40,8 @@ $post_data = [
     ]
   ]
 ];
+
+fwrite($file, "-------------------------------------------------\n");
 fwrite($file, json_encode($post_data)."\n");
  
 $ch = curl_init("https://api.line.me/v2/bot/message/reply");
@@ -49,7 +57,9 @@ curl_setopt($ch, CURLOPT_HTTPHEADER, array(
     //'Authorization: Bearer '. TOKEN
 ));
 $result = curl_exec($ch);
+fwrite($file, "-------------------------------------------------\n");
 fwrite($file, $result."\n"); 
+fwrite($file, "=================================================\n");
 fclose($file);
 curl_close($ch);
 

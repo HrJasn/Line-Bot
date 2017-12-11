@@ -46,3 +46,33 @@ IP:203.104.146.153
 {"events":[{"type":"message","replyToken":"73c77e78076440caab43e5607133743b","source":{"userId":"U1ddc6f73c2cad9824edfcd1c1b879bd3","type":"user"},"timestamp":1512993313115,"message":{"type":"text","id":"7126395208270","text":"呵呵"}}]}
 {"replyToken":"73c77e78076440caab43e5607133743b","messages":[{"type":"text","text":"\u4f60\u767c\u9001\u4e86\uff1a \u5475\u5475"}]}
 {}
+IP:203.104.146.153
+{"events":[{"type":"message","replyToken":"fd674f17c75f4d54b7948b8d5053905e","source":{"userId":"U1ddc6f73c2cad9824edfcd1c1b879bd3","type":"user"},"timestamp":1512996921582,"message":{"type":"text","id":"7126723798502","text":"唷唷~"}}]}
+UserID:U1ddc6f73c2cad9824edfcd1c1b879bd3
+{"replyToken":"fd674f17c75f4d54b7948b8d5053905e","messages":[{"type":"text","text":"\u4f60\u767c\u9001\u4e86\uff1a \u5537\u5537~"}]}
+{}
+IP:203.104.146.153
+UserID:U1ddc6f73c2cad9824edfcd1c1b879bd3
+{"events":[{"type":"message","replyToken":"b703136c84c14aecaba62719bae15258","source":{"userId":"U1ddc6f73c2cad9824edfcd1c1b879bd3","type":"user"},"timestamp":1512996963219,"message":{"type":"text","id":"7126727824739","text":"呵呵"}}]}
+{"replyToken":"b703136c84c14aecaba62719bae15258","messages":[{"type":"text","text":"\u4f60\u767c\u9001\u4e86\uff1a \u5475\u5475"}]}
+{}
+IP:203.104.146.153
+User ID:U1ddc6f73c2cad9824edfcd1c1b879bd3
+對方發訊：呵呵
+-------------------------------------------------
+{"events":[{"type":"message","replyToken":"c06656095aca485c9cf548fe61cbf3b7","source":{"userId":"U1ddc6f73c2cad9824edfcd1c1b879bd3","type":"user"},"timestamp":1512997185077,"message":{"type":"text","id":"7126748938870","text":"呵呵"}}]}
+-------------------------------------------------
+{"replyToken":"c06656095aca485c9cf548fe61cbf3b7","messages":[{"type":"text","text":"\u4f60\u767c\u9001\u4e86\uff1a \u5475\u5475"}]}
+-------------------------------------------------
+{}
+=================================================
+IP:203.104.146.153
+User ID:U1ddc6f73c2cad9824edfcd1c1b879bd3
+對方發訊：呵呵
+-------------------------------------------------
+{"events":[{"type":"message","replyToken":"0dceb8e412094749bb651adfed9c7b8c","source":{"userId":"U1ddc6f73c2cad9824edfcd1c1b879bd3","type":"user"},"timestamp":1512997186440,"message":{"type":"text","id":"7126749055888","text":"呵呵"}}]}
+-------------------------------------------------
+{"replyToken":"0dceb8e412094749bb651adfed9c7b8c","messages":[{"type":"text","text":"\u4f60\u767c\u9001\u4e86\uff1a \u5475\u5475"}]}
+-------------------------------------------------
+{}
+=================================================

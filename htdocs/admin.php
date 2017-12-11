@@ -1,27 +1,3 @@
-<!DOCTYPE html>
-<html lang="zh-hans">
-
-<head>
-
-<meta charset="utf8">
-<title>Sunwell測試用Line-API</title>
-<meta http-equiv="Pragma" content="private" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<meta http-equiv="Cache-Control" content="private, max-age=600, pre-check=600" />
-
-</head>
-
-<body>
-
-<form action="admin.php" method="post">
-發送文字公告：<input type="text" name="send_text"> <input type="submit" name="pushText" value="發送公告">
-<script>document.getElementsByName("send_text")[0].focus();</script>
-</form>
-
-</body>
-
-</html>
-
 <?php
 
 error_reporting(0);
@@ -98,3 +74,27 @@ curl_close($ch);
 }
 
 ?>
+
+<!DOCTYPE html>
+<html lang="zh-hans">
+
+<head>
+
+<meta charset="utf8">
+<title>Sunwell測試用Line-API</title>
+<meta http-equiv="Pragma" content="private" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta http-equiv="Cache-Control" content="private, max-age=600, pre-check=600" />
+
+</head>
+
+<body>
+
+<form action="admin.php" method="post">
+發送文字公告：<input type="text" name="send_text"> <input type="submit" name="pushText" value="發送公告">
+<script>document.getElementsByName("send_text")[0].focus();</script>
+</form>
+
+</body>
+
+</html>
