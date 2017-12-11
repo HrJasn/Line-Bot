@@ -2,6 +2,14 @@
 
 error_reporting(0);
 
+include("db_include.php");
+
+$db = mysqli_connect($DB_Server,$DB_User,$DB_Passwd);
+
+
+mysqli_select_db($db,"line");
+//mysql_query("SET NAMES 'utf8'");
+
 if(!empty($_SERVER['HTTP_CLIENT_IP'])){
    $myip = $_SERVER['HTTP_CLIENT_IP'];
 }else if(!empty($_SERVER['HTTP_X_FORWARDED_FOR'])){
@@ -27,6 +35,8 @@ $text = $event->{"message"}->{"text"};
 fwrite($file, "對方發訊：".$text."\n");
 $message = $event->{"message"};
 $reply_token = $event->{"replyToken"};
+
+mysqli_query($db,"INSERT INTO users (UserID) VALUES ('".$userId."')");
 
 fwrite($file, "-------------------------------------------------\n");         
 fwrite($file, $json_string."\n");
@@ -62,6 +72,7 @@ fwrite($file, $result."\n");
 fwrite($file, "=================================================\n");
 fclose($file);
 curl_close($ch);
+mysqli_close($db);
 
 header('Location: index.php');
 
