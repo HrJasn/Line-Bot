@@ -127,3 +127,9 @@
 [Sun Dec 10 19:51:14.622799 2017] [php7:warn] [pid 8052:tid 1600] [client 192.168.74.254:13903] PHP Warning:  fclose() expects parameter 1 to be resource, null given in C:\\web\\htdocs\\push.php on line 30
 [Sun Dec 10 20:00:46.100486 2017] [php7:notice] [pid 8052:tid 1600] [client 192.168.74.254:14092] PHP Notice:  Use of undefined constant send_text - assumed 'send_text' in C:\\web\\htdocs\\push.php on line 5, referer: https://hrjasn.asuscomm.com/push.html
 [Sun Dec 10 20:09:34.429704 2017] [php7:notice] [pid 8052:tid 1608] [client 192.168.74.254:14246] PHP Notice:  Undefined index: send_text in C:\\web\\htdocs\\push.php on line 3
+[Mon Dec 11 20:36:23.435192 2017] [core:warn] [pid 4412:tid 300] AH00098: pid file C:/web/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Dec 11 20:36:23.595192 2017] [mpm_winnt:notice] [pid 4412:tid 300] AH00455: Apache/2.4.29 (Win32) OpenSSL/1.0.2l PHP/7.1.11 configured -- resuming normal operations
+[Mon Dec 11 20:36:23.595192 2017] [mpm_winnt:notice] [pid 4412:tid 300] AH00456: Apache Lounge VC14 Server built: Oct 22 2017 11:52:30
+[Mon Dec 11 20:36:23.595192 2017] [core:notice] [pid 4412:tid 300] AH00094: Command line: 'C:\\web\\apache\\bin\\httpd.exe -d C:/web/apache'
+[Mon Dec 11 20:36:23.605192 2017] [mpm_winnt:notice] [pid 4412:tid 300] AH00418: Parent: Created child process 6752
+[Mon Dec 11 20:36:24.205193 2017] [mpm_winnt:notice] [pid 6752:tid 184] AH00354: Child: Starting 150 worker threads.

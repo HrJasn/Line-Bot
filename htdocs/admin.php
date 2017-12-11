@@ -1,6 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-hans">
+
+<head>
+
+<meta charset="utf8">
+<title>Sunwell測試用Line-API</title>
+<meta http-equiv="Pragma" content="private" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta http-equiv="Cache-Control" content="private, max-age=600, pre-check=600" />
+
+</head>
+
+<body>
+
+<form action="admin.php" method="post">
+發送文字公告：<input type="text" name="send_text"> <input type="submit" name="pushText" value="發送公告">
+<script>document.getElementsByName("send_text")[0].focus();</script>
+</form>
+
+</body>
+
+</html>
+
 <?php
 
 error_reporting(0);
+
+if(!empty($_POST['send_text'])){
 
 if(!empty($_SERVER['HTTP_CLIENT_IP'])){
    $myip = $_SERVER['HTTP_CLIENT_IP'];
@@ -21,11 +47,13 @@ fclose($file);
 
 push('U1ddc6f73c2cad9824edfcd1c1b879bd3'); //HrJasn
 
-push('U550d8023617ed0da10e2ac61503df0d3'); //楊先生
+// push('U550d8023617ed0da10e2ac61503df0d3'); //楊先生
 
-push('Ue4cad86c9b6654b8e846003d733d2147');
+// push('Ue4cad86c9b6654b8e846003d733d2147');
 
-push('Uafca7d784e7f713c8c4b4487b9e6d8af'); //陳老闆
+// push('Uafca7d784e7f713c8c4b4487b9e6d8af'); //陳老闆
+
+}
 
 function push($user_id){
 
@@ -68,7 +96,5 @@ fclose($file);
 curl_close($ch);
 
 }
-
-header('Location: push.html');
 
 ?>

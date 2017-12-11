@@ -1,0 +1,48 @@
+{"events":[{"type":"message","replyToken":"b72ff99d0e7449feb5a0beb203f7290e","source":{"userId":"U1ddc6f73c2cad9824edfcd1c1b879bd3","type":"user"},"timestamp":1512917127560,"message":{"type":"text","id":"7122101138692","text":"+.+"}}]}
+{"events":[{"type":"message","replyToken":"7111a09509c34a01bf33e7142d1082e4","source":{"userId":"U1ddc6f73c2cad9824edfcd1c1b879bd3","type":"user"},"timestamp":1512917154000,"message":{"type":"text","id":"7122103306913","text":"=..="}}]}
+{"replyToken":"7111a09509c34a01bf33e7142d1082e4","messages":[{"type":"text","text":"\u4f60\u767c\u9001\u4e86\uff1a=..="}]}
+{}
+{"events":[{"type":"message","replyToken":"b455ef705e2d4626a3216539adea5158","source":{"userId":"U1ddc6f73c2cad9824edfcd1c1b879bd3","type":"user"},"timestamp":1512917186229,"message":{"type":"text","id":"7122105952034","text":"安安"}}]}
+{"replyToken":"b455ef705e2d4626a3216539adea5158","messages":[{"type":"text","text":"\u4f60\u767c\u9001\u4e86\uff1a \u5b89\u5b89"}]}
+{}
+{"events":[{"type":"follow","replyToken":"805457d6d08b4fe68221f99f84fdd107","source":{"userId":"Uafca7d784e7f713c8c4b4487b9e6d8af","type":"user"},"timestamp":1512954314595}]}
+{"replyToken":"805457d6d08b4fe68221f99f84fdd107","messages":[{"type":"text","text":"\u4f60\u767c\u9001\u4e86\uff1a "}]}
+{}
+{"events":[{"type":"message","replyToken":"8d74c52b85de4122b95dfe949610b5cb","source":{"userId":"Uafca7d784e7f713c8c4b4487b9e6d8af","type":"user"},"timestamp":1512954381458,"message":{"type":"text","id":"7123752900098","text":"測試 測試"}}]}
+{"replyToken":"8d74c52b85de4122b95dfe949610b5cb","messages":[{"type":"text","text":"\u4f60\u767c\u9001\u4e86\uff1a \u6e2c\u8a66 \u6e2c\u8a66"}]}
+{}
+{"events":[{"type":"message","replyToken":"cdcee12b2d3e477ea07f9065731e7734","source":{"userId":"U1ddc6f73c2cad9824edfcd1c1b879bd3","type":"user"},"timestamp":1512954655729,"message":{"type":"text","id":"7123768155962","text":"你好"}}]}
+{"replyToken":"cdcee12b2d3e477ea07f9065731e7734","messages":[{"type":"text","text":"\u4f60\u767c\u9001\u4e86\uff1a \u4f60\u597d"}]}
+{}
+{"events":[{"type":"follow","replyToken":"8b243d37b9f04730b0c14e4831442129","source":{"userId":"Ue4cad86c9b6654b8e846003d733d2147","type":"user"},"timestamp":1512958470875}]}
+{"replyToken":"8b243d37b9f04730b0c14e4831442129","messages":[{"type":"text","text":"\u4f60\u767c\u9001\u4e86\uff1a "}]}
+{}
+{"events":[{"type":"follow","replyToken":"eacee1a237144f3fb41427cf3aef82c2","source":{"userId":"U550d8023617ed0da10e2ac61503df0d3","type":"user"},"timestamp":1512967639071}]}
+{"replyToken":"eacee1a237144f3fb41427cf3aef82c2","messages":[{"type":"text","text":"\u4f60\u767c\u9001\u4e86\uff1a "}]}
+{}
+{"events":[{"type":"message","replyToken":"0c1d73e87de14e1c99d0612e22fdd2b8","source":{"userId":"U550d8023617ed0da10e2ac61503df0d3","type":"user"},"timestamp":1512968254152,"message":{"type":"text","id":"7124619420325","text":"123"}}]}
+{"replyToken":"0c1d73e87de14e1c99d0612e22fdd2b8","messages":[{"type":"text","text":"\u4f60\u767c\u9001\u4e86\uff1a 123"}]}
+{}
+{"events":[{"type":"message","replyToken":"9b0617f7076f412ead7817a5cfacb0a7","source":{"userId":"Uafca7d784e7f713c8c4b4487b9e6d8af","type":"user"},"timestamp":1512969141282,"message":{"type":"text","id":"7124674495797","text":"可以測了嗎？"}}]}
+{"replyToken":"9b0617f7076f412ead7817a5cfacb0a7","messages":[{"type":"text","text":"\u4f60\u767c\u9001\u4e86\uff1a \u53ef\u4ee5\u6e2c\u4e86\u55ce\uff1f"}]}
+{}
+{"events":[{"type":"message","replyToken":"04a1dd684a034120845a29a200f5d663","source":{"userId":"Uafca7d784e7f713c8c4b4487b9e6d8af","type":"user"},"timestamp":1512969167229,"message":{"type":"text","id":"7124676087106","text":"網頁方式好了嗎？"}}]}
+{"replyToken":"04a1dd684a034120845a29a200f5d663","messages":[{"type":"text","text":"\u4f60\u767c\u9001\u4e86\uff1a \u7db2\u9801\u65b9\u5f0f\u597d\u4e86\u55ce\uff1f"}]}
+{}
+{"events":[{"type":"message","replyToken":"90fc0889bcab41be83a46d664a25ecb2","source":{"userId":"Uafca7d784e7f713c8c4b4487b9e6d8af","type":"user"},"timestamp":1512972089045,"message":{"type":"text","id":"7124856841726","text":"這是誰測的"}}]}
+{"replyToken":"90fc0889bcab41be83a46d664a25ecb2","messages":[{"type":"text","text":"\u4f60\u767c\u9001\u4e86\uff1a \u9019\u662f\u8ab0\u6e2c\u7684"}]}
+{}
+{"events":[{"type":"message","replyToken":"f267422af5ae47b6b2beee212296341d","source":{"userId":"Uafca7d784e7f713c8c4b4487b9e6d8af","type":"user"},"timestamp":1512973075544,"message":{"type":"text","id":"7124919207258","text":"我有將資料發給\n楊先生\n應該是他"}}]}
+{"replyToken":"f267422af5ae47b6b2beee212296341d","messages":[{"type":"text","text":"\u4f60\u767c\u9001\u4e86\uff1a \u6211\u6709\u5c07\u8cc7\u6599\u767c\u7d66\n\u694a\u5148\u751f\n\u61c9\u8a72\u662f\u4ed6"}]}
+{}
+{"events":[{"type":"message","replyToken":"6efcea88c1a24d9baadba337119cb437","source":{"userId":"U550d8023617ed0da10e2ac61503df0d3","type":"user"},"timestamp":1512973118934,"message":{"type":"text","id":"7124921930839","text":"不是我"}}]}
+{"replyToken":"6efcea88c1a24d9baadba337119cb437","messages":[{"type":"text","text":"\u4f60\u767c\u9001\u4e86\uff1a \u4e0d\u662f\u6211"}]}
+{}
+IP:203.104.146.153
+{"events":[{"type":"message","replyToken":"07756ab295d14b27b332ef219f3bd01f","source":{"userId":"U1ddc6f73c2cad9824edfcd1c1b879bd3","type":"user"},"timestamp":1512984022566,"message":{"type":"text","id":"7125658441090","text":"呵呵"}}]}
+{"replyToken":"07756ab295d14b27b332ef219f3bd01f","messages":[{"type":"text","text":"\u4f60\u767c\u9001\u4e86\uff1a \u5475\u5475"}]}
+{}
+IP:203.104.146.153
+{"events":[{"type":"message","replyToken":"73c77e78076440caab43e5607133743b","source":{"userId":"U1ddc6f73c2cad9824edfcd1c1b879bd3","type":"user"},"timestamp":1512993313115,"message":{"type":"text","id":"7126395208270","text":"呵呵"}}]}
+{"replyToken":"73c77e78076440caab43e5607133743b","messages":[{"type":"text","text":"\u4f60\u767c\u9001\u4e86\uff1a \u5475\u5475"}]}
+{}
