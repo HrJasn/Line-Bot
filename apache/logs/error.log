@@ -160,3 +160,19 @@
 [Tue Dec 12 09:00:39.761798 2017] [mpm_winnt:notice] [pid 4388:tid 300] AH00422: Parent: Received shutdown signal -- Shutting down the server.
 [Tue Dec 12 09:00:41.761801 2017] [mpm_winnt:notice] [pid 6712:tid 184] AH00364: Child: All worker threads have exited.
 [Tue Dec 12 09:00:41.796801 2017] [mpm_winnt:notice] [pid 4388:tid 300] AH00430: Parent: Child process 6712 exited successfully.
+[Tue Dec 12 09:01:07.762458 2017] [mpm_winnt:notice] [pid 716:tid 300] AH00455: Apache/2.4.29 (Win32) OpenSSL/1.0.2l PHP/7.1.11 configured -- resuming normal operations
+[Tue Dec 12 09:01:07.762458 2017] [mpm_winnt:notice] [pid 716:tid 300] AH00456: Apache Lounge VC14 Server built: Oct 22 2017 11:52:30
+[Tue Dec 12 09:01:07.762458 2017] [core:notice] [pid 716:tid 300] AH00094: Command line: 'C:\\web\\apache\\bin\\httpd.exe -d C:/web/apache'
+[Tue Dec 12 09:01:07.765458 2017] [mpm_winnt:notice] [pid 716:tid 300] AH00418: Parent: Created child process 8724
+[Tue Dec 12 09:01:08.392494 2017] [mpm_winnt:notice] [pid 8724:tid 184] AH00354: Child: Starting 150 worker threads.
+[Tue Dec 12 13:59:43.943116 2017] [mpm_winnt:notice] [pid 716:tid 300] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Dec 12 13:59:45.943119 2017] [mpm_winnt:notice] [pid 8724:tid 184] AH00364: Child: All worker threads have exited.
+[Tue Dec 12 13:59:45.983119 2017] [mpm_winnt:notice] [pid 716:tid 300] AH00430: Parent: Child process 8724 exited successfully.
+[Tue Dec 12 13:59:55.413132 2017] [mpm_winnt:notice] [pid 6736:tid 300] AH00455: Apache/2.4.29 (Win32) OpenSSL/1.0.2l PHP/7.1.11 configured -- resuming normal operations
+[Tue Dec 12 13:59:55.413132 2017] [mpm_winnt:notice] [pid 6736:tid 300] AH00456: Apache Lounge VC14 Server built: Oct 22 2017 11:52:30
+[Tue Dec 12 13:59:55.413132 2017] [core:notice] [pid 6736:tid 300] AH00094: Command line: 'C:\\web\\apache\\bin\\httpd.exe -d C:/web/apache'
+[Tue Dec 12 13:59:55.413132 2017] [mpm_winnt:notice] [pid 6736:tid 300] AH00418: Parent: Created child process 508
+[Tue Dec 12 13:59:56.023133 2017] [mpm_winnt:notice] [pid 508:tid 184] AH00354: Child: Starting 150 worker threads.
+[Tue Dec 12 14:00:03.942148 2017] [mpm_winnt:notice] [pid 6736:tid 300] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Dec 12 14:00:05.942151 2017] [mpm_winnt:notice] [pid 508:tid 184] AH00364: Child: All worker threads have exited.
+[Tue Dec 12 14:00:05.967151 2017] [mpm_winnt:notice] [pid 6736:tid 300] AH00430: Parent: Child process 508 exited successfully.

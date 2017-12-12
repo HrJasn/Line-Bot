@@ -1,0 +1,106 @@
+=================================================
+IP:211.76.247.2
+發送訊息：感謝各位~
+-------------------------------------------------
+SQL:U1ddc6f73c2cad9824edfcd1c1b879bd3
+send_text=%E6%84%9F%E8%AC%9D%E5%90%84%E4%BD%8D%7E&pushText=%E7%99%BC%E9%80%81%E5%85%AC%E5%91%8A
+{"to":"U1ddc6f73c2cad9824edfcd1c1b879bd3","messages":[{"type":"text","text":"\u516c\u544a\uff1a\u611f\u8b1d\u5404\u4f4d~"}]}
+{}
+
+-------------------------------------------------
+SQL:U550d8023617ed0da10e2ac61503df0d3
+send_text=%E6%84%9F%E8%AC%9D%E5%90%84%E4%BD%8D%7E&pushText=%E7%99%BC%E9%80%81%E5%85%AC%E5%91%8A
+{"to":"U550d8023617ed0da10e2ac61503df0d3","messages":[{"type":"text","text":"\u516c\u544a\uff1a\u611f\u8b1d\u5404\u4f4d~"}]}
+{}
+
+-------------------------------------------------
+SQL:Uafca7d784e7f713c8c4b4487b9e6d8af
+send_text=%E6%84%9F%E8%AC%9D%E5%90%84%E4%BD%8D%7E&pushText=%E7%99%BC%E9%80%81%E5%85%AC%E5%91%8A
+{"to":"Uafca7d784e7f713c8c4b4487b9e6d8af","messages":[{"type":"text","text":"\u516c\u544a\uff1a\u611f\u8b1d\u5404\u4f4d~"}]}
+{}
+
+-------------------------------------------------
+=================================================
+IP:192.192.51.132
+發送訊息：20171212  測試
+-------------------------------------------------
+SQL:U1ddc6f73c2cad9824edfcd1c1b879bd3
+send_text=20171212++%E6%B8%AC%E8%A9%A6&pushText=%E7%99%BC%E9%80%81%E5%85%AC%E5%91%8A
+{"to":"U1ddc6f73c2cad9824edfcd1c1b879bd3","messages":[{"type":"text","text":"\u516c\u544a\uff1a20171212  \u6e2c\u8a66"}]}
+{}
+
+-------------------------------------------------
+SQL:U550d8023617ed0da10e2ac61503df0d3
+send_text=20171212++%E6%B8%AC%E8%A9%A6&pushText=%E7%99%BC%E9%80%81%E5%85%AC%E5%91%8A
+{"to":"U550d8023617ed0da10e2ac61503df0d3","messages":[{"type":"text","text":"\u516c\u544a\uff1a20171212  \u6e2c\u8a66"}]}
+{}
+
+-------------------------------------------------
+SQL:Uafca7d784e7f713c8c4b4487b9e6d8af
+send_text=20171212++%E6%B8%AC%E8%A9%A6&pushText=%E7%99%BC%E9%80%81%E5%85%AC%E5%91%8A
+{"to":"Uafca7d784e7f713c8c4b4487b9e6d8af","messages":[{"type":"text","text":"\u516c\u544a\uff1a20171212  \u6e2c\u8a66"}]}
+{}
+
+-------------------------------------------------
+SQL:Ue4cad86c9b6654b8e846003d733d2147
+send_text=20171212++%E6%B8%AC%E8%A9%A6&pushText=%E7%99%BC%E9%80%81%E5%85%AC%E5%91%8A
+{"to":"Ue4cad86c9b6654b8e846003d733d2147","messages":[{"type":"text","text":"\u516c\u544a\uff1a20171212  \u6e2c\u8a66"}]}
+{}
+
+-------------------------------------------------
+=================================================
+IP:49.216.192.233
+發送訊息：Jason 謝謝你
+-------------------------------------------------
+SQL:U1ddc6f73c2cad9824edfcd1c1b879bd3
+send_text=Jason+%E8%AC%9D%E8%AC%9D%E4%BD%A0&pushText=%E7%99%BC%E9%80%81%E5%85%AC%E5%91%8A
+{"to":"U1ddc6f73c2cad9824edfcd1c1b879bd3","messages":[{"type":"text","text":"\u516c\u544a\uff1aJason \u8b1d\u8b1d\u4f60"}]}
+{}
+
+-------------------------------------------------
+SQL:U550d8023617ed0da10e2ac61503df0d3
+send_text=Jason+%E8%AC%9D%E8%AC%9D%E4%BD%A0&pushText=%E7%99%BC%E9%80%81%E5%85%AC%E5%91%8A
+{"to":"U550d8023617ed0da10e2ac61503df0d3","messages":[{"type":"text","text":"\u516c\u544a\uff1aJason \u8b1d\u8b1d\u4f60"}]}
+{}
+
+-------------------------------------------------
+SQL:Uafca7d784e7f713c8c4b4487b9e6d8af
+send_text=Jason+%E8%AC%9D%E8%AC%9D%E4%BD%A0&pushText=%E7%99%BC%E9%80%81%E5%85%AC%E5%91%8A
+{"to":"Uafca7d784e7f713c8c4b4487b9e6d8af","messages":[{"type":"text","text":"\u516c\u544a\uff1aJason \u8b1d\u8b1d\u4f60"}]}
+{}
+
+-------------------------------------------------
+SQL:Ue4cad86c9b6654b8e846003d733d2147
+send_text=Jason+%E8%AC%9D%E8%AC%9D%E4%BD%A0&pushText=%E7%99%BC%E9%80%81%E5%85%AC%E5%91%8A
+{"to":"Ue4cad86c9b6654b8e846003d733d2147","messages":[{"type":"text","text":"\u516c\u544a\uff1aJason \u8b1d\u8b1d\u4f60"}]}
+{}
+
+-------------------------------------------------
+=================================================
+IP:211.76.247.2
+發送訊息：Jason：不會xDDD
+-------------------------------------------------
+SQL:U1ddc6f73c2cad9824edfcd1c1b879bd3
+send_text=Jason%EF%BC%9A%E4%B8%8D%E6%9C%83xDDD&pushText=%E7%99%BC%E9%80%81%E5%85%AC%E5%91%8A
+{"to":"U1ddc6f73c2cad9824edfcd1c1b879bd3","messages":[{"type":"text","text":"\u516c\u544a\uff1aJason\uff1a\u4e0d\u6703xDDD"}]}
+{}
+
+-------------------------------------------------
+SQL:U550d8023617ed0da10e2ac61503df0d3
+send_text=Jason%EF%BC%9A%E4%B8%8D%E6%9C%83xDDD&pushText=%E7%99%BC%E9%80%81%E5%85%AC%E5%91%8A
+{"to":"U550d8023617ed0da10e2ac61503df0d3","messages":[{"type":"text","text":"\u516c\u544a\uff1aJason\uff1a\u4e0d\u6703xDDD"}]}
+{}
+
+-------------------------------------------------
+SQL:Uafca7d784e7f713c8c4b4487b9e6d8af
+send_text=Jason%EF%BC%9A%E4%B8%8D%E6%9C%83xDDD&pushText=%E7%99%BC%E9%80%81%E5%85%AC%E5%91%8A
+{"to":"Uafca7d784e7f713c8c4b4487b9e6d8af","messages":[{"type":"text","text":"\u516c\u544a\uff1aJason\uff1a\u4e0d\u6703xDDD"}]}
+{}
+
+-------------------------------------------------
+SQL:Ue4cad86c9b6654b8e846003d733d2147
+send_text=Jason%EF%BC%9A%E4%B8%8D%E6%9C%83xDDD&pushText=%E7%99%BC%E9%80%81%E5%85%AC%E5%91%8A
+{"to":"Ue4cad86c9b6654b8e846003d733d2147","messages":[{"type":"text","text":"\u516c\u544a\uff1aJason\uff1a\u4e0d\u6703xDDD"}]}
+{}
+
+-------------------------------------------------

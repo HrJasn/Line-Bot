@@ -12,6 +12,11 @@ if(!empty($_SERVER['HTTP_CLIENT_IP'])){
    $myip = $_SERVER['REMOTE_ADDR'];
 }
 
+include("db_include.php");
+$db = mysqli_connect($DB_Server,$DB_User,$DB_Passwd);
+mysqli_select_db($db,"line");
+mysqli_query($db,"SET NAMES 'utf8'");
+
 $file = fopen("C:\\web\\Line_log\\Line_Push_log.txt", "a+");
 $send_text = $_POST['send_text'];
 $send_string = urldecode($send_text);
@@ -19,15 +24,17 @@ fwrite($file, "=================================================\n");
 fwrite($file, "IP:".$myip."\n");
 fwrite($file, "發送訊息：".$send_string."\n");
 fwrite($file, "-------------------------------------------------\n");
+
+$db_res = mysqli_query($db,"SELECT UserID FROM users");
+
+while($row=mysqli_fetch_array($db_res,MYSQLI_NUM)) {
+	fwrite($file, "SQL:".$row[0]."\n");
+	push($row[0]);
+}
+
+mysqli_free_result($db_res);
 fclose($file);
-
-push('U1ddc6f73c2cad9824edfcd1c1b879bd3'); //HrJasn
-
-// push('U550d8023617ed0da10e2ac61503df0d3'); //楊先生
-
-// push('Ue4cad86c9b6654b8e846003d733d2147');
-
-// push('Uafca7d784e7f713c8c4b4487b9e6d8af'); //陳老闆
+mysqli_close($db);
 
 }
 
@@ -81,7 +88,7 @@ curl_close($ch);
 <head>
 
 <meta charset="utf8">
-<title>Sunwell測試用Line-API</title>
+<title>多啦A夢Line-API</title>
 <meta http-equiv="Pragma" content="private" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta http-equiv="Cache-Control" content="private, max-age=600, pre-check=600" />

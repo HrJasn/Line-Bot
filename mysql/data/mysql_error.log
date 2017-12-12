@@ -142,3 +142,61 @@ Version: '10.1.28-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribut
 2017-12-12  9:00:43 4100 [Note] InnoDB: Shutdown completed; log sequence number 1870211
 2017-12-12  9:00:43 4100 [Note] C:\web\mysql\bin\mysqld.exe: Shutdown complete
 
+2017-12-12 09:01:08 34c InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2017-12-12  9:01:08 844 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2017-12-12  9:01:08 844 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2017-12-12  9:01:08 844 [Note] InnoDB: The InnoDB memory heap is disabled
+2017-12-12  9:01:08 844 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2017-12-12  9:01:08 844 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2017-12-12  9:01:08 844 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2017-12-12  9:01:08 844 [Note] InnoDB: Using generic crc32 instructions
+2017-12-12  9:01:08 844 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2017-12-12  9:01:08 844 [Note] InnoDB: Completed initialization of buffer pool
+2017-12-12  9:01:08 844 [Note] InnoDB: Highest supported file format is Barracuda.
+2017-12-12  9:01:09 844 [Note] InnoDB: 128 rollback segment(s) are active.
+2017-12-12  9:01:09 844 [Note] InnoDB: Waiting for purge to start
+2017-12-12  9:01:09 844 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.36-82.2 started; log sequence number 1870211
+2017-12-12  9:01:09 7260 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2017-12-12  9:01:09 844 [Note] Plugin 'FEEDBACK' is disabled.
+2017-12-12  9:01:09 844 [Note] Server socket created on IP: '::'.
+2017-12-12  9:01:09 844 [Note] C:\web\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.28-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2017-12-12 13:59:45 6852 [Note] C:\web\mysql\bin\mysqld.exe: Normal shutdown
+
+2017-12-12 13:59:45 6852 [Note] Event Scheduler: Purging the queue. 0 events
+2017-12-12 13:59:45 3084 [Note] InnoDB: FTS optimize thread exiting.
+2017-12-12 13:59:45 6852 [Note] InnoDB: Starting shutdown...
+2017-12-12 13:59:45 6852 [Note] InnoDB: Waiting for page_cleaner to finish flushing of buffer pool
+2017-12-12 13:59:47 6852 [Note] InnoDB: Shutdown completed; log sequence number 1876098
+2017-12-12 13:59:47 6852 [Note] C:\web\mysql\bin\mysqld.exe: Shutdown complete
+
+2017-12-12 13:59:52 2168 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2017-12-12 13:59:52 8552 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2017-12-12 13:59:52 8552 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2017-12-12 13:59:52 8552 [Note] InnoDB: The InnoDB memory heap is disabled
+2017-12-12 13:59:52 8552 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2017-12-12 13:59:52 8552 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2017-12-12 13:59:52 8552 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2017-12-12 13:59:52 8552 [Note] InnoDB: Using generic crc32 instructions
+2017-12-12 13:59:52 8552 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2017-12-12 13:59:52 8552 [Note] InnoDB: Completed initialization of buffer pool
+2017-12-12 13:59:52 8552 [Note] InnoDB: Highest supported file format is Barracuda.
+2017-12-12 13:59:52 8552 [Note] InnoDB: 128 rollback segment(s) are active.
+2017-12-12 13:59:52 8552 [Note] InnoDB: Waiting for purge to start
+2017-12-12 13:59:52 8552 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.36-82.2 started; log sequence number 1876098
+2017-12-12 13:59:52 7084 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2017-12-12 13:59:52 8552 [Note] Plugin 'FEEDBACK' is disabled.
+2017-12-12 13:59:52 8552 [Note] Server socket created on IP: '::'.
+2017-12-12 13:59:53 8552 [Note] C:\web\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.28-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2017-12-12 14:00:01 9024 [Note] C:\web\mysql\bin\mysqld.exe: Normal shutdown
+
+2017-12-12 14:00:01 9024 [Note] Event Scheduler: Purging the queue. 0 events
+2017-12-12 14:00:01 8908 [Note] InnoDB: FTS optimize thread exiting.
+2017-12-12 14:00:01 9024 [Note] InnoDB: Starting shutdown...
+2017-12-12 14:00:02 9024 [Note] InnoDB: Waiting for page_cleaner to finish flushing of buffer pool
+2017-12-12 14:00:04 9024 [Note] InnoDB: Shutdown completed; log sequence number 1876108
+2017-12-12 14:00:04 9024 [Note] C:\web\mysql\bin\mysqld.exe: Shutdown complete
+
