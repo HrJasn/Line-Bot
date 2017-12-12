@@ -3,12 +3,9 @@
 error_reporting(0);
 
 include("db_include.php");
-
 $db = mysqli_connect($DB_Server,$DB_User,$DB_Passwd);
-
-
 mysqli_select_db($db,"line");
-//mysql_query("SET NAMES 'utf8'");
+mysqli_query($db,"SET NAMES 'utf8'");
 
 if(!empty($_SERVER['HTTP_CLIENT_IP'])){
    $myip = $_SERVER['HTTP_CLIENT_IP'];

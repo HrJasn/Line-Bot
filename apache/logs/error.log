@@ -152,3 +152,11 @@
 [Mon Dec 11 21:12:55.125443 2017] [mpm_winnt:notice] [pid 7308:tid 300] AH00422: Parent: Received shutdown signal -- Shutting down the server.
 [Mon Dec 11 21:12:57.125446 2017] [mpm_winnt:notice] [pid 5168:tid 184] AH00364: Child: All worker threads have exited.
 [Mon Dec 11 21:12:57.155446 2017] [mpm_winnt:notice] [pid 7308:tid 300] AH00430: Parent: Child process 5168 exited successfully.
+[Tue Dec 12 08:44:03.543242 2017] [mpm_winnt:notice] [pid 4388:tid 300] AH00455: Apache/2.4.29 (Win32) OpenSSL/1.0.2l PHP/7.1.11 configured -- resuming normal operations
+[Tue Dec 12 08:44:03.543242 2017] [mpm_winnt:notice] [pid 4388:tid 300] AH00456: Apache Lounge VC14 Server built: Oct 22 2017 11:52:30
+[Tue Dec 12 08:44:03.543242 2017] [core:notice] [pid 4388:tid 300] AH00094: Command line: 'C:\\web\\apache\\bin\\httpd.exe -d C:/web/apache'
+[Tue Dec 12 08:44:03.543242 2017] [mpm_winnt:notice] [pid 4388:tid 300] AH00418: Parent: Created child process 6712
+[Tue Dec 12 08:44:04.158243 2017] [mpm_winnt:notice] [pid 6712:tid 184] AH00354: Child: Starting 150 worker threads.
+[Tue Dec 12 09:00:39.761798 2017] [mpm_winnt:notice] [pid 4388:tid 300] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Dec 12 09:00:41.761801 2017] [mpm_winnt:notice] [pid 6712:tid 184] AH00364: Child: All worker threads have exited.
+[Tue Dec 12 09:00:41.796801 2017] [mpm_winnt:notice] [pid 4388:tid 300] AH00430: Parent: Child process 6712 exited successfully.
