@@ -2,19 +2,6 @@
 
 error_reporting(0);
 
-include("db_include.php");
-$db = mysqli_connect($DB_Server,$DB_User,$DB_Passwd);
-mysqli_select_db($db,"line");
-mysqli_query($db,"SET NAMES 'utf8'");
-
-if(!empty($_SERVER['HTTP_CLIENT_IP'])){
-   $myip = $_SERVER['HTTP_CLIENT_IP'];
-}else if(!empty($_SERVER['HTTP_X_FORWARDED_FOR'])){
-   $myip = $_SERVER['HTTP_X_FORWARDED_FOR'];
-}else{
-   $myip = $_SERVER['REMOTE_ADDR'];
-}
-
 /* 輸入申請的Line Developers 資料  */
 	$channel_id = "1549672834";
 	$channel_secret = "3f330e05765e49b96f1a25a787252779";
@@ -43,8 +30,84 @@ if(!empty($_SERVER['HTTP_CLIENT_IP'])){
 // 		  }
 // 	  ]
 // 	}
+
+if( !get_magic_quotes_gpc() )
+{
+    if( is_array($_GET) )
+    {
+        while( list($k, $v) = each($_GET) )
+        {
+            if( is_array($_GET[$k]) )
+            {
+                while( list($k2, $v2) = each($_GET[$k]) )
+                {
+                    $_GET[$k][$k2] = addslashes($v2);
+                }
+                @reset($_GET[$k]);
+            }
+            else
+            {
+                $_GET[$k] = addslashes($v);
+            }
+        }
+        @reset($_GET);
+    }
+ 
+    if( is_array($_POST) )
+    {
+        while( list($k, $v) = each($_POST) )
+        {
+            if( is_array($_POST[$k]) )
+            {
+                while( list($k2, $v2) = each($_POST[$k]) )
+                {
+                    $_POST[$k][$k2] = addslashes($v2);
+                }
+                @reset($_POST[$k]);
+            }
+            else
+            {
+                $_POST[$k] = addslashes($v);
+            }
+        }
+        @reset($_POST);
+    }
+ 
+    if( is_array($_COOKIE) )
+    {
+        while( list($k, $v) = each($_COOKIE) )
+        {
+            if( is_array($_COOKIE[$k]) )
+            {
+                while( list($k2, $v2) = each($_COOKIE[$k]) )
+                {
+                    $_COOKIE[$k][$k2] = addslashes($v2);
+                }
+                @reset($_COOKIE[$k]);
+            }
+            else
+            {
+                $_COOKIE[$k] = addslashes($v);
+            }
+        }
+        @reset($_COOKIE);
+    }
+}
 	 
-	 
+if(!empty(file_get_contents("php://input"))){ 
+	include("db_include.php");
+	$db = mysqli_connect($DB_Server,$DB_User,$DB_Passwd);
+	mysqli_select_db($db,"line");
+	mysqli_query($db,"SET NAMES 'utf8'");
+
+	if(!empty($_SERVER['HTTP_CLIENT_IP'])){
+	   $myip = $_SERVER['HTTP_CLIENT_IP'];
+	}else if(!empty($_SERVER['HTTP_X_FORWARDED_FOR'])){
+	   $myip = $_SERVER['HTTP_X_FORWARDED_FOR'];
+	}else{
+	   $myip = $_SERVER['REMOTE_ADDR'];
+	}
+
 	// 將收到的資料整理至變數
 	$receive = json_decode(file_get_contents("php://input"));
 	
@@ -81,13 +144,17 @@ if(!empty($_SERVER['HTTP_CLIENT_IP'])){
 	
 	// 回覆訊息
 	reply($content_type, $text);
+	
+//$text = mysqli_real_escape_string($db,$text);
 
 mysqli_query($db,"INSERT INTO receive (IP,Cnt_Type,Cnt_ID,Msg,MsgType,MsgText) 
 VALUES ('".$myip."','".$type."','".$from."','".file_get_contents("php://input")."','".$content_type."','".$text."')");
 mysqli_close($db);
-		
+
+}
+			
 header('Location: index.php');
-	
+
 function reply($content_type, $message) {
 	 
 	 	global $header, $from, $receive;
