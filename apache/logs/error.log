@@ -181,3 +181,23 @@
 [Tue Dec 12 14:00:28.906862 2017] [core:notice] [pid 9044:tid 300] AH00094: Command line: 'C:\\web\\apache\\bin\\httpd.exe -d C:/web/apache'
 [Tue Dec 12 14:00:28.911862 2017] [mpm_winnt:notice] [pid 9044:tid 300] AH00418: Parent: Created child process 5520
 [Tue Dec 12 14:00:29.521863 2017] [mpm_winnt:notice] [pid 5520:tid 184] AH00354: Child: Starting 150 worker threads.
+[Wed Dec 13 12:42:04.796617 2017] [mpm_winnt:notice] [pid 9044:tid 300] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Dec 13 12:42:06.796620 2017] [mpm_winnt:notice] [pid 5520:tid 184] AH00364: Child: All worker threads have exited.
+[Wed Dec 13 12:42:06.846620 2017] [mpm_winnt:notice] [pid 9044:tid 300] AH00430: Parent: Child process 5520 exited successfully.
+[Wed Dec 13 12:42:14.091630 2017] [mpm_winnt:notice] [pid 4884:tid 300] AH00455: Apache/2.4.29 (Win32) OpenSSL/1.0.2l PHP/7.1.11 configured -- resuming normal operations
+[Wed Dec 13 12:42:14.091630 2017] [mpm_winnt:notice] [pid 4884:tid 300] AH00456: Apache Lounge VC14 Server built: Oct 22 2017 11:52:30
+[Wed Dec 13 12:42:14.091630 2017] [core:notice] [pid 4884:tid 300] AH00094: Command line: 'C:\\web\\apache\\bin\\httpd.exe -d C:/web/apache'
+[Wed Dec 13 12:42:14.096630 2017] [mpm_winnt:notice] [pid 4884:tid 300] AH00418: Parent: Created child process 1768
+[Wed Dec 13 12:42:14.716631 2017] [mpm_winnt:notice] [pid 1768:tid 184] AH00354: Child: Starting 150 worker threads.
+[Wed Dec 13 12:44:23.619813 2017] [autoindex:error] [pid 1768:tid 1640] [client 211.76.247.2:56132] AH01276: Cannot serve directory C:/web/htdocs/upload/: No matching DirectoryIndex (index.php,index.pl,index.cgi,index.asp,index.shtml,index.html,index.htm,default.php,default.pl,default.cgi,default.asp,default.shtml,default.html,default.htm,home.php,home.pl,home.cgi,home.asp,home.shtml,home.html,home.htm) found, and server-generated directory index forbidden by Options directive
+[Wed Dec 13 19:50:11.233985 2017] [mpm_winnt:notice] [pid 4884:tid 300] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Dec 13 19:50:13.235001 2017] [mpm_winnt:notice] [pid 1768:tid 184] AH00364: Child: All worker threads have exited.
+[Wed Dec 13 19:50:13.245001 2017] [mpm_winnt:notice] [pid 4884:tid 300] AH00430: Parent: Child process 1768 exited successfully.
+[Wed Dec 13 19:58:16.314132 2017] [mpm_winnt:notice] [pid 7856:tid 300] AH00455: Apache/2.4.29 (Win32) OpenSSL/1.0.2l PHP/7.1.11 configured -- resuming normal operations
+[Wed Dec 13 19:58:16.314132 2017] [mpm_winnt:notice] [pid 7856:tid 300] AH00456: Apache Lounge VC14 Server built: Oct 22 2017 11:52:30
+[Wed Dec 13 19:58:16.314132 2017] [core:notice] [pid 7856:tid 300] AH00094: Command line: 'C:\\web\\apache\\bin\\httpd.exe -d C:/web/apache'
+[Wed Dec 13 19:58:16.314132 2017] [mpm_winnt:notice] [pid 7856:tid 300] AH00418: Parent: Created child process 3996
+[Wed Dec 13 19:58:16.924133 2017] [mpm_winnt:notice] [pid 3996:tid 184] AH00354: Child: Starting 150 worker threads.
+[Wed Dec 13 20:01:22.831745 2017] [mpm_winnt:notice] [pid 7856:tid 300] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Dec 13 20:01:24.831748 2017] [mpm_winnt:notice] [pid 3996:tid 184] AH00364: Child: All worker threads have exited.
+[Wed Dec 13 20:01:24.851748 2017] [mpm_winnt:notice] [pid 7856:tid 300] AH00430: Parent: Child process 3996 exited successfully.

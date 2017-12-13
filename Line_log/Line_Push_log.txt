@@ -104,3 +104,71 @@ send_text=Jason%EF%BC%9A%E4%B8%8D%E6%9C%83xDDD&pushText=%E7%99%BC%E9%80%81%E5%85
 {}
 
 -------------------------------------------------
+=================================================
+IP:192.168.74.254
+發送訊息：新版面落成 測試發送
+-------------------------------------------------
+SQL:
+send_text=%E6%96%B0%E7%89%88%E9%9D%A2%E8%90%BD%E6%88%90+%E6%B8%AC%E8%A9%A6%E7%99%BC%E9%80%81&pushText=%E7%99%BC%E9%80%81
+{"to":"","messages":[{"type":"text","text":"\u516c\u544a\uff1a\u65b0\u7248\u9762\u843d\u6210 \u6e2c\u8a66\u767c\u9001"}]}
+{"message":"The request body has 1 error(s)","details":[{"message":"May not be empty","property":"to"}]}
+
+-------------------------------------------------
+SQL:U1ddc6f73c2cad9824edfcd1c1b879bd3
+send_text=%E6%96%B0%E7%89%88%E9%9D%A2%E8%90%BD%E6%88%90+%E6%B8%AC%E8%A9%A6%E7%99%BC%E9%80%81&pushText=%E7%99%BC%E9%80%81
+{"to":"U1ddc6f73c2cad9824edfcd1c1b879bd3","messages":[{"type":"text","text":"\u516c\u544a\uff1a\u65b0\u7248\u9762\u843d\u6210 \u6e2c\u8a66\u767c\u9001"}]}
+{}
+
+-------------------------------------------------
+SQL:U550d8023617ed0da10e2ac61503df0d3
+send_text=%E6%96%B0%E7%89%88%E9%9D%A2%E8%90%BD%E6%88%90+%E6%B8%AC%E8%A9%A6%E7%99%BC%E9%80%81&pushText=%E7%99%BC%E9%80%81
+{"to":"U550d8023617ed0da10e2ac61503df0d3","messages":[{"type":"text","text":"\u516c\u544a\uff1a\u65b0\u7248\u9762\u843d\u6210 \u6e2c\u8a66\u767c\u9001"}]}
+{}
+
+-------------------------------------------------
+SQL:Uafca7d784e7f713c8c4b4487b9e6d8af
+send_text=%E6%96%B0%E7%89%88%E9%9D%A2%E8%90%BD%E6%88%90+%E6%B8%AC%E8%A9%A6%E7%99%BC%E9%80%81&pushText=%E7%99%BC%E9%80%81
+{"to":"Uafca7d784e7f713c8c4b4487b9e6d8af","messages":[{"type":"text","text":"\u516c\u544a\uff1a\u65b0\u7248\u9762\u843d\u6210 \u6e2c\u8a66\u767c\u9001"}]}
+{}
+
+-------------------------------------------------
+SQL:Ue4cad86c9b6654b8e846003d733d2147
+send_text=%E6%96%B0%E7%89%88%E9%9D%A2%E8%90%BD%E6%88%90+%E6%B8%AC%E8%A9%A6%E7%99%BC%E9%80%81&pushText=%E7%99%BC%E9%80%81
+{"to":"Ue4cad86c9b6654b8e846003d733d2147","messages":[{"type":"text","text":"\u516c\u544a\uff1a\u65b0\u7248\u9762\u843d\u6210 \u6e2c\u8a66\u767c\u9001"}]}
+{}
+
+-------------------------------------------------
+=================================================
+IP:123.194.49.249
+發送訊息：Even 試傳文字測試
+-------------------------------------------------
+SQL:
+send_text=Even+%E8%A9%A6%E5%82%B3%E6%96%87%E5%AD%97%E6%B8%AC%E8%A9%A6&pushText=%E7%99%BC%E9%80%81
+{"to":"","messages":[{"type":"text","text":"\u516c\u544a\uff1aEven \u8a66\u50b3\u6587\u5b57\u6e2c\u8a66"}]}
+{"message":"The request body has 1 error(s)","details":[{"message":"May not be empty","property":"to"}]}
+
+-------------------------------------------------
+SQL:U1ddc6f73c2cad9824edfcd1c1b879bd3
+send_text=Even+%E8%A9%A6%E5%82%B3%E6%96%87%E5%AD%97%E6%B8%AC%E8%A9%A6&pushText=%E7%99%BC%E9%80%81
+{"to":"U1ddc6f73c2cad9824edfcd1c1b879bd3","messages":[{"type":"text","text":"\u516c\u544a\uff1aEven \u8a66\u50b3\u6587\u5b57\u6e2c\u8a66"}]}
+{}
+
+-------------------------------------------------
+SQL:U550d8023617ed0da10e2ac61503df0d3
+send_text=Even+%E8%A9%A6%E5%82%B3%E6%96%87%E5%AD%97%E6%B8%AC%E8%A9%A6&pushText=%E7%99%BC%E9%80%81
+{"to":"U550d8023617ed0da10e2ac61503df0d3","messages":[{"type":"text","text":"\u516c\u544a\uff1aEven \u8a66\u50b3\u6587\u5b57\u6e2c\u8a66"}]}
+{}
+
+-------------------------------------------------
+SQL:Uafca7d784e7f713c8c4b4487b9e6d8af
+send_text=Even+%E8%A9%A6%E5%82%B3%E6%96%87%E5%AD%97%E6%B8%AC%E8%A9%A6&pushText=%E7%99%BC%E9%80%81
+{"to":"Uafca7d784e7f713c8c4b4487b9e6d8af","messages":[{"type":"text","text":"\u516c\u544a\uff1aEven \u8a66\u50b3\u6587\u5b57\u6e2c\u8a66"}]}
+{}
+
+-------------------------------------------------
+SQL:Ue4cad86c9b6654b8e846003d733d2147
+send_text=Even+%E8%A9%A6%E5%82%B3%E6%96%87%E5%AD%97%E6%B8%AC%E8%A9%A6&pushText=%E7%99%BC%E9%80%81
+{"to":"Ue4cad86c9b6654b8e846003d733d2147","messages":[{"type":"text","text":"\u516c\u544a\uff1aEven \u8a66\u50b3\u6587\u5b57\u6e2c\u8a66"}]}
+{}
+
+-------------------------------------------------
