@@ -31,71 +31,74 @@ error_reporting(0);
 // 	  ]
 // 	}
 
-if( !get_magic_quotes_gpc() )
-{
-    if( is_array($_GET) )
-    {
-        while( list($k, $v) = each($_GET) )
-        {
-            if( is_array($_GET[$k]) )
-            {
-                while( list($k2, $v2) = each($_GET[$k]) )
-                {
-                    $_GET[$k][$k2] = addslashes($v2);
-                }
-                @reset($_GET[$k]);
-            }
-            else
-            {
-                $_GET[$k] = addslashes($v);
-            }
-        }
-        @reset($_GET);
-    }
+// if( !get_magic_quotes_gpc() )
+// {
+    // if( is_array($_GET) )
+    // {
+        // while( list($k, $v) = each($_GET) )
+        // {
+            // if( is_array($_GET[$k]) )
+            // {
+                // while( list($k2, $v2) = each($_GET[$k]) )
+                // {
+                    // $_GET[$k][$k2] = addslashes($v2);
+                // }
+                // @reset($_GET[$k]);
+            // }
+            // else
+            // {
+                // $_GET[$k] = addslashes($v);
+            // }
+        // }
+        // @reset($_GET);
+    // }
  
-    if( is_array($_POST) )
-    {
-        while( list($k, $v) = each($_POST) )
-        {
-            if( is_array($_POST[$k]) )
-            {
-                while( list($k2, $v2) = each($_POST[$k]) )
-                {
-                    $_POST[$k][$k2] = addslashes($v2);
-                }
-                @reset($_POST[$k]);
-            }
-            else
-            {
-                $_POST[$k] = addslashes($v);
-            }
-        }
-        @reset($_POST);
-    }
+    // if( is_array($_POST) )
+    // {
+        // while( list($k, $v) = each($_POST) )
+        // {
+            // if( is_array($_POST[$k]) )
+            // {
+                // while( list($k2, $v2) = each($_POST[$k]) )
+                // {
+                    // $_POST[$k][$k2] = addslashes($v2);
+                // }
+                // @reset($_POST[$k]);
+            // }
+            // else
+            // {
+                // $_POST[$k] = addslashes($v);
+            // }
+        // }
+        // @reset($_POST);
+    // }
  
-    if( is_array($_COOKIE) )
-    {
-        while( list($k, $v) = each($_COOKIE) )
-        {
-            if( is_array($_COOKIE[$k]) )
-            {
-                while( list($k2, $v2) = each($_COOKIE[$k]) )
-                {
-                    $_COOKIE[$k][$k2] = addslashes($v2);
-                }
-                @reset($_COOKIE[$k]);
-            }
-            else
-            {
-                $_COOKIE[$k] = addslashes($v);
-            }
-        }
-        @reset($_COOKIE);
-    }
-}
+    // if( is_array($_COOKIE) )
+    // {
+        // while( list($k, $v) = each($_COOKIE) )
+        // {
+            // if( is_array($_COOKIE[$k]) )
+            // {
+                // while( list($k2, $v2) = each($_COOKIE[$k]) )
+                // {
+                    // $_COOKIE[$k][$k2] = addslashes($v2);
+                // }
+                // @reset($_COOKIE[$k]);
+            // }
+            // else
+            // {
+                // $_COOKIE[$k] = addslashes($v);
+            // }
+        // }
+        // @reset($_COOKIE);
+    // }
+// }
 	 
 if(!empty(file_get_contents("php://input"))){ 
+
 	include("db_include.php");
+	include("line.php");
+
 	$db = mysqli_connect($DB_Server,$DB_User,$DB_Passwd);
 	mysqli_select_db($db,"line");
 	mysqli_query($db,"SET NAMES 'utf8'");
@@ -147,109 +150,12 @@ if(!empty(file_get_contents("php://input"))){
 	
 //$text = mysqli_real_escape_string($db,$text);
 
-mysqli_query($db,"INSERT INTO receive (IP,Cnt_Type,Cnt_ID,Msg,MsgType,MsgText) 
-VALUES ('".$myip."','".$type."','".$from."','".file_get_contents("php://input")."','".$content_type."','".$text."')");
+mysqli_query($db,"INSERT INTO message (src,IP,Cnt_Type,Cnt_ID,Msg,MsgType,MsgText) 
+VALUES ('receive','".$myip."','".$type."','".$from."','".file_get_contents("php://input")."','".$content_type."','".$text."')");
 mysqli_close($db);
 
 }
 			
 header('Location: index.php');
-
-function reply($content_type, $message) {
-	 
-	 	global $header, $from, $receive;
-	 	
-		$url = "https://api.line.me/v2/bot/message/push";
-		
-		$data = ["to" => $from, "messages" => array(["type" => "text", "text" => $message])];
-		
-		switch($content_type) {
-		
-			case "text" :
-				$content_type = "文字訊息";
-				$data = ["to" => $from, "messages" => array(["type" => "text", "text" => $message])];
-				break;
-				
-			case "image" :
-				$content_type = "圖片訊息";
-				$message = getObjContent("jpeg");   // 讀取圖片內容
-				$data = ["to" => $from, "messages" => array(["type" => "image", "originalContentUrl" => $message, "previewImageUrl" => $message])];
-				break;
-				
-			case "video" :
-				$content_type = "影片訊息";
-				$message = getObjContent("mp4");   // 讀取影片內容
-				$data = ["to" => $from, "messages" => array(["type" => "video", "originalContentUrl" => $message, "previewImageUrl" => $message])];
-				break;
-				
-			case "audio" :
-				$content_type = "語音訊息";
-				$message = getObjContent("mp3");   // 讀取聲音內容
-				$data = ["to" => $from, "messages" => array(["type" => "audio", "originalContentUrl" => $message[0], "duration" => $message[1]])];
-				break;
-				
-			case "location" :
-				$content_type = "位置訊息";
-				$title = $receive->events[0]->message->title;
-				$address = $receive->events[0]->message->address;
-				$latitude = $receive->events[0]->message->latitude;
-				$longitude = $receive->events[0]->message->longitude;
-				$data = ["to" => $from, "messages" => array(["type" => "location", "title" => $title, "address" => $address, "latitude" => $latitude, "longitude" => $longitude])];
-				break;
-				
-			case "sticker" :
-				$content_type = "貼圖訊息";
-				$packageId = $receive->events[0]->message->packageId;
-				$stickerId = $receive->events[0]->message->stickerId;
-				$data = ["to" => $from, "messages" => array(["type" => "sticker", "packageId" => $packageId, "stickerId" => $stickerId])];
-				break;
-				
-			default:
-				$content_type = "未知訊息";
-				break;
-	   	}
-		
-		$context = stream_context_create(array(
-		"http" => array("method" => "POST", "header" => implode(PHP_EOL, $header), "content" => json_encode($data), "ignore_errors" => true)
-		));
-		file_get_contents($url, false, $context);
-}
-
-function getObjContent($filenameExtension){
-		
-	global $channel_access_token, $receive;
-	
-	$objID = $receive->events[0]->message->id;
-	$url = 'https://api.line.me/v2/bot/message/'.$objID.'/content';
-	$ch = curl_init($url);
-	curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-	curl_setopt($ch, CURLOPT_HTTPHEADER, array(
-		'Authorization: Bearer {' . $channel_access_token . '}',
-	));
-	
-	$json_content = curl_exec($ch);
-	curl_close($ch);
-
-	if (!$json_content) {
-		return false;
-	}
-	
-	$fileURL = './update/'.$objID.'.'.$filenameExtension;
-	$fp = fopen($fileURL, 'w');
-	fwrite($fp, $json_content);
-	fclose($fp);
-		
-	if ($filenameExtension=="mp3"){
-	    //使用getID3套件分析mp3資訊
-		require_once("getID3/getid3/getid3.php");
-		$getID3 = new getID3;
-		$fileData = $getID3->analyze($fileURL);
-		//$audioInfo = var_dump($fileData);
-		$playSec = floor($fileData["playtime_seconds"]);
-		$re = array($myURL.$objID.'.'.$filenameExtension, $playSec*1000);
-		return $re;
-	}
-	return $myURL.$objID.'.'.$filenameExtension;
-}
 
 ?>

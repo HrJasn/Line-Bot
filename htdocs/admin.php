@@ -1,87 +1,3 @@
-<?php
-
-error_reporting(0);
-
-if(!empty($_POST['send_text'])){
-
-if(!empty($_SERVER['HTTP_CLIENT_IP'])){
-   $myip = $_SERVER['HTTP_CLIENT_IP'];
-}else if(!empty($_SERVER['HTTP_X_FORWARDED_FOR'])){
-   $myip = $_SERVER['HTTP_X_FORWARDED_FOR'];
-}else{
-   $myip = $_SERVER['REMOTE_ADDR'];
-}
-
-include("db_include.php");
-$db = mysqli_connect($DB_Server,$DB_User,$DB_Passwd);
-mysqli_select_db($db,"line");
-mysqli_query($db,"SET NAMES 'utf8'");
-
-$file = fopen("C:\\web\\Line_log\\Line_Push_log.txt", "a+");
-$send_text = $_POST['send_text'];
-$send_string = urldecode($send_text);
-fwrite($file, "=================================================\n");
-fwrite($file, "IP:".$myip."\n");
-fwrite($file, "發送訊息：".$send_string."\n");
-fwrite($file, "-------------------------------------------------\n");
-
-$db_res = mysqli_query($db,"SELECT UserID FROM users");
-
-while($row=mysqli_fetch_array($db_res,MYSQLI_NUM)) {
-	fwrite($file, "SQL:".$row[0]."\n");
-	push($row[0]);
-}
-
-mysqli_free_result($db_res);
-fclose($file);
-mysqli_close($db);
-
-}
-
-function push($user_id){
-
-$send_text = $_POST['send_text'];
-
-$file = fopen("C:\\web\\Line_log\\Line_Push_log.txt", "a+");
-$json_string = file_get_contents('php://input');
-fwrite($file, $json_string."\n");
-
-$access_token = 'bxFwr3Y8HcIg2vkudiwGpjVy7bIXcJQqtH0fYIcaTyFD1TFIV3CC8SSDDNkFWql3dDuwpWUwjSV4SqnwEFNMkvkJixqkTajgOR/w9mziLCq0auUlLDOq2cbu42CLBaPG8Z9imBTsNX6A05Kq2cpOvAdB04t89/1O/w1cDnyilFU=';
-
-$response_format_text=[
-	"type"=>"text",
-	"text"=>"公告：".$send_text
-];
-
-$post_data=[
-	"to"=>$user_id,
-	"messages"=>[$response_format_text]
-];
-
-fwrite($file, json_encode($post_data)."\n");
-
-$ch = curl_init("https://api.line.me/v2/bot/message/push");
-curl_setopt($ch, CURLOPT_POST, true);
-curl_setopt($ch, CURLOPT_CUSTOMREQUEST, 'POST');
-curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
-curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
-curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($post_data));
-curl_setopt($ch, CURLOPT_HTTPHEADER, array(
-    'Content-Type: application/json',
-    'Authorization: Bearer '.$access_token
-    //'Authorization: Bearer '. TOKEN
-));
-$result = curl_exec($ch);
-fwrite($file, $result."\n\n");
-fwrite($file, "-------------------------------------------------\n");
-fclose($file);
-curl_close($ch);
-
-}
-
-?>
-
 <!DOCTYPE html>
 <html lang="zh-hans">
 
@@ -170,10 +86,56 @@ text-shadow: 0px 0px 2px #88CCFF;
 
 <div id="title">公告</div>
 <form id="post" action="admin.php" method="post">
-<input type="text" name="send_text"><input type="submit" name="pushText" value="發送">
-<script>document.getElementsByName("send_text")[0].focus();</script>
+	<input type="text" name="send_text"><input type="submit" name="pushText" value="發送">
+	<script>document.getElementsByName("send_text")[0].focus();</script>
 </form>
 
 </body>
 
 </html>
+
+<?php
+
+error_reporting(0);
+
+if(!empty($_POST['send_text'])){
+
+if(!empty($_SERVER['HTTP_CLIENT_IP'])){
+   $myip = $_SERVER['HTTP_CLIENT_IP'];
+}else if(!empty($_SERVER['HTTP_X_FORWARDED_FOR'])){
+   $myip = $_SERVER['HTTP_X_FORWARDED_FOR'];
+}else{
+   $myip = $_SERVER['REMOTE_ADDR'];
+}
+
+include("db_include.php");
+include("line.php");
+
+$db = mysqli_connect($DB_Server,$DB_User,$DB_Passwd);
+mysqli_select_db($db,"line");
+mysqli_query($db,"SET NAMES 'utf8'");
+
+$channel_id = "1549672834";
+$channel_secret = "3f330e05765e49b96f1a25a787252779";
+$channel_access_token = "bxFwr3Y8HcIg2vkudiwGpjVy7bIXcJQqtH0fYIcaTyFD1TFIV3CC8SSDDNkFWql3dDuwpWUwjSV4SqnwEFNMkvkJixqkTajgOR/w9mziLCq0auUlLDOq2cbu42CLBaPG8Z9imBTsNX6A05Kq2cpOvAdB04t89/1O/w1cDnyilFU=";
+
+$send_text = $_POST['send_text'];
+
+//UPDATE users SET `Sub` = 1 WHERE `UserID` != 'U1ddc6f73c2cad9824edfcd1c1b879bd3' 
+
+$db_res = mysqli_query($db,"SELECT UserID,Sub FROM users");
+
+while ($row=mysqli_fetch_array($db_res,MYSQLI_NUM)) {
+	if ($row[1]==1){
+		push($channel_access_token,$row[0],'text',$send_text);
+		mysqli_query($db,"INSERT INTO message (src,IP,Cnt_Type,Cnt_ID,Msg,MsgType,MsgText) 
+	VALUES ('send','".$myip."','user','".$row[0]."','".$data."','text','".$send_text."')");
+	}
+}
+
+mysqli_free_result($db_res);
+mysqli_close($db);
+
+}
+
+?>
