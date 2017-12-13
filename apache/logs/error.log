@@ -201,3 +201,21 @@
 [Wed Dec 13 20:01:22.831745 2017] [mpm_winnt:notice] [pid 7856:tid 300] AH00422: Parent: Received shutdown signal -- Shutting down the server.
 [Wed Dec 13 20:01:24.831748 2017] [mpm_winnt:notice] [pid 3996:tid 184] AH00364: Child: All worker threads have exited.
 [Wed Dec 13 20:01:24.851748 2017] [mpm_winnt:notice] [pid 7856:tid 300] AH00430: Parent: Child process 3996 exited successfully.
+[Wed Dec 13 20:03:31.995144 2017] [mpm_winnt:notice] [pid 6824:tid 300] AH00455: Apache/2.4.29 (Win32) OpenSSL/1.0.2l PHP/7.1.11 configured -- resuming normal operations
+[Wed Dec 13 20:03:31.995144 2017] [mpm_winnt:notice] [pid 6824:tid 300] AH00456: Apache Lounge VC14 Server built: Oct 22 2017 11:52:30
+[Wed Dec 13 20:03:31.995144 2017] [core:notice] [pid 6824:tid 300] AH00094: Command line: 'C:\\web\\apache\\bin\\httpd.exe -d C:/web/apache'
+[Wed Dec 13 20:03:31.995144 2017] [mpm_winnt:notice] [pid 6824:tid 300] AH00418: Parent: Created child process 2576
+[Wed Dec 13 20:03:32.605145 2017] [mpm_winnt:notice] [pid 2576:tid 184] AH00354: Child: Starting 150 worker threads.
+[Wed Dec 13 20:14:32.886796 2017] [php7:error] [pid 2576:tid 1632] [client 192.168.74.254:10369] script 'C:/web/htdocs/connect.php' not found or unable to stat, referer: https://hrjasn.asuscomm.com/login.php
+[Wed Dec 13 22:02:46.135819 2017] [php7:error] [pid 2576:tid 1640] [client 192.168.74.254:14186] script 'C:/web/htdocs/logout.php' not found or unable to stat, referer: https://hrjasn.asuscomm.com/admin.php
+[Wed Dec 13 22:44:17.894097 2017] [mpm_winnt:notice] [pid 6824:tid 300] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Dec 13 22:44:19.894100 2017] [mpm_winnt:notice] [pid 2576:tid 184] AH00364: Child: All worker threads have exited.
+[Wed Dec 13 22:44:20.074100 2017] [mpm_winnt:notice] [pid 6824:tid 300] AH00430: Parent: Child process 2576 exited successfully.
+[Wed Dec 13 22:44:24.564106 2017] [mpm_winnt:notice] [pid 1236:tid 300] AH00455: Apache/2.4.29 (Win32) OpenSSL/1.0.2l PHP/7.1.11 configured -- resuming normal operations
+[Wed Dec 13 22:44:24.564106 2017] [mpm_winnt:notice] [pid 1236:tid 300] AH00456: Apache Lounge VC14 Server built: Oct 22 2017 11:52:30
+[Wed Dec 13 22:44:24.564106 2017] [core:notice] [pid 1236:tid 300] AH00094: Command line: 'C:\\web\\apache\\bin\\httpd.exe -d C:/web/apache'
+[Wed Dec 13 22:44:24.564106 2017] [mpm_winnt:notice] [pid 1236:tid 300] AH00418: Parent: Created child process 4804
+[Wed Dec 13 22:44:25.154107 2017] [mpm_winnt:notice] [pid 4804:tid 184] AH00354: Child: Starting 150 worker threads.
+[Wed Dec 13 22:49:03.620347 2017] [mpm_winnt:notice] [pid 1236:tid 300] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Dec 13 22:49:05.624355 2017] [mpm_winnt:notice] [pid 4804:tid 184] AH00364: Child: All worker threads have exited.
+[Wed Dec 13 22:49:05.644355 2017] [mpm_winnt:notice] [pid 1236:tid 300] AH00430: Parent: Child process 4804 exited successfully.

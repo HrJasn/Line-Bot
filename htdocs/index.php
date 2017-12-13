@@ -1,3 +1,15 @@
+<?php
+
+	session_start();
+	
+	if($_SESSION["Account"] != null){		
+		$btx = '管理介面';
+	}else{
+		$btx = '前往登入';
+	}
+
+?>
+
 <!DOCTYPE html>
 <html lang="zh-hans">
 
@@ -28,13 +40,29 @@ line-height:50%;
 
 }
 
+#lgbt{
+
+width:360px;
+height:60px;
+font-size:30px;
+
+border:1px;
+background-color:#44FF44;
+color: #FFFFFF;
+text-shadow: 0px 0px 2px #FFFFFF;
+
+}
+
 </style>
 
 </head>
 
 <body>
 
-<div id="QR"><a href="https://line.me/R/ti/p/%40llt8759o"><img src="https://qr-official.line.me/L/AlEw7-Px4h.png"></a></div>
+<div id="QR">
+<a href="https://line.me/R/ti/p/%40llt8759o"><img src="https://qr-official.line.me/L/AlEw7-Px4h.png"></a>
+<div><input id="lgbt" type="button" value="<?php echo $btx;?>" onclick="location.href='login.php';" /></div>
+</div>
 
 </body>
 

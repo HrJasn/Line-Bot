@@ -150,9 +150,9 @@ if(!empty(file_get_contents("php://input"))){
 	
 //$text = mysqli_real_escape_string($db,$text);
 
-mysqli_query($db,"INSERT INTO message (src,IP,Cnt_Type,Cnt_ID,Msg,MsgType,MsgText) 
-VALUES ('receive','".$myip."','".$type."','".$from."','".file_get_contents("php://input")."','".$content_type."','".$text."')");
-mysqli_close($db);
+	mysqli_query($db,"INSERT INTO message (src,IP,Cnt_Type,Cnt_ID,Msg,MsgType,MsgText) 
+	VALUES ('receive','".$myip."','".$type."','".$from."','".file_get_contents("php://input")."','".$content_type."','".$text."')");
+	mysqli_close($db);
 
 }
 			
