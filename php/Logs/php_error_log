@@ -1,0 +1,16 @@
+[14-Dec-2017 02:12:29 Europe/Berlin] PHP Notice:  Undefined index: Account in C:\web\htdocs\index.php on line 5
+[14-Dec-2017 02:14:05 Europe/Berlin] PHP Notice:  Undefined index: Account in C:\web\htdocs\index.php on line 5
+[14-Dec-2017 02:14:07 Europe/Berlin] PHP Notice:  Undefined index: Account in C:\web\htdocs\login.php on line 5
+[14-Dec-2017 02:14:07 Europe/Berlin] PHP Notice:  Undefined index: Account in C:\web\htdocs\login.php on line 99
+[14-Dec-2017 02:14:53 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function session_register() in C:\web\htdocs\connect.php:4
+Stack trace:
+#0 {main}
+  thrown in C:\web\htdocs\connect.php on line 4
+[14-Dec-2017 02:15:22 Europe/Berlin] PHP Notice:  Undefined index: id in C:\web\htdocs\connect.php on line 6
+[14-Dec-2017 02:15:22 Europe/Berlin] PHP Notice:  Undefined index: pw in C:\web\htdocs\connect.php on line 7
+[14-Dec-2017 02:15:22 Europe/Berlin] PHP Notice:  Undefined index: Account in C:\web\htdocs\login.php on line 5
+[14-Dec-2017 02:15:35 Europe/Berlin] PHP Notice:  Undefined index: Account in C:\web\htdocs\index.php on line 5
+[14-Dec-2017 02:15:36 Europe/Berlin] PHP Notice:  Undefined index: Account in C:\web\htdocs\login.php on line 5
+[14-Dec-2017 02:16:07 Europe/Berlin] PHP Notice:  Undefined index: Account in C:\web\htdocs\index.php on line 5
+[14-Dec-2017 02:16:10 Europe/Berlin] PHP Notice:  Undefined index: Account in C:\web\htdocs\admin.php on line 5
+[14-Dec-2017 02:16:10 Europe/Berlin] PHP Notice:  Undefined index: Account in C:\web\htdocs\login.php on line 5

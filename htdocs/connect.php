@@ -1,4 +1,7 @@
-<?php 
+<?php
+
+	session_start();
+	//session_register('Account');
 	
 	$id = $_POST['id'];
 	$pw = $_POST['pw'];
@@ -19,14 +22,12 @@
 	echo '$row[2]:'.$row[2];
 	
 	if($id != null && $pw != null && $row[0] == $id && $row[1] == $pw && $row[2] == 'Admin')
-	{
-			session_start();
-			session_register('Account');
-			$_SESSION["Account"] = $row[0];
+	{			
+			$_SESSION["Account"] = $id;
 	}
 	
-	header('Location: login.php');
-	
 	mysqli_close($db);
+	
+	header('Location: login.php');
 
 ?>

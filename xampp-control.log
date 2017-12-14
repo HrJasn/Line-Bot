@@ -20,3 +20,690 @@
 下午 08:07:16  [main] 	Deinitializing Modules
 下午 08:07:16  [main] 	Deinitializing Control Panel
 
+下午 05:05:16  [main] 	Initializing Control Panel
+下午 05:05:16  [main] 	Windows Version: Windows 7 Ultimate SP1 64-bit
+下午 05:05:16  [main] 	XAMPP Version: 7.1.11
+下午 05:05:16  [main] 	Control Panel Version: 3.2.2  [ Compiled: Nov 12th 2015 ]
+下午 05:05:16  [main] 	Running with Administrator rights - good!
+下午 05:05:16  [main] 	XAMPP Installation Directory: "c:\web\"
+下午 05:05:16  [main] 	Checking for prerequisites
+下午 05:05:17  [main] 	All prerequisites found
+下午 05:05:17  [main] 	Initializing Modules
+下午 05:05:17  [Apache] 	XAMPP Apache Service is already running on port 80
+下午 05:05:17  [Apache] 	XAMPP Apache Service is already running on port 443
+下午 05:05:17  [mysql] 	XAMPP MySQL Service is already running on port 3306
+下午 05:05:17  [filezilla] 	XAMPP FileZilla Service is already running on port 21
+下午 05:05:17  [filezilla] 	XAMPP FileZilla Service is already running on port 14147
+下午 05:05:17  [main] 	Starting Check-Timer
+下午 05:05:17  [main] 	Control Panel Ready
+下午 07:31:23  [mysql] 	Attempting to stop MySQL service...
+下午 07:31:25  [mysql] 	Status change detected: stopped
+下午 07:31:45  [mysql] 	Attempting to start MySQL service...
+下午 07:31:46  [mysql] 	Status change detected: running
+下午 09:24:03  [mysql] 	Attempting to stop MySQL service...
+下午 09:24:06  [mysql] 	Status change detected: stopped
+下午 09:24:40  [mysql] 	Attempting to start MySQL service...
+下午 09:24:41  [mysql] 	Status change detected: running
+下午 11:01:43  [mysql] 	Attempting to stop MySQL service...
+下午 11:01:45  [mysql] 	Status change detected: stopped
+下午 11:02:11  [mysql] 	Attempting to start MySQL service...
+下午 11:02:12  [mysql] 	Status change detected: running
+下午 12:42:03  [mysql] 	Status change detected: stopped
+下午 12:42:03  [mysql] 	Error: MySQL shutdown unexpectedly.
+下午 12:42:03  [mysql] 	This may be due to a blocked port, missing dependencies, 
+下午 12:42:03  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+下午 12:42:03  [mysql] 	Press the Logs button to view error logs and check
+下午 12:42:03  [mysql] 	the Windows Event Viewer for more clues
+下午 12:42:03  [mysql] 	If you need more help, copy and post this
+下午 12:42:03  [mysql] 	entire log window on the forums
+下午 12:42:07  [Apache] 	Status change detected: stopped
+下午 12:42:07  [Apache] 	Error: Apache shutdown unexpectedly.
+下午 12:42:07  [Apache] 	This may be due to a blocked port, missing dependencies, 
+下午 12:42:07  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+下午 12:42:07  [Apache] 	Press the Logs button to view error logs and check
+下午 12:42:07  [Apache] 	the Windows Event Viewer for more clues
+下午 12:42:07  [Apache] 	If you need more help, copy and post this
+下午 12:42:07  [Apache] 	entire log window on the forums
+下午 12:42:10  [mysql] 	Status change detected: running
+下午 12:42:12  [Apache] 	Status change detected: running
+下午 07:50:11  [mysql] 	Status change detected: stopped
+下午 07:50:11  [mysql] 	Error: MySQL shutdown unexpectedly.
+下午 07:50:11  [mysql] 	This may be due to a blocked port, missing dependencies, 
+下午 07:50:11  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+下午 07:50:11  [mysql] 	Press the Logs button to view error logs and check
+下午 07:50:11  [mysql] 	the Windows Event Viewer for more clues
+下午 07:50:11  [mysql] 	If you need more help, copy and post this
+下午 07:50:11  [mysql] 	entire log window on the forums
+下午 07:50:13  [Apache] 	Status change detected: stopped
+下午 07:50:13  [Apache] 	Error: Apache shutdown unexpectedly.
+下午 07:50:13  [Apache] 	This may be due to a blocked port, missing dependencies, 
+下午 07:50:13  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+下午 07:50:13  [Apache] 	Press the Logs button to view error logs and check
+下午 07:50:13  [Apache] 	the Windows Event Viewer for more clues
+下午 07:50:13  [Apache] 	If you need more help, copy and post this
+下午 07:50:13  [Apache] 	entire log window on the forums
+下午 07:58:14  [mysql] 	Status change detected: running
+下午 07:58:16  [Apache] 	Status change detected: running
+下午 08:01:25  [Apache] 	Status change detected: stopped
+下午 08:01:25  [Apache] 	Error: Apache shutdown unexpectedly.
+下午 08:01:25  [Apache] 	This may be due to a blocked port, missing dependencies, 
+下午 08:01:25  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+下午 08:01:25  [Apache] 	Press the Logs button to view error logs and check
+下午 08:01:25  [Apache] 	the Windows Event Viewer for more clues
+下午 08:01:25  [Apache] 	If you need more help, copy and post this
+下午 08:01:25  [Apache] 	entire log window on the forums
+下午 08:01:28  [mysql] 	Status change detected: stopped
+下午 08:01:28  [mysql] 	Error: MySQL shutdown unexpectedly.
+下午 08:01:28  [mysql] 	This may be due to a blocked port, missing dependencies, 
+下午 08:01:28  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+下午 08:01:28  [mysql] 	Press the Logs button to view error logs and check
+下午 08:01:28  [mysql] 	the Windows Event Viewer for more clues
+下午 08:01:28  [mysql] 	If you need more help, copy and post this
+下午 08:01:28  [mysql] 	entire log window on the forums
+下午 08:03:32  [Apache] 	Status change detected: running
+下午 08:03:33  [mysql] 	Status change detected: running
+下午 10:44:18  [mysql] 	Status change detected: stopped
+下午 10:44:18  [mysql] 	Error: MySQL shutdown unexpectedly.
+下午 10:44:18  [mysql] 	This may be due to a blocked port, missing dependencies, 
+下午 10:44:18  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+下午 10:44:18  [mysql] 	Press the Logs button to view error logs and check
+下午 10:44:18  [mysql] 	the Windows Event Viewer for more clues
+下午 10:44:18  [mysql] 	If you need more help, copy and post this
+下午 10:44:18  [mysql] 	entire log window on the forums
+下午 10:44:20  [Apache] 	Status change detected: stopped
+下午 10:44:20  [Apache] 	Error: Apache shutdown unexpectedly.
+下午 10:44:20  [Apache] 	This may be due to a blocked port, missing dependencies, 
+下午 10:44:20  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+下午 10:44:20  [Apache] 	Press the Logs button to view error logs and check
+下午 10:44:20  [Apache] 	the Windows Event Viewer for more clues
+下午 10:44:20  [Apache] 	If you need more help, copy and post this
+下午 10:44:20  [Apache] 	entire log window on the forums
+下午 10:44:21  [mysql] 	Status change detected: running
+下午 10:44:24  [Apache] 	Status change detected: running
+下午 10:49:02  [mysql] 	Status change detected: stopped
+下午 10:49:02  [mysql] 	Error: MySQL shutdown unexpectedly.
+下午 10:49:02  [mysql] 	This may be due to a blocked port, missing dependencies, 
+下午 10:49:02  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+下午 10:49:02  [mysql] 	Press the Logs button to view error logs and check
+下午 10:49:02  [mysql] 	the Windows Event Viewer for more clues
+下午 10:49:02  [mysql] 	If you need more help, copy and post this
+下午 10:49:02  [mysql] 	entire log window on the forums
+下午 10:49:05  [Apache] 	Status change detected: stopped
+下午 10:49:05  [Apache] 	Error: Apache shutdown unexpectedly.
+下午 10:49:05  [Apache] 	This may be due to a blocked port, missing dependencies, 
+下午 10:49:05  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+下午 10:49:05  [Apache] 	Press the Logs button to view error logs and check
+下午 10:49:05  [Apache] 	the Windows Event Viewer for more clues
+下午 10:49:05  [Apache] 	If you need more help, copy and post this
+下午 10:49:05  [Apache] 	entire log window on the forums
+下午 10:49:26  [Apache] 	Status change detected: running
+下午 10:49:28  [mysql] 	Status change detected: running
+下午 10:49:59  [main] 	Deinitializing Modules
+下午 10:49:59  [main] 	Deinitializing Control Panel
+
+上午 08:43:47  [main] 	Initializing Control Panel
+上午 08:43:47  [main] 	Windows Version: Windows 7 Ultimate SP1 64-bit
+上午 08:43:47  [main] 	XAMPP Version: 7.1.11
+上午 08:43:47  [main] 	Control Panel Version: 3.2.2  [ Compiled: Nov 12th 2015 ]
+上午 08:43:47  [main] 	Running with Administrator rights - good!
+上午 08:43:47  [main] 	XAMPP Installation Directory: "c:\web\"
+上午 08:43:47  [main] 	Checking for prerequisites
+上午 08:43:47  [main] 	All prerequisites found
+上午 08:43:47  [main] 	Initializing Modules
+上午 08:43:47  [Apache] 	XAMPP Apache Service is already running on port 80
+上午 08:43:47  [Apache] 	XAMPP Apache Service is already running on port 443
+上午 08:43:47  [mysql] 	XAMPP MySQL Service is already running on port 3306
+上午 08:43:47  [filezilla] 	XAMPP FileZilla Service is already running on port 21
+上午 08:43:47  [filezilla] 	XAMPP FileZilla Service is already running on port 14147
+上午 08:43:47  [main] 	Starting Check-Timer
+上午 08:43:47  [main] 	Control Panel Ready
+上午 08:43:51  [Apache] 	Attempting to stop Apache service...
+上午 08:43:54  [Apache] 	Status change detected: stopped
+上午 08:43:55  [mysql] 	Attempting to stop MySQL service...
+上午 08:43:57  [mysql] 	Status change detected: stopped
+上午 08:43:59  [mysql] 	Attempting to start MySQL service...
+上午 08:44:00  [mysql] 	Status change detected: running
+上午 08:44:02  [Apache] 	Attempting to start Apache service...
+上午 08:44:03  [Apache] 	Status change detected: running
+上午 09:00:39  [Apache] 	Attempting to stop Apache service...
+上午 09:00:41  [mysql] 	Attempting to stop MySQL service...
+上午 09:00:42  [Apache] 	Status change detected: stopped
+上午 09:00:43  [mysql] 	Status change detected: stopped
+上午 09:01:07  [Apache] 	Attempting to start Apache service...
+上午 09:01:07  [Apache] 	Status change detected: running
+上午 09:01:08  [mysql] 	Attempting to start MySQL service...
+上午 09:01:09  [mysql] 	Status change detected: running
+下午 01:59:43  [Apache] 	Attempting to stop Apache service...
+下午 01:59:45  [mysql] 	Attempting to stop MySQL service...
+下午 01:59:46  [Apache] 	Status change detected: stopped
+下午 01:59:47  [mysql] 	Status change detected: stopped
+下午 01:59:50  [mysql] 	Attempting to start MySQL service...
+下午 01:59:52  [mysql] 	Status change detected: running
+下午 01:59:53  [Apache] 	Attempting to start Apache service...
+下午 01:59:53  [Apache] 	Status change detected: running
+下午 02:00:01  [mysql] 	Attempting to stop MySQL service...
+下午 02:00:03  [Apache] 	Attempting to stop Apache service...
+下午 02:00:04  [mysql] 	Status change detected: stopped
+下午 02:00:06  [Apache] 	Status change detected: stopped
+下午 02:00:28  [Apache] 	Attempting to start Apache service...
+下午 02:00:28  [Apache] 	Status change detected: running
+下午 02:00:30  [mysql] 	Attempting to start MySQL service...
+下午 02:00:30  [mysql] 	Status change detected: running
+下午 07:31:25  [mysql] 	Status change detected: stopped
+下午 07:31:25  [mysql] 	Error: MySQL shutdown unexpectedly.
+下午 07:31:25  [mysql] 	This may be due to a blocked port, missing dependencies, 
+下午 07:31:25  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+下午 07:31:25  [mysql] 	Press the Logs button to view error logs and check
+下午 07:31:25  [mysql] 	the Windows Event Viewer for more clues
+下午 07:31:25  [mysql] 	If you need more help, copy and post this
+下午 07:31:25  [mysql] 	entire log window on the forums
+下午 07:31:46  [mysql] 	Status change detected: running
+下午 09:24:06  [mysql] 	Status change detected: stopped
+下午 09:24:06  [mysql] 	Error: MySQL shutdown unexpectedly.
+下午 09:24:06  [mysql] 	This may be due to a blocked port, missing dependencies, 
+下午 09:24:06  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+下午 09:24:06  [mysql] 	Press the Logs button to view error logs and check
+下午 09:24:06  [mysql] 	the Windows Event Viewer for more clues
+下午 09:24:06  [mysql] 	If you need more help, copy and post this
+下午 09:24:06  [mysql] 	entire log window on the forums
+下午 09:24:41  [mysql] 	Status change detected: running
+下午 11:01:45  [mysql] 	Status change detected: stopped
+下午 11:01:45  [mysql] 	Error: MySQL shutdown unexpectedly.
+下午 11:01:45  [mysql] 	This may be due to a blocked port, missing dependencies, 
+下午 11:01:45  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+下午 11:01:45  [mysql] 	Press the Logs button to view error logs and check
+下午 11:01:45  [mysql] 	the Windows Event Viewer for more clues
+下午 11:01:45  [mysql] 	If you need more help, copy and post this
+下午 11:01:45  [mysql] 	entire log window on the forums
+下午 11:02:12  [mysql] 	Status change detected: running
+下午 12:42:03  [mysql] 	Status change detected: stopped
+下午 12:42:03  [mysql] 	Error: MySQL shutdown unexpectedly.
+下午 12:42:03  [mysql] 	This may be due to a blocked port, missing dependencies, 
+下午 12:42:03  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+下午 12:42:03  [mysql] 	Press the Logs button to view error logs and check
+下午 12:42:03  [mysql] 	the Windows Event Viewer for more clues
+下午 12:42:03  [mysql] 	If you need more help, copy and post this
+下午 12:42:03  [mysql] 	entire log window on the forums
+下午 12:42:07  [Apache] 	Status change detected: stopped
+下午 12:42:07  [Apache] 	Error: Apache shutdown unexpectedly.
+下午 12:42:07  [Apache] 	This may be due to a blocked port, missing dependencies, 
+下午 12:42:07  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+下午 12:42:07  [Apache] 	Press the Logs button to view error logs and check
+下午 12:42:07  [Apache] 	the Windows Event Viewer for more clues
+下午 12:42:07  [Apache] 	If you need more help, copy and post this
+下午 12:42:07  [Apache] 	entire log window on the forums
+下午 12:42:10  [mysql] 	Status change detected: running
+下午 12:42:12  [Apache] 	Status change detected: running
+下午 07:50:11  [mysql] 	Status change detected: stopped
+下午 07:50:11  [mysql] 	Error: MySQL shutdown unexpectedly.
+下午 07:50:11  [mysql] 	This may be due to a blocked port, missing dependencies, 
+下午 07:50:11  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+下午 07:50:11  [mysql] 	Press the Logs button to view error logs and check
+下午 07:50:11  [mysql] 	the Windows Event Viewer for more clues
+下午 07:50:11  [mysql] 	If you need more help, copy and post this
+下午 07:50:11  [mysql] 	entire log window on the forums
+下午 07:50:13  [Apache] 	Status change detected: stopped
+下午 07:50:13  [Apache] 	Error: Apache shutdown unexpectedly.
+下午 07:50:13  [Apache] 	This may be due to a blocked port, missing dependencies, 
+下午 07:50:13  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+下午 07:50:13  [Apache] 	Press the Logs button to view error logs and check
+下午 07:50:13  [Apache] 	the Windows Event Viewer for more clues
+下午 07:50:13  [Apache] 	If you need more help, copy and post this
+下午 07:50:13  [Apache] 	entire log window on the forums
+下午 07:58:14  [mysql] 	Status change detected: running
+下午 07:58:16  [Apache] 	Status change detected: running
+下午 08:01:25  [Apache] 	Status change detected: stopped
+下午 08:01:25  [Apache] 	Error: Apache shutdown unexpectedly.
+下午 08:01:25  [Apache] 	This may be due to a blocked port, missing dependencies, 
+下午 08:01:25  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+下午 08:01:25  [Apache] 	Press the Logs button to view error logs and check
+下午 08:01:25  [Apache] 	the Windows Event Viewer for more clues
+下午 08:01:25  [Apache] 	If you need more help, copy and post this
+下午 08:01:25  [Apache] 	entire log window on the forums
+下午 08:01:28  [mysql] 	Status change detected: stopped
+下午 08:01:28  [mysql] 	Error: MySQL shutdown unexpectedly.
+下午 08:01:28  [mysql] 	This may be due to a blocked port, missing dependencies, 
+下午 08:01:28  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+下午 08:01:28  [mysql] 	Press the Logs button to view error logs and check
+下午 08:01:28  [mysql] 	the Windows Event Viewer for more clues
+下午 08:01:28  [mysql] 	If you need more help, copy and post this
+下午 08:01:28  [mysql] 	entire log window on the forums
+下午 08:03:32  [Apache] 	Status change detected: running
+下午 08:03:33  [mysql] 	Status change detected: running
+下午 10:44:18  [mysql] 	Status change detected: stopped
+下午 10:44:18  [mysql] 	Error: MySQL shutdown unexpectedly.
+下午 10:44:18  [mysql] 	This may be due to a blocked port, missing dependencies, 
+下午 10:44:18  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+下午 10:44:18  [mysql] 	Press the Logs button to view error logs and check
+下午 10:44:18  [mysql] 	the Windows Event Viewer for more clues
+下午 10:44:18  [mysql] 	If you need more help, copy and post this
+下午 10:44:18  [mysql] 	entire log window on the forums
+下午 10:44:20  [Apache] 	Status change detected: stopped
+下午 10:44:20  [Apache] 	Error: Apache shutdown unexpectedly.
+下午 10:44:20  [Apache] 	This may be due to a blocked port, missing dependencies, 
+下午 10:44:20  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+下午 10:44:20  [Apache] 	Press the Logs button to view error logs and check
+下午 10:44:20  [Apache] 	the Windows Event Viewer for more clues
+下午 10:44:20  [Apache] 	If you need more help, copy and post this
+下午 10:44:20  [Apache] 	entire log window on the forums
+下午 10:44:21  [mysql] 	Status change detected: running
+下午 10:44:24  [Apache] 	Status change detected: running
+下午 10:49:02  [mysql] 	Status change detected: stopped
+下午 10:49:02  [mysql] 	Error: MySQL shutdown unexpectedly.
+下午 10:49:02  [mysql] 	This may be due to a blocked port, missing dependencies, 
+下午 10:49:02  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+下午 10:49:02  [mysql] 	Press the Logs button to view error logs and check
+下午 10:49:02  [mysql] 	the Windows Event Viewer for more clues
+下午 10:49:02  [mysql] 	If you need more help, copy and post this
+下午 10:49:02  [mysql] 	entire log window on the forums
+下午 10:49:05  [Apache] 	Status change detected: stopped
+下午 10:49:05  [Apache] 	Error: Apache shutdown unexpectedly.
+下午 10:49:05  [Apache] 	This may be due to a blocked port, missing dependencies, 
+下午 10:49:05  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+下午 10:49:05  [Apache] 	Press the Logs button to view error logs and check
+下午 10:49:05  [Apache] 	the Windows Event Viewer for more clues
+下午 10:49:05  [Apache] 	If you need more help, copy and post this
+下午 10:49:05  [Apache] 	entire log window on the forums
+下午 10:49:26  [Apache] 	Status change detected: running
+下午 10:49:28  [mysql] 	Status change detected: running
+下午 10:50:01  [main] 	Deinitializing Modules
+下午 10:50:01  [main] 	Deinitializing Control Panel
+
+上午 06:56:08  [main] 	Initializing Control Panel
+上午 06:56:08  [main] 	Windows Version: Windows 7 Ultimate SP1 64-bit
+上午 06:56:08  [main] 	XAMPP Version: 7.1.11
+上午 06:56:08  [main] 	Control Panel Version: 3.2.2  [ Compiled: Nov 12th 2015 ]
+上午 06:56:08  [main] 	Running with Administrator rights - good!
+上午 06:56:08  [main] 	XAMPP Installation Directory: "c:\web\"
+上午 06:56:08  [main] 	Checking for prerequisites
+上午 06:56:09  [main] 	All prerequisites found
+上午 06:56:09  [main] 	Initializing Modules
+上午 06:56:09  [Apache] 	XAMPP Apache Service is already running on port 80
+上午 06:56:09  [Apache] 	XAMPP Apache Service is already running on port 443
+上午 06:56:09  [mysql] 	XAMPP MySQL Service is already running on port 3306
+上午 06:56:09  [filezilla] 	XAMPP FileZilla Service is already running on port 21
+上午 06:56:09  [filezilla] 	XAMPP FileZilla Service is already running on port 14147
+上午 06:56:09  [main] 	Starting Check-Timer
+上午 06:56:09  [main] 	Control Panel Ready
+下午 12:42:01  [mysql] 	Attempting to stop MySQL service...
+下午 12:42:03  [mysql] 	Status change detected: stopped
+下午 12:42:04  [Apache] 	Attempting to stop Apache service...
+下午 12:42:07  [Apache] 	Status change detected: stopped
+下午 12:42:09  [mysql] 	Attempting to start MySQL service...
+下午 12:42:10  [mysql] 	Status change detected: running
+下午 12:42:11  [Apache] 	Attempting to start Apache service...
+下午 12:42:12  [Apache] 	Status change detected: running
+下午 07:50:09  [mysql] 	Attempting to stop MySQL service...
+下午 07:50:11  [Apache] 	Attempting to stop Apache service...
+下午 07:50:11  [mysql] 	Status change detected: stopped
+下午 07:50:13  [Apache] 	Status change detected: stopped
+下午 07:58:14  [mysql] 	Attempting to start MySQL service...
+下午 07:58:14  [mysql] 	Status change detected: running
+下午 07:58:15  [Apache] 	Attempting to start Apache service...
+下午 07:58:16  [Apache] 	Status change detected: running
+下午 08:01:22  [Apache] 	Attempting to stop Apache service...
+下午 08:01:25  [Apache] 	Status change detected: stopped
+下午 08:01:25  [mysql] 	Attempting to stop MySQL service...
+下午 08:01:28  [mysql] 	Status change detected: stopped
+下午 08:03:31  [Apache] 	Attempting to start Apache service...
+下午 08:03:31  [Apache] 	Status change detected: running
+下午 08:03:32  [mysql] 	Attempting to start MySQL service...
+下午 08:03:33  [mysql] 	Status change detected: running
+下午 10:44:16  [mysql] 	Attempting to stop MySQL service...
+下午 10:44:17  [Apache] 	Attempting to stop Apache service...
+下午 10:44:18  [mysql] 	Status change detected: stopped
+下午 10:44:20  [Apache] 	Status change detected: stopped
+下午 10:44:20  [mysql] 	Attempting to start MySQL service...
+下午 10:44:21  [mysql] 	Status change detected: running
+下午 10:44:23  [Apache] 	Attempting to start Apache service...
+下午 10:44:24  [Apache] 	Status change detected: running
+下午 10:49:02  [mysql] 	Status change detected: stopped
+下午 10:49:02  [mysql] 	Error: MySQL shutdown unexpectedly.
+下午 10:49:02  [mysql] 	This may be due to a blocked port, missing dependencies, 
+下午 10:49:02  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+下午 10:49:02  [mysql] 	Press the Logs button to view error logs and check
+下午 10:49:02  [mysql] 	the Windows Event Viewer for more clues
+下午 10:49:02  [mysql] 	If you need more help, copy and post this
+下午 10:49:02  [mysql] 	entire log window on the forums
+下午 10:49:05  [Apache] 	Status change detected: stopped
+下午 10:49:05  [Apache] 	Error: Apache shutdown unexpectedly.
+下午 10:49:05  [Apache] 	This may be due to a blocked port, missing dependencies, 
+下午 10:49:05  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+下午 10:49:05  [Apache] 	Press the Logs button to view error logs and check
+下午 10:49:05  [Apache] 	the Windows Event Viewer for more clues
+下午 10:49:05  [Apache] 	If you need more help, copy and post this
+下午 10:49:05  [Apache] 	entire log window on the forums
+下午 10:49:26  [Apache] 	Status change detected: running
+下午 10:49:28  [mysql] 	Status change detected: running
+下午 10:50:02  [main] 	Deinitializing Modules
+下午 10:50:02  [main] 	Deinitializing Control Panel
+
+下午 10:48:52  [main] 	Initializing Control Panel
+下午 10:48:52  [main] 	Windows Version: Windows 7 Ultimate SP1 64-bit
+下午 10:48:52  [main] 	XAMPP Version: 7.1.11
+下午 10:48:52  [main] 	Control Panel Version: 3.2.2  [ Compiled: Nov 12th 2015 ]
+下午 10:48:52  [main] 	Running with Administrator rights - good!
+下午 10:48:52  [main] 	XAMPP Installation Directory: "c:\web\"
+下午 10:48:52  [main] 	Checking for prerequisites
+下午 10:48:57  [main] 	All prerequisites found
+下午 10:48:57  [main] 	Initializing Modules
+下午 10:48:57  [Apache] 	XAMPP Apache Service is already running on port 80
+下午 10:48:57  [Apache] 	XAMPP Apache Service is already running on port 443
+下午 10:48:57  [mysql] 	XAMPP MySQL Service is already running on port 3306
+下午 10:48:57  [filezilla] 	XAMPP FileZilla Service is already running on port 21
+下午 10:48:57  [filezilla] 	XAMPP FileZilla Service is already running on port 14147
+下午 10:48:57  [main] 	Starting Check-Timer
+下午 10:48:57  [main] 	Control Panel Ready
+下午 10:49:00  [mysql] 	Attempting to stop MySQL service...
+下午 10:49:03  [mysql] 	Status change detected: stopped
+下午 10:49:03  [Apache] 	Attempting to stop Apache service...
+下午 10:49:06  [Apache] 	Status change detected: stopped
+下午 10:49:26  [Apache] 	Attempting to start Apache service...
+下午 10:49:26  [Apache] 	Status change detected: running
+下午 10:49:27  [mysql] 	Attempting to start MySQL service...
+下午 10:49:28  [mysql] 	Status change detected: running
+下午 10:50:03  [main] 	Deinitializing Modules
+下午 10:50:03  [main] 	Deinitializing Control Panel
+
+下午 08:19:37  [main] 	Initializing Control Panel
+下午 08:19:37  [main] 	Windows Version: Windows 7 Ultimate SP1 64-bit
+下午 08:19:37  [main] 	XAMPP Version: 7.1.11
+下午 08:19:37  [main] 	Control Panel Version: 3.2.2  [ Compiled: Nov 12th 2015 ]
+下午 08:19:37  [main] 	Running with Administrator rights - good!
+下午 08:19:37  [main] 	XAMPP Installation Directory: "c:\web\"
+下午 08:19:37  [main] 	Checking for prerequisites
+下午 08:19:37  [main] 	All prerequisites found
+下午 08:19:37  [main] 	Initializing Modules
+下午 08:19:37  [Apache] 	XAMPP Apache Service is already running on port 80
+下午 08:19:37  [Apache] 	XAMPP Apache Service is already running on port 443
+下午 08:19:37  [filezilla] 	XAMPP FileZilla Service is already running on port 21
+下午 08:19:37  [filezilla] 	XAMPP FileZilla Service is already running on port 14147
+下午 08:19:37  [main] 	Starting Check-Timer
+下午 08:19:37  [main] 	Control Panel Ready
+下午 08:19:41  [mysql] 	Attempting to start MySQL app...
+下午 08:19:44  [mysql] 	Status change detected: running
+下午 08:20:44  [main] 	Executing "c:\web\mysql"
+下午 08:21:20  [mysql] 	Attempting to stop MySQL app...
+下午 08:21:20  [mysql] 	Status change detected: stopped
+下午 08:21:21  [mysql] 	Attempting to start MySQL app...
+下午 08:21:21  [mysql] 	Status change detected: running
+下午 08:22:55  [mysql] 	Attempting to stop MySQL app...
+下午 08:22:56  [mysql] 	Status change detected: stopped
+下午 08:22:58  [Apache] 	Attempting to stop Apache service...
+下午 08:23:01  [Apache] 	Status change detected: stopped
+下午 08:23:02  [Apache] 	Attempting to start Apache service...
+下午 08:23:04  [Apache] 	Status change detected: running
+下午 08:23:09  [mysql] 	Attempting to start MySQL app...
+下午 08:23:09  [mysql] 	Status change detected: running
+下午 08:23:48  [mysql] 	Attempting to stop MySQL app...
+下午 08:23:49  [mysql] 	Status change detected: stopped
+下午 08:23:50  [mysql] 	Attempting to start MySQL app...
+下午 08:23:51  [mysql] 	Status change detected: running
+下午 08:23:54  [Apache] 	Attempting to stop Apache service...
+下午 08:23:56  [Apache] 	Status change detected: stopped
+下午 08:23:58  [Apache] 	Attempting to start Apache service...
+下午 08:23:59  [Apache] 	Status change detected: running
+下午 08:24:04  [mysql] 	Attempting to stop MySQL app...
+下午 08:24:04  [mysql] 	Status change detected: stopped
+下午 08:24:07  [mysql] 	Installing service...
+下午 08:24:07  [mysql] 	Successful!
+下午 08:24:10  [mysql] 	Attempting to start MySQL service...
+下午 08:24:11  [mysql] 	Status change detected: running
+下午 08:26:44  [Apache] 	Attempting to stop Apache service...
+下午 08:26:47  [Apache] 	Status change detected: stopped
+下午 08:26:47  [mysql] 	Attempting to stop MySQL service...
+下午 08:26:50  [mysql] 	Status change detected: stopped
+下午 08:26:54  [Apache] 	Attempting to start Apache service...
+下午 08:26:54  [Apache] 	Status change detected: running
+下午 08:26:55  [mysql] 	Attempting to start MySQL service...
+下午 08:26:56  [mysql] 	Status change detected: running
+下午 08:34:21  [mysql] 	Attempting to stop MySQL service...
+下午 08:34:23  [mysql] 	Status change detected: stopped
+下午 08:34:29  [mysql] 	Uninstalling service...
+下午 08:34:29  [mysql] 	Successful!
+下午 08:34:56  [Apache] 	Attempting to stop Apache service...
+下午 08:34:59  [Apache] 	Status change detected: stopped
+下午 08:36:22  [Apache] 	Attempting to start Apache service...
+下午 08:36:23  [Apache] 	Status change detected: running
+下午 09:03:50  [mysql] 	Installing service...
+下午 09:03:50  [mysql] 	Successful!
+下午 09:03:53  [mysql] 	Attempting to start MySQL service...
+下午 09:03:53  [mysql] 	Status change detected: running
+下午 09:04:41  [Apache] 	Attempting to stop Apache service...
+下午 09:04:44  [Apache] 	Status change detected: stopped
+下午 09:04:44  [mysql] 	Attempting to stop MySQL service...
+下午 09:04:46  [mysql] 	Status change detected: stopped
+下午 09:04:57  [Apache] 	Attempting to start Apache service...
+下午 09:04:58  [Apache] 	Status change detected: running
+下午 09:04:59  [mysql] 	Attempting to start MySQL service...
+下午 09:04:59  [mysql] 	Status change detected: running
+下午 09:10:38  [mysql] 	Attempting to stop MySQL service...
+下午 09:10:40  [Apache] 	Attempting to stop Apache service...
+下午 09:10:40  [mysql] 	Status change detected: stopped
+下午 09:10:41  [Apache] 	Attempting to stop Apache service...
+下午 09:10:42  [Apache] 	Status change detected: stopped
+下午 09:10:44  [Apache] 	Attempting to start Apache service...
+下午 09:10:44  [Apache] 	Status change detected: running
+下午 09:10:47  [mysql] 	Attempting to start MySQL service...
+下午 09:10:47  [mysql] 	Status change detected: running
+下午 09:12:55  [Apache] 	Attempting to stop Apache service...
+下午 09:12:57  [Apache] 	Status change detected: stopped
+下午 09:12:58  [mysql] 	Attempting to stop MySQL service...
+下午 09:13:00  [mysql] 	Status change detected: stopped
+下午 09:13:18  [Apache] 	Attempting to start Apache service...
+下午 09:13:19  [Apache] 	Status change detected: running
+下午 09:13:20  [mysql] 	Attempting to start MySQL service...
+下午 09:13:21  [mysql] 	Status change detected: running
+下午 09:50:31  [mysql] 	Attempting to stop MySQL service...
+下午 09:50:34  [mysql] 	Status change detected: stopped
+下午 09:50:35  [Apache] 	Attempting to stop Apache service...
+下午 09:50:37  [Apache] 	Status change detected: stopped
+下午 09:50:38  [mysql] 	Attempting to start MySQL service...
+下午 09:50:39  [mysql] 	Status change detected: running
+下午 09:50:41  [Apache] 	Attempting to start Apache service...
+下午 09:50:41  [Apache] 	Status change detected: running
+下午 10:07:11  [mysql] 	Attempting to stop MySQL service...
+下午 10:07:14  [mysql] 	Status change detected: stopped
+下午 10:07:15  [mysql] 	Attempting to start MySQL service...
+下午 10:07:15  [mysql] 	Status change detected: running
+下午 10:21:54  [mysql] 	Attempting to stop MySQL service...
+下午 10:21:55  [Apache] 	Attempting to stop Apache service...
+下午 10:21:56  [mysql] 	Status change detected: stopped
+下午 10:21:58  [Apache] 	Status change detected: stopped
+下午 10:21:59  [mysql] 	Attempting to start MySQL service...
+下午 10:22:00  [mysql] 	Status change detected: running
+下午 10:22:01  [Apache] 	Attempting to start Apache service...
+下午 10:22:02  [Apache] 	Status change detected: running
+下午 10:42:44  [main] 	Executing "c:\web\"
+上午 08:43:54  [Apache] 	Status change detected: stopped
+上午 08:43:54  [Apache] 	Error: Apache shutdown unexpectedly.
+上午 08:43:54  [Apache] 	This may be due to a blocked port, missing dependencies, 
+上午 08:43:54  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+上午 08:43:54  [Apache] 	Press the Logs button to view error logs and check
+上午 08:43:54  [Apache] 	the Windows Event Viewer for more clues
+上午 08:43:54  [Apache] 	If you need more help, copy and post this
+上午 08:43:54  [Apache] 	entire log window on the forums
+上午 08:43:58  [mysql] 	Status change detected: stopped
+上午 08:43:58  [mysql] 	Error: MySQL shutdown unexpectedly.
+上午 08:43:58  [mysql] 	This may be due to a blocked port, missing dependencies, 
+上午 08:43:58  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+上午 08:43:58  [mysql] 	Press the Logs button to view error logs and check
+上午 08:43:58  [mysql] 	the Windows Event Viewer for more clues
+上午 08:43:58  [mysql] 	If you need more help, copy and post this
+上午 08:43:58  [mysql] 	entire log window on the forums
+上午 08:44:00  [mysql] 	Status change detected: running
+上午 08:44:03  [Apache] 	Status change detected: running
+上午 09:00:41  [Apache] 	Status change detected: stopped
+上午 09:00:41  [Apache] 	Error: Apache shutdown unexpectedly.
+上午 09:00:41  [Apache] 	This may be due to a blocked port, missing dependencies, 
+上午 09:00:41  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+上午 09:00:41  [Apache] 	Press the Logs button to view error logs and check
+上午 09:00:41  [Apache] 	the Windows Event Viewer for more clues
+上午 09:00:41  [Apache] 	If you need more help, copy and post this
+上午 09:00:41  [Apache] 	entire log window on the forums
+上午 09:00:43  [mysql] 	Status change detected: stopped
+上午 09:00:43  [mysql] 	Error: MySQL shutdown unexpectedly.
+上午 09:00:43  [mysql] 	This may be due to a blocked port, missing dependencies, 
+上午 09:00:43  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+上午 09:00:43  [mysql] 	Press the Logs button to view error logs and check
+上午 09:00:43  [mysql] 	the Windows Event Viewer for more clues
+上午 09:00:43  [mysql] 	If you need more help, copy and post this
+上午 09:00:43  [mysql] 	entire log window on the forums
+上午 09:01:07  [Apache] 	Status change detected: running
+上午 09:01:08  [mysql] 	Status change detected: running
+下午 01:59:46  [Apache] 	Status change detected: stopped
+下午 01:59:46  [Apache] 	Error: Apache shutdown unexpectedly.
+下午 01:59:46  [Apache] 	This may be due to a blocked port, missing dependencies, 
+下午 01:59:46  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+下午 01:59:46  [Apache] 	Press the Logs button to view error logs and check
+下午 01:59:46  [Apache] 	the Windows Event Viewer for more clues
+下午 01:59:46  [Apache] 	If you need more help, copy and post this
+下午 01:59:46  [Apache] 	entire log window on the forums
+下午 01:59:47  [mysql] 	Status change detected: stopped
+下午 01:59:47  [mysql] 	Error: MySQL shutdown unexpectedly.
+下午 01:59:47  [mysql] 	This may be due to a blocked port, missing dependencies, 
+下午 01:59:47  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+下午 01:59:47  [mysql] 	Press the Logs button to view error logs and check
+下午 01:59:47  [mysql] 	the Windows Event Viewer for more clues
+下午 01:59:47  [mysql] 	If you need more help, copy and post this
+下午 01:59:47  [mysql] 	entire log window on the forums
+下午 01:59:52  [mysql] 	Status change detected: running
+下午 01:59:54  [Apache] 	Status change detected: running
+下午 02:00:04  [mysql] 	Status change detected: stopped
+下午 02:00:04  [mysql] 	Error: MySQL shutdown unexpectedly.
+下午 02:00:04  [mysql] 	This may be due to a blocked port, missing dependencies, 
+下午 02:00:04  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+下午 02:00:04  [mysql] 	Press the Logs button to view error logs and check
+下午 02:00:04  [mysql] 	the Windows Event Viewer for more clues
+下午 02:00:04  [mysql] 	If you need more help, copy and post this
+下午 02:00:04  [mysql] 	entire log window on the forums
+下午 02:00:06  [Apache] 	Status change detected: stopped
+下午 02:00:06  [Apache] 	Error: Apache shutdown unexpectedly.
+下午 02:00:06  [Apache] 	This may be due to a blocked port, missing dependencies, 
+下午 02:00:06  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+下午 02:00:06  [Apache] 	Press the Logs button to view error logs and check
+下午 02:00:06  [Apache] 	the Windows Event Viewer for more clues
+下午 02:00:06  [Apache] 	If you need more help, copy and post this
+下午 02:00:06  [Apache] 	entire log window on the forums
+下午 02:00:29  [Apache] 	Status change detected: running
+下午 02:00:30  [mysql] 	Status change detected: running
+下午 07:31:25  [mysql] 	Status change detected: stopped
+下午 07:31:25  [mysql] 	Error: MySQL shutdown unexpectedly.
+下午 07:31:25  [mysql] 	This may be due to a blocked port, missing dependencies, 
+下午 07:31:25  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+下午 07:31:25  [mysql] 	Press the Logs button to view error logs and check
+下午 07:31:25  [mysql] 	the Windows Event Viewer for more clues
+下午 07:31:25  [mysql] 	If you need more help, copy and post this
+下午 07:31:25  [mysql] 	entire log window on the forums
+下午 07:31:46  [mysql] 	Status change detected: running
+下午 09:24:06  [mysql] 	Status change detected: stopped
+下午 09:24:06  [mysql] 	Error: MySQL shutdown unexpectedly.
+下午 09:24:06  [mysql] 	This may be due to a blocked port, missing dependencies, 
+下午 09:24:06  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+下午 09:24:06  [mysql] 	Press the Logs button to view error logs and check
+下午 09:24:06  [mysql] 	the Windows Event Viewer for more clues
+下午 09:24:06  [mysql] 	If you need more help, copy and post this
+下午 09:24:06  [mysql] 	entire log window on the forums
+下午 09:24:41  [mysql] 	Status change detected: running
+下午 11:01:45  [mysql] 	Status change detected: stopped
+下午 11:01:45  [mysql] 	Error: MySQL shutdown unexpectedly.
+下午 11:01:45  [mysql] 	This may be due to a blocked port, missing dependencies, 
+下午 11:01:45  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+下午 11:01:45  [mysql] 	Press the Logs button to view error logs and check
+下午 11:01:45  [mysql] 	the Windows Event Viewer for more clues
+下午 11:01:45  [mysql] 	If you need more help, copy and post this
+下午 11:01:45  [mysql] 	entire log window on the forums
+下午 11:02:12  [mysql] 	Status change detected: running
+下午 12:42:03  [mysql] 	Status change detected: stopped
+下午 12:42:03  [mysql] 	Error: MySQL shutdown unexpectedly.
+下午 12:42:03  [mysql] 	This may be due to a blocked port, missing dependencies, 
+下午 12:42:03  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+下午 12:42:03  [mysql] 	Press the Logs button to view error logs and check
+下午 12:42:03  [mysql] 	the Windows Event Viewer for more clues
+下午 12:42:03  [mysql] 	If you need more help, copy and post this
+下午 12:42:03  [mysql] 	entire log window on the forums
+下午 12:42:07  [Apache] 	Status change detected: stopped
+下午 12:42:07  [Apache] 	Error: Apache shutdown unexpectedly.
+下午 12:42:07  [Apache] 	This may be due to a blocked port, missing dependencies, 
+下午 12:42:07  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+下午 12:42:07  [Apache] 	Press the Logs button to view error logs and check
+下午 12:42:07  [Apache] 	the Windows Event Viewer for more clues
+下午 12:42:07  [Apache] 	If you need more help, copy and post this
+下午 12:42:07  [Apache] 	entire log window on the forums
+下午 12:42:10  [mysql] 	Status change detected: running
+下午 12:42:12  [Apache] 	Status change detected: running
+下午 07:50:11  [mysql] 	Status change detected: stopped
+下午 07:50:11  [mysql] 	Error: MySQL shutdown unexpectedly.
+下午 07:50:11  [mysql] 	This may be due to a blocked port, missing dependencies, 
+下午 07:50:11  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+下午 07:50:11  [mysql] 	Press the Logs button to view error logs and check
+下午 07:50:11  [mysql] 	the Windows Event Viewer for more clues
+下午 07:50:11  [mysql] 	If you need more help, copy and post this
+下午 07:50:11  [mysql] 	entire log window on the forums
+下午 07:50:13  [Apache] 	Status change detected: stopped
+下午 07:50:13  [Apache] 	Error: Apache shutdown unexpectedly.
+下午 07:50:13  [Apache] 	This may be due to a blocked port, missing dependencies, 
+下午 07:50:13  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+下午 07:50:13  [Apache] 	Press the Logs button to view error logs and check
+下午 07:50:13  [Apache] 	the Windows Event Viewer for more clues
+下午 07:50:13  [Apache] 	If you need more help, copy and post this
+下午 07:50:13  [Apache] 	entire log window on the forums
+下午 07:58:14  [mysql] 	Status change detected: running
+下午 07:58:16  [Apache] 	Status change detected: running
+下午 08:01:25  [Apache] 	Status change detected: stopped
+下午 08:01:25  [Apache] 	Error: Apache shutdown unexpectedly.
+下午 08:01:25  [Apache] 	This may be due to a blocked port, missing dependencies, 
+下午 08:01:25  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+下午 08:01:25  [Apache] 	Press the Logs button to view error logs and check
+下午 08:01:25  [Apache] 	the Windows Event Viewer for more clues
+下午 08:01:25  [Apache] 	If you need more help, copy and post this
+下午 08:01:25  [Apache] 	entire log window on the forums
+下午 08:01:28  [mysql] 	Status change detected: stopped
+下午 08:01:28  [mysql] 	Error: MySQL shutdown unexpectedly.
+下午 08:01:28  [mysql] 	This may be due to a blocked port, missing dependencies, 
+下午 08:01:28  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+下午 08:01:28  [mysql] 	Press the Logs button to view error logs and check
+下午 08:01:28  [mysql] 	the Windows Event Viewer for more clues
+下午 08:01:28  [mysql] 	If you need more help, copy and post this
+下午 08:01:28  [mysql] 	entire log window on the forums
+下午 08:03:32  [Apache] 	Status change detected: running
+下午 08:03:33  [mysql] 	Status change detected: running
+下午 10:44:18  [mysql] 	Status change detected: stopped
+下午 10:44:18  [mysql] 	Error: MySQL shutdown unexpectedly.
+下午 10:44:18  [mysql] 	This may be due to a blocked port, missing dependencies, 
+下午 10:44:18  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+下午 10:44:18  [mysql] 	Press the Logs button to view error logs and check
+下午 10:44:18  [mysql] 	the Windows Event Viewer for more clues
+下午 10:44:18  [mysql] 	If you need more help, copy and post this
+下午 10:44:18  [mysql] 	entire log window on the forums
+下午 10:44:20  [Apache] 	Status change detected: stopped
+下午 10:44:20  [Apache] 	Error: Apache shutdown unexpectedly.
+下午 10:44:20  [Apache] 	This may be due to a blocked port, missing dependencies, 
+下午 10:44:20  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+下午 10:44:20  [Apache] 	Press the Logs button to view error logs and check
+下午 10:44:20  [Apache] 	the Windows Event Viewer for more clues
+下午 10:44:20  [Apache] 	If you need more help, copy and post this
+下午 10:44:20  [Apache] 	entire log window on the forums
+下午 10:44:21  [mysql] 	Status change detected: running
+下午 10:44:24  [Apache] 	Status change detected: running
+下午 10:49:02  [mysql] 	Status change detected: stopped
+下午 10:49:02  [mysql] 	Error: MySQL shutdown unexpectedly.
+下午 10:49:02  [mysql] 	This may be due to a blocked port, missing dependencies, 
+下午 10:49:02  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+下午 10:49:02  [mysql] 	Press the Logs button to view error logs and check
+下午 10:49:02  [mysql] 	the Windows Event Viewer for more clues
+下午 10:49:02  [mysql] 	If you need more help, copy and post this
+下午 10:49:02  [mysql] 	entire log window on the forums
+下午 10:49:05  [Apache] 	Status change detected: stopped
+下午 10:49:05  [Apache] 	Error: Apache shutdown unexpectedly.
+下午 10:49:05  [Apache] 	This may be due to a blocked port, missing dependencies, 
+下午 10:49:05  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+下午 10:49:05  [Apache] 	Press the Logs button to view error logs and check
+下午 10:49:05  [Apache] 	the Windows Event Viewer for more clues
+下午 10:49:05  [Apache] 	If you need more help, copy and post this
+下午 10:49:05  [Apache] 	entire log window on the forums
+下午 10:49:26  [Apache] 	Status change detected: running
+下午 10:49:28  [mysql] 	Status change detected: running
+下午 10:50:05  [main] 	Deinitializing Modules
+下午 10:50:05  [main] 	Deinitializing Control Panel
+

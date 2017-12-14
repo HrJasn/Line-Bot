@@ -3,7 +3,7 @@
 	session_start();
 	
 	if($_SESSION["Account"] != null){		
-		header('Location: admin.php');		
+		header('Location: admin.php');	
 	}
 
 ?>
@@ -93,12 +93,6 @@ text-shadow: 0px 0px 2px #88CCFF;
 </head>
 
 <body>
-
-<?php
-	
-	echo $_SESSION["Account"];
-
-?>
 
 	<form name="form" method="post" action="connect.php">
 

@@ -1,8 +1,8 @@
 <?php
 
-error_reporting(0);
-
 session_start();
+
+error_reporting(0);
 
 if($_SESSION["Account"] == null){
 	header('Location: login.php');
