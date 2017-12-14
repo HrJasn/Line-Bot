@@ -31,8 +31,6 @@ if(!empty($_POST['send_text'])){
 
 	$send_text = $_POST['send_text'];
 
-	//UPDATE users SET `Sub` = 1 WHERE `UserID` != 'U1ddc6f73c2cad9824edfcd1c1b879bd3' 
-
 	$db_res = mysqli_query($db,"SELECT UserID,Sub FROM users");
 
 	while ($row=mysqli_fetch_array($db_res,MYSQLI_NUM)) {

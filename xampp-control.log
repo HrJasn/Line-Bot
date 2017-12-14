@@ -707,3 +707,42 @@
 下午 10:50:05  [main] 	Deinitializing Modules
 下午 10:50:05  [main] 	Deinitializing Control Panel
 
+上午 07:02:19  [main] 	Initializing Control Panel
+上午 07:02:19  [main] 	Windows Version: Windows 7 Ultimate SP1 64-bit
+上午 07:02:19  [main] 	XAMPP Version: 7.1.11
+上午 07:02:19  [main] 	Control Panel Version: 3.2.2  [ Compiled: Nov 12th 2015 ]
+上午 07:02:19  [main] 	Running with Administrator rights - good!
+上午 07:02:19  [main] 	XAMPP Installation Directory: "c:\web\"
+上午 07:02:19  [main] 	Checking for prerequisites
+上午 07:02:19  [main] 	All prerequisites found
+上午 07:02:19  [main] 	Initializing Modules
+上午 07:02:19  [Apache] 	XAMPP Apache Service is already running on port 80
+上午 07:02:19  [Apache] 	XAMPP Apache Service is already running on port 443
+上午 07:02:19  [mysql] 	XAMPP MySQL Service is already running on port 3306
+上午 07:02:19  [filezilla] 	XAMPP FileZilla Service is already running on port 21
+上午 07:02:19  [filezilla] 	XAMPP FileZilla Service is already running on port 14147
+上午 07:02:19  [main] 	Starting Check-Timer
+上午 07:02:19  [main] 	Control Panel Ready
+上午 09:11:59  [mysql] 	Attempting to stop MySQL service...
+上午 09:12:00  [Apache] 	Attempting to stop Apache service...
+上午 09:12:01  [mysql] 	Status change detected: stopped
+上午 09:12:02  [Apache] 	Status change detected: stopped
+上午 09:12:04  [mysql] 	Attempting to start MySQL service...
+上午 09:12:04  [mysql] 	Status change detected: running
+上午 09:12:06  [Apache] 	Attempting to start Apache service...
+上午 09:12:07  [Apache] 	Status change detected: running
+上午 09:13:49  [Apache] 	Attempting to stop Apache service...
+上午 09:13:52  [Apache] 	Status change detected: stopped
+上午 09:14:02  [Apache] 	Attempting to start Apache service...
+上午 09:14:02  [Apache] 	Status change detected: running
+上午 09:16:34  [mysql] 	Attempting to stop MySQL service...
+上午 09:16:35  [Apache] 	Attempting to stop Apache service...
+上午 09:16:36  [mysql] 	Status change detected: stopped
+上午 09:16:38  [Apache] 	Status change detected: stopped
+上午 09:17:13  [mysql] 	Attempting to start MySQL service...
+上午 09:17:13  [mysql] 	Status change detected: running
+上午 09:17:14  [Apache] 	Attempting to start Apache service...
+上午 09:17:15  [Apache] 	Status change detected: running
+下午 07:30:57  [main] 	Deinitializing Modules
+下午 07:30:57  [main] 	Deinitializing Control Panel
+

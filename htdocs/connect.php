@@ -15,7 +15,7 @@
 	$result = mysqli_query($db,"SELECT Account,Password,Permission FROM users where Account = '".$id."'");
 	$row = mysqli_fetch_array($result,MYSQLI_NUM);
 
-	if($id != null && $pw != null && $row[0] == $id && $row[1] == $pw && $row[2] == 'Admin')
+	if($id != null && $pw != null && $row[0] == $id && password_verify($pw,$row[1]) && $row[2] == 'Admin')
 	{			
 			$_SESSION["Account"] = $id;
 	}
