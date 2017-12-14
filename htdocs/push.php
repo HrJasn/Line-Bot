@@ -38,8 +38,8 @@ if(!empty($_POST['send_text'])){
 	while ($row=mysqli_fetch_array($db_res,MYSQLI_NUM)) {
 		if ($row[1]==1){
 			push($channel_access_token,$row[0],'text',$send_text);
-			mysqli_query($db,"INSERT INTO message (src,IP,Cnt_Type,Cnt_ID,Msg,MsgType,MsgText) 
-		VALUES ('send','".$myip."','user','".$row[0]."','".$data."','text','".$send_text."')");
+			mysqli_query($db,"INSERT INTO message (src,IP,From_User,Cnt_Type,Cnt_ID,Msg,MsgType,MsgText) 
+		VALUES ('send','".$myip."','".$_SESSION["Account"]."','user','".$row[0]."','".$data."','text','".$send_text."')");
 		}
 	}
 

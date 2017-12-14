@@ -31,9 +31,10 @@ font-family: Microsoft JhengHei;
 #QR{
 
 position:fixed;
-top: calc(50% - 180px);
+top: calc(50% - 210px);
 width:100%;
 height:100%;
+min-width:100px;
 
 text-align:center;
 line-height:50%;
@@ -42,7 +43,8 @@ line-height:50%;
 
 #lgbt{
 
-width:360px;
+width:80%;
+max-width:360px;
 height:60px;
 font-size:30px;
 
@@ -60,7 +62,7 @@ text-shadow: 0px 0px 2px #FFFFFF;
 <body>
 
 <div id="QR">
-<a href="https://line.me/R/ti/p/%40llt8759o"><img src="https://qr-official.line.me/L/AlEw7-Px4h.png"></a>
+<a href="https://line.me/R/ti/p/%40llt8759o"><img style="width:80%;max-width:360px;" src="https://qr-official.line.me/L/AlEw7-Px4h.png"></a>
 <div><input id="lgbt" type="button" value="<?php echo $btx;?>" onclick="location.href='login.php';" /></div>
 </div>
 

@@ -88,11 +88,31 @@ text-shadow: 0px 0px 2px #88CCFF;
 
 }
 
+#home{
+
+position:fixed;
+top:0px;
+left:0px;
+width:100px;
+height:50px;
+
+border:2px;
+color: #FFFFFF;
+background-color:#66FF88;
+
+font-size:30px;
+text-align:center;
+line-height:50px;
+
+}
+
 </style>
 
 </head>
 
 <body>
+
+<div><input id="home" type="button" value="首頁" onclick="location.href='index.php';" /></div>
 
 	<form name="form" method="post" action="connect.php">
 
