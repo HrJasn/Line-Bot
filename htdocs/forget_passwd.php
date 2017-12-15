@@ -23,6 +23,7 @@
 		
 		push($channel_access_token,$row[0],'text',$pw);
 		
+		mysqli_free_result($db_res);		
 		mysqli_close($db);
 
 		header('Location: login.php');

@@ -2,8 +2,12 @@
 
 	session_start();
 	
-	if($_SESSION["Account"] == null){		
+	if(empty($_SESSION["Account"])){		
 		header('Location: login.php');		
+	}
+	
+	if(!empty($_POST['ChooseUser'])){
+		$_SESSION['ChooseUser'] = $_POST['ChooseUser'];
 	}
 
 ?>
@@ -37,7 +41,37 @@ function AutoRefresh(){
 
 <iframe id="load_message" src="load_message.php" width="100%" frameborder="0" scrolling="no" style="overflow:hidden;height:100%;width:100%" height="100%" width="100%" ></iframe>
 
-<div class="title">公告</div>
+<form action="admin.php" method="post" style="font-size:1em;-moz-appearance:none;text-align:center;text-align-last:center;" >
+	<select class="title" name="ChooseUser" onchange="this.form.submit()" style="font-size:1em;-moz-appearance:none;text-align:center;text-align-last:center;">
+		<option value='%' style="font-size:0.5em;-moz-appearance:none;text-align:center;text-align-last:center;" >公告</option>
+		<?php		
+								
+			include("db_include.php");
+
+			$db = mysqli_connect($DB_Server,$DB_User,$DB_Passwd);
+			mysqli_select_db($db,"line");
+			mysqli_query($db,"SET NAMES 'utf8'");
+
+			$db_res = mysqli_query($db,"SELECT Account from users");
+			
+			if(!empty($_SESSION['ChooseUser'])){
+				$ChooseUser = $_SESSION['ChooseUser'];
+			}
+			
+			while ($row=mysqli_fetch_array($db_res,MYSQLI_NUM)){
+				if($row[0]==$ChooseUser){
+					echo "<option value='".$row[0]."' style='font-size:0.5em;-moz-appearance:none;text-align:center;' selected>".$row[0]."</option>";
+				}else{
+					echo "<option value='".$row[0]."' style='font-size:0.5em;-moz-appearance:none;text-align:center;' >".$row[0]."</option>";
+				}
+			}
+			
+			mysqli_free_result($db_res);
+			mysqli_close($db);
+
+		?>
+	</select>
+</form>
 
 <div class="listbtn">
 	<ul class="drop-down-menu">

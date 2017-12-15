@@ -8,7 +8,9 @@ if($_SESSION["Account"] == null){
 	header('Location: login.php');
 }
 	
-if(!empty($_POST['send_text'])){
+if(!empty($_POST['send_text'])){	
+				
+	$ChooseUser = $_SESSION['ChooseUser'];
 
 	if(!empty($_SERVER['HTTP_CLIENT_IP'])){
 	   $myip = $_SERVER['HTTP_CLIENT_IP'];
@@ -31,7 +33,7 @@ if(!empty($_POST['send_text'])){
 
 	$send_text = $_POST['send_text'];
 
-	$db_res = mysqli_query($db,"SELECT UserID,Sub FROM users");
+	$db_res = mysqli_query($db,"SELECT UserID,Sub FROM users WHERE Account LIKE '".$ChooseUser."'");
 
 	while ($row=mysqli_fetch_array($db_res,MYSQLI_NUM)) {
 		if ($row[1]==1){
