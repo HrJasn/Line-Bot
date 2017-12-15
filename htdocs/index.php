@@ -2,7 +2,7 @@
 
 	session_start();
 	
-	if($_SESSION["Account"] != null){		
+	if(!empty($_SESSION["Account"])){		
 		$btx = '管理介面';
 	}else{
 		$btx = '前往登入';

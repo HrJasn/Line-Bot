@@ -511,3 +511,25 @@
 [15-Dec-2017 11:02:09 Europe/Berlin] PHP Notice:  Undefined index: Account in C:\web\htdocs\index.php on line 5
 [15-Dec-2017 13:51:01 Europe/Berlin] PHP Notice:  Undefined index: Account in C:\web\htdocs\index.php on line 5
 [15-Dec-2017 13:51:03 Europe/Berlin] PHP Notice:  Undefined index: Account in C:\web\htdocs\login.php on line 5
+[15-Dec-2017 14:18:59 Europe/Berlin] PHP Notice:  Undefined index: Account in C:\web\htdocs\index.php on line 5
+[15-Dec-2017 14:22:21 Europe/Berlin] PHP Notice:  Undefined index: Account in C:\web\htdocs\index.php on line 5
+[15-Dec-2017 15:17:27 Europe/Berlin] PHP Notice:  Undefined index: Account in C:\web\htdocs\index.php on line 5
+[15-Dec-2017 15:17:29 Europe/Berlin] PHP Notice:  Undefined index: Account in C:\web\htdocs\login.php on line 5
+[15-Dec-2017 15:18:51 Europe/Berlin] PHP Notice:  Undefined index: Account in C:\web\htdocs\index.php on line 5
+[15-Dec-2017 15:18:52 Europe/Berlin] PHP Notice:  Undefined index: Account in C:\web\htdocs\login.php on line 5
+[15-Dec-2017 15:18:55 Europe/Berlin] PHP Notice:  Undefined index: Account in C:\web\htdocs\index.php on line 5
+[15-Dec-2017 15:19:09 Europe/Berlin] PHP Notice:  Undefined index: Account in C:\web\htdocs\login.php on line 5
+[15-Dec-2017 15:21:18 Europe/Berlin] PHP Notice:  Undefined variable: user_id in C:\web\htdocs\forget_passwd.php on line 69
+[15-Dec-2017 15:21:22 Europe/Berlin] PHP Recoverable fatal error:  Object of class mysqli_result could not be converted to string in C:\web\htdocs\forget_passwd.php on line 69
+[15-Dec-2017 15:21:22 Europe/Berlin] PHP Notice:  Undefined index: Account in C:\web\htdocs\login.php on line 5
+[15-Dec-2017 15:21:31 Europe/Berlin] PHP Recoverable fatal error:  Object of class mysqli_result could not be converted to string in C:\web\htdocs\forget_passwd.php on line 69
+[15-Dec-2017 15:21:32 Europe/Berlin] PHP Notice:  Undefined index: Account in C:\web\htdocs\login.php on line 5
+[15-Dec-2017 15:25:15 Europe/Berlin] PHP Notice:  Undefined index: Account in C:\web\htdocs\login.php on line 5
+[15-Dec-2017 15:25:30 Europe/Berlin] PHP Notice:  Undefined index: Account in C:\web\htdocs\index.php on line 5
+[15-Dec-2017 15:25:31 Europe/Berlin] PHP Notice:  Undefined index: Account in C:\web\htdocs\login.php on line 5
+[15-Dec-2017 15:25:34 Europe/Berlin] PHP Notice:  Undefined index: Account in C:\web\htdocs\login.php on line 5
+[15-Dec-2017 15:25:52 Europe/Berlin] PHP Notice:  Undefined index: Account in C:\web\htdocs\index.php on line 5
+[15-Dec-2017 15:26:49 Europe/Berlin] PHP Notice:  Undefined index: Account in C:\web\htdocs\login.php on line 5
+[15-Dec-2017 15:28:29 Europe/Berlin] PHP Notice:  Undefined index: Account in C:\web\htdocs\login.php on line 5
+[15-Dec-2017 15:29:05 Europe/Berlin] PHP Notice:  Undefined index: Account in C:\web\htdocs\login.php on line 5
+[15-Dec-2017 15:29:27 Europe/Berlin] PHP Notice:  Undefined index: Account in C:\web\htdocs\login.php on line 5

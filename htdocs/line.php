@@ -12,8 +12,6 @@ function push($channel_access_token,$user_id,$content_type,$message) {
 	"http" => array("method" => "POST", "header" => implode(PHP_EOL, $header), "content" => json_encode($data), "ignore_errors" => true)
 	));
 	file_get_contents($url, false, $context);
-	
-	return header('Location: admin.php');
 		
 }
 

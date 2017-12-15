@@ -36,19 +36,9 @@ form{
 
 </head>
 
-<div class="title">登入</div>
-
-<div class="listbtn">
-	<ul class="drop-down-menu">
-		<li><a href="javascript: void(0)">≡</a>
-				<ul>
-					<li><a href="index.php">首頁</a></li>
-				</ul>
-		</li>
-	</ul>
-</div>
-
 <body>
+
+<div class="title">登入</div>
 
 	<form name="form" method="post" action="connect.php">
 
@@ -58,6 +48,17 @@ form{
 		<script>document.getElementsByName("id")[0].focus();</script>
 
 	</form>
+
+<div class="listbtn">
+	<ul class="drop-down-menu">
+		<li><a href="javascript: void(0)">≡</a>
+				<ul>
+					<li><a href="index.php">首頁</a></li>
+					<li><a href="forget_passwd.php">忘記密碼</a></li>
+				</ul>
+		</li>
+	</ul>
+</div>
 
 </body>
 
