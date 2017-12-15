@@ -1,7 +1,7 @@
 body{
 	background-color:#EEFFDD;
 	font-family: Microsoft JhengHei;
-	font-size:30px;
+	font-size:80px;
 }
 
 .title{
@@ -9,14 +9,14 @@ body{
 	top:0px;
 	left:0px;
 	width:100%;
-	height:50px;
+	height:100px;
 
 	border:0px;
 	color: #FFFFFF;
 	background-color:#66FF88;
 
 	text-align:center;
-	line-height:50px;
+	line-height:100px;
 }
 
 .listbtn{
@@ -24,14 +24,14 @@ body{
 	top:0px;
 	right:0px;
 	width:100px;
-	height:50px;
+	height:100px;
 
 	border:2px;
 	color: #FFFFFF;
 	background-color:#66FF88;
 
 	text-align:center;
-	line-height:50px;
+	line-height:100px;
 }
 
 .post{
@@ -43,8 +43,8 @@ body{
 
 .sdbtn{
 
-	width:100px;
-	height:55px;
+	width:200px;
+	height:105px;
 
 	opacity:1;
 	transform: translate(0,0);
@@ -66,8 +66,8 @@ body{
 
 .sdtext{
 
-	width: calc(100% - 109px);
-	height:50px;
+	width: calc(100% - 220px);
+	height:100px;
 
 	border:3px;
 	border-style:solid;
@@ -83,7 +83,7 @@ body{
 
 	max-width:500px;
 	width:95%;
-	height:60px;
+	height:110px;
 
 	opacity:1;
 	transform: translate(0,0);
@@ -107,7 +107,7 @@ body{
 
 	max-width:500px;
 	width: 95%;
-	height:50px;
+	height:100px;
 
 	border:3px;
 	border-style:solid;
@@ -122,7 +122,7 @@ body{
 
 	max-width:500px;
 	width: 95%;
-	height:50px;
+	height:100px;
 
 	border:3px;
 	border-style:solid;
@@ -130,5 +130,59 @@ body{
 	color: #88CCFF;
 	text-shadow: 0px 0px 2px #88CCFF;
 	font-size:1em;
+
+}
+
+/*::-webkit-scrollbar {
+    display: none;
+}*/
+
+.recieve-msg{
+	position: absolute;
+	left:0px;
+	bottom:120px;
+	width:50%;
+	height:calc(100% - 220px);
+	max-width:50%;
+	max-height:calc(100% - 220px);
+}
+
+.recieve-msg-box{
+	width:100%;
+	height:100%;
+	max-width:100%;
+	max-height:100%;
+	resize: none;
+	
+	border:3px;
+	background-color:#ffffff;
+	color: #88CCFF;
+	text-shadow: 0px 0px 2px #88CCFF;
+	font-size:0.6em;
+
+}
+
+.send-msg{
+	position: absolute;
+	right:0px;
+	bottom:120px;
+	width:50%;
+	height:calc(100% - 220px);
+	max-width:50%;
+	max-height:calc(100% - 220px);
+}
+
+.send-msg-box{
+	width:100%;
+	height:100%;
+	max-width:100%;
+	max-height:100%;
+	resize: none;
+	
+	border:0px;
+	background-color:#ffffff;
+	color: #88CCFF;
+	text-shadow: 0px 0px 2px #88CCFF;
+	font-size:0.6em;
 
 }
