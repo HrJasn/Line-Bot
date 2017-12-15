@@ -21,6 +21,8 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta http-equiv="Cache-Control" content="private, max-age=600, pre-check=600" />
 
+<link rel=stylesheet type="text/css" href="css\line-template.css"> 
+
 <style>
 
 body{
@@ -28,7 +30,7 @@ background-color:#66FF88;
 font-family: Microsoft JhengHei;
 }
 
-#QR{
+.QR{
 
 position:fixed;
 top: calc(50% - 210px);
@@ -41,29 +43,15 @@ line-height:50%;
 
 }
 
-#lgbt{
-
-width:80%;
-max-width:360px;
-height:60px;
-font-size:30px;
-
-border:1px;
-background-color:#44FF44;
-color: #FFFFFF;
-text-shadow: 0px 0px 2px #FFFFFF;
-
-}
-
 </style>
 
 </head>
 
 <body>
 
-<div id="QR">
+<div class="QR">
 <a href="https://line.me/R/ti/p/%40llt8759o"><img style="width:80%;max-width:360px;" src="https://qr-official.line.me/L/AlEw7-Px4h.png"></a>
-<div><input id="lgbt" type="button" value="<?php echo $btx;?>" onclick="location.href='login.php';" /></div>
+<div><input class="userbtn" type="button" value="<?php echo $btx;?>" onclick="location.href='login.php';" /></div>
 </div>
 
 </body>

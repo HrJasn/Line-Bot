@@ -115,6 +115,6 @@ function getObjContent($filenameExtension){
 	return $myURL.$objID.'.'.$filenameExtension;
 }
 
-header('Location: index.php');
+//header('Location: index.php');
 
 ?>

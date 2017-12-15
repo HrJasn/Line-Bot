@@ -1,7 +1,6 @@
 <?php
 
 	session_start();
-	//session_register('Account');
 	
 	$id = $_POST['id'];
 	$pw = $_POST['pw'];

@@ -59,6 +59,15 @@ text-align:center;
 
 <div class="title">修改密碼</div>
 
+	<form name="form" method="post" action="reset_passwd.php">
+
+		<input class="pwd" type="password" name="pw" /> <br>
+		<input class="pwd" type="password" name="pwagn" /> <br>
+		<input class="userbtn" type="submit" name="button" value="修改密碼" />
+		<script>document.getElementsByName("pw")[0].focus();</script>
+
+	</form>
+
 	<div class="listbtn">
 		<ul class="drop-down-menu">
 			<li><a href="javascript: void(0)">≡</a>
@@ -70,15 +79,6 @@ text-align:center;
 			</li>
 		</ul>
 	</div>
-
-	<form name="form" method="post" action="reset_passwd.php">
-
-		<input class="pwd" type="password" name="pw" /> <br>
-		<input class="pwd" type="password" name="pwagn" /> <br>
-		<input class="userbtn" type="submit" name="button" value="修改密碼" />
-		<script>document.getElementsByName("pw")[0].focus();</script>
-
-	</form>
 
 </body>
 
