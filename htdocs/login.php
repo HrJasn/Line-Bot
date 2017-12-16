@@ -3,7 +3,7 @@
 	session_start();
 	
 	if($_SESSION["Account"] != null){		
-		header('Location: admin.php');	
+		header('Location: admin.php');
 	}
 
 ?>
@@ -38,12 +38,20 @@ form{
 
 <body>
 
+<div id="alert" class="alert" style="display:none;">
+	<script>
+		var alert = document.getElementById("alert");
+		alert.style.display = "<?php echo !empty($_SESSION["login_alert"])?'':'none';?>";
+		alert.innerText = "<?php echo $_SESSION["login_alert"];?>";	
+	</script>
+</div>
+
 <div class="title">登入</div>
 
 	<form name="form" method="post" action="connect.php">
 
-		<input class="act" type="text" name="id" /> <br>
-		<input class="pwd" type="password" name="pw" /> <br>
+		<input class="act" type="text" name="id" placeholder="帳號" onfocus="this.placeholder = ''" onblur="this.placeholder = '帳號'"/> <br>
+		<input class="pwd" type="password" name="pw"  placeholder="密碼" onfocus="this.placeholder = ''" onblur="this.placeholder = '密碼'"/> <br>
 		<input class="userbtn" type="submit" name="button" value="登入" />
 		<script>document.getElementsByName("id")[0].focus();</script>
 
