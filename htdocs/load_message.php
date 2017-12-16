@@ -25,9 +25,13 @@
 <textarea id="rcv-msg" class="recieve-msg-box" readonly="readonly">
 <?php
 	
-	include("db_include.php");	
-		
-	$ChooseUser = $_SESSION['ChooseUser'];
+	include("db_include.php");
+	
+	if(!empty($_SESSION['ChooseUser'])){		
+		$ChooseUser = $_SESSION['ChooseUser'];
+	}else{
+		$ChooseUser = '%';
+	}
 
 	$db = mysqli_connect($DB_Server,$DB_User,$DB_Passwd);
 	mysqli_select_db($db,"line");
