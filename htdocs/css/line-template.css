@@ -93,7 +93,7 @@ iframe{
 
 	max-width:500px;
 	width:95%;
-	height:110px;
+	height:80px;
 
 	opacity:1;
 	transform: translate(0,0);
@@ -102,7 +102,7 @@ iframe{
 	background-color:#44FF66;
 	color: #FFFFFF;
 	text-shadow: 0px 0px 2px #FFFFFF;
-	font-size:1em;
+	font-size:0.6em;
 
 }
 
@@ -117,14 +117,14 @@ iframe{
 
 	max-width:500px;
 	width: 95%;
-	height:100px;
+	height:70px;
 
 	border:3px;
 	border-style:solid;
 	background-color:#ffffff;
 	color: #88CCFF;
 	text-shadow: 0px 0px 2px #88CCFF;
-	font-size:1em;
+	font-size:0.6em;
 
 }
 
@@ -132,14 +132,14 @@ iframe{
 
 	max-width:500px;
 	width: 95%;
-	height:100px;
+	height:70px;
 
 	border:3px;
 	border-style:solid;
 	background-color:#ffffff;
 	color: #88CCFF;
 	text-shadow: 0px 0px 2px #88CCFF;
-	font-size:1em;
+	font-size:0.6em;
 
 }
 
@@ -194,5 +194,24 @@ iframe{
 	color: #88CCFF;
 	text-shadow: 0px 0px 2px #88CCFF;
 	font-size:0.6em;
+
+}
+
+.alert{
+
+	position:fixed;
+	top:120px;
+	left:5px;
+	height:80px;
+	width:calc(100% - 20px);
+	
+	border:3px solid red;
+	border-radius:20px;
+	
+	background-color:#FFAAAA;
+	
+	font-size:0.6em;
+	text-align:center;
+	color:red;
 
 }

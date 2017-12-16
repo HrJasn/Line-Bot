@@ -55,8 +55,8 @@ function Change()
 
 <body style="height:100%" onload="JavaScript:AutoRefresh();">
 
-<iframe id="load_message1" src="load_message.php" width="100%" frameborder="0" scrolling="no" style="overflow:hidden;height:100%;width:100%" height="100%" width="100%" ></iframe>
-<iframe id="load_message2" src="load_message.php" width="100%" frameborder="0" scrolling="no" style="overflow:hidden;height:100%;width:100%;display:none;" height="100%" width="100%" ></iframe>
+<iframe id="load_message1" src="load_message.php" width="100%" frameborder="0" scrolling="no" height="100%" width="100%" ></iframe>
+<iframe id="load_message2" src="load_message.php" width="100%" frameborder="0" scrolling="no" style="display:none;" height="100%" width="100%" ></iframe>
 
 <form action="admin.php" method="post" style="font-size:1em;-moz-appearance:none;text-align:center;text-align-last:center;" >
 	<select class="title" name="ChooseUser" onchange="this.form.submit()" style="font-size:1em;-moz-appearance:none;text-align:center;text-align-last:center;">
@@ -103,7 +103,7 @@ function Change()
 </div>
 
 <form class="post" action="push.php" method="post">
-	<input class="sdtext" type="text" name="send_text"><input class="sdbtn" type="submit" name="pushText" value="發送">
+	<input class="sdtext" type="text" name="send_text" placeholder="輸入公告" onfocus="this.placeholder = ''" onblur="this.placeholder = '輸入公告'" ><input class="sdbtn" type="submit" name="pushText" value="發送">
 	<script>document.getElementsByName("send_text")[0].focus();</script>
 </form>
 

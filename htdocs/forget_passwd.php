@@ -1,5 +1,7 @@
 <?php
 
+	session_start();
+
 	if(!empty($_POST['id'])){
 		
 		include("db_include.php");
@@ -15,19 +17,24 @@
 		$pw = substr(md5(rand()),0,8);
 		$hash = password_hash($pw, PASSWORD_DEFAULT);
 
-		mysqli_query($db,"UPDATE users SET Password = '".$hash."' WHERE Account = '".$id."'");	
-		$db_res = mysqli_query($db,"SELECT UserID from users WHERE Account = '".$id."'");
+		$db_res = mysqli_query($db,"SELECT COUNT(Account),UserID from users WHERE Account = '".$id."'");
 		$row=mysqli_fetch_array($db_res,MYSQLI_NUM);
 		
-		$pw="您的暫時密碼：".$pw;
+		if($row[0]!='0'){
+			mysqli_query($db,"UPDATE users SET Password = '".$hash."' WHERE Account = '".$id."'");	
+			$pw="您的暫時密碼：".$pw;	
+			push($channel_access_token,$row[1],'text',$pw);
+			header('Location: login.php');		
+		}else{
+			$_SESSION["forget_alert"] = '無此帳號';
+			header('Location: forget_passwd.php');
+		}
 		
-		push($channel_access_token,$row[0],'text',$pw);
-		
-		mysqli_free_result($db_res);		
+		mysqli_free_result($db_res);
 		mysqli_close($db);
-
-		header('Location: login.php');
-		
+	
+	}else{
+		//$_SESSION["forget_alert"] = '請輸入帳號';
 	}
 ?>
 <!DOCTYPE html>
@@ -60,11 +67,19 @@ text-align:center;
 
 <body>
 
+<div id="alert" class="alert" style="display:none;">
+	<script>
+		var alert = document.getElementById("alert");
+		alert.style.display = "<?php echo !empty($_SESSION["forget_alert"])?'':'none';?>";
+		alert.innerText = "<?php echo $_SESSION["forget_alert"];?>";	
+	</script>
+</div>
+
 <div class="title">忘記密碼</div>
 
 	<form name="form" method="post" action="forget_passwd.php">
 
-		<input class="act" type="text" name="id" /> <br>
+		<input class="act" type="text" name="id" placeholder="帳號" onfocus="this.placeholder = ''" onblur="this.placeholder = '帳號'" /> <br>
 		<input class="userbtn" type="submit" name="button" value="發送暫時密碼" />
 		<script>document.getElementsByName("id")[0].focus();</script>
 
