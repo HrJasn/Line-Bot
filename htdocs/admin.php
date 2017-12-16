@@ -28,9 +28,25 @@
 <script>
 
 function AutoRefresh(){
-	var iframe = document.getElementById('load_message');
-	iframe.src = iframe.src;
-	setTimeout("AutoRefresh()", 5000);
+	Change();
+	setTimeout("AutoRefresh()", 3000);
+}
+
+function Change()
+{
+	ifr1=document.getElementById("load_message1");
+	ifr2=document.getElementById("load_message2");
+
+	if( ifr1.style.display == 'none' )  {
+		ifr1.src = ifr1.src;
+		ifr1.style.display='';
+		setTimeout("ifr2.style.display='none'", 1000);
+	}else{
+		ifr2.src = ifr2.src;
+		ifr2.style.display='';
+		setTimeout("ifr1.style.display='none'", 1000);
+	}
+	
 }
 
 </script>
@@ -39,7 +55,8 @@ function AutoRefresh(){
 
 <body style="height:100%" onload="JavaScript:AutoRefresh();">
 
-<iframe id="load_message" src="load_message.php" width="100%" frameborder="0" scrolling="no" style="overflow:hidden;height:100%;width:100%" height="100%" width="100%" ></iframe>
+<iframe id="load_message1" src="load_message.php" width="100%" frameborder="0" scrolling="no" style="overflow:hidden;height:100%;width:100%" height="100%" width="100%" ></iframe>
+<iframe id="load_message2" src="load_message.php" width="100%" frameborder="0" scrolling="no" style="overflow:hidden;height:100%;width:100%;display:none;" height="100%" width="100%" ></iframe>
 
 <form action="admin.php" method="post" style="font-size:1em;-moz-appearance:none;text-align:center;text-align-last:center;" >
 	<select class="title" name="ChooseUser" onchange="this.form.submit()" style="font-size:1em;-moz-appearance:none;text-align:center;text-align-last:center;">
