@@ -22,9 +22,13 @@
 			$result = mysqli_query($db,"SELECT Password,Permission FROM users where Account = '".$id."'");
 			$row = mysqli_fetch_array($result,MYSQLI_NUM);
 
-			if(password_verify($oldpw,$row[0])){			
+			if(password_verify($oldpw,$row[0])){
+				$stmt = $db->prepare("UPDATE users SET Password = ? WHERE Account = ?");
+				$stmt->bind_param("ss", $hash, $id);
 				$hash = password_hash($pw, PASSWORD_DEFAULT);
-				mysqli_query($db,"UPDATE users SET Password = '".$hash."' WHERE Account = '".$_SESSION["Account"]."'");	
+				//mysqli_query($db,"UPDATE users SET Password = '".$hash."' WHERE Account = '".$id."'");	
+				$stmt->execute();
+				$stmt->close();
 				header('Location: login.php');
 			}else{
 				$_SESSION["reset_passwd"] = "舊密碼不正確";
