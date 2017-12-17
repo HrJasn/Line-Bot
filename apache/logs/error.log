@@ -285,3 +285,12 @@
 [Sat Dec 16 14:48:57.923125 2017] [mpm_winnt:notice] [pid 8780:tid 300] AH00422: Parent: Received shutdown signal -- Shutting down the server.
 [Sat Dec 16 14:49:03.124363 2017] [mpm_winnt:notice] [pid 6484:tid 184] AH00364: Child: All worker threads have exited.
 [Sat Dec 16 14:49:03.155364 2017] [mpm_winnt:notice] [pid 8780:tid 300] AH00430: Parent: Child process 6484 exited successfully.
+[Sat Dec 16 14:50:05.974898 2017] [mpm_winnt:notice] [pid 6776:tid 300] AH00455: Apache/2.4.29 (Win32) OpenSSL/1.0.2l PHP/7.1.11 configured -- resuming normal operations
+[Sat Dec 16 14:50:05.974898 2017] [mpm_winnt:notice] [pid 6776:tid 300] AH00456: Apache Lounge VC14 Server built: Oct 22 2017 11:52:30
+[Sat Dec 16 14:50:05.974898 2017] [core:notice] [pid 6776:tid 300] AH00094: Command line: 'C:\\web\\apache\\bin\\httpd.exe -d C:/web/apache'
+[Sat Dec 16 14:50:05.981899 2017] [mpm_winnt:notice] [pid 6776:tid 300] AH00418: Parent: Created child process 8504
+[Sat Dec 16 14:50:06.590934 2017] [mpm_winnt:notice] [pid 8504:tid 184] AH00354: Child: Starting 150 worker threads.
+[Sun Dec 17 11:39:53.037702 2017] [php7:error] [pid 8504:tid 1608] [client 192.168.74.254:14184] script 'C:/web/htdocs/load_message_test.php' not found or unable to stat
+[Sun Dec 17 16:13:35.829032 2017] [mpm_winnt:notice] [pid 6776:tid 300] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Dec 17 16:13:37.829034 2017] [mpm_winnt:notice] [pid 8504:tid 184] AH00364: Child: All worker threads have exited.
+[Sun Dec 17 16:13:37.989035 2017] [mpm_winnt:notice] [pid 6776:tid 300] AH00430: Parent: Child process 8504 exited successfully.
