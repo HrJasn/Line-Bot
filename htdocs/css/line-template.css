@@ -186,7 +186,6 @@ iframe{
 
 .send-msg{
 	float:right;
-	text-align:right;
 	max-width:70%;
 	
 	border:1px solid #CCCCCC;
@@ -202,7 +201,6 @@ iframe{
 
 .receive-msg{
 	float:left;
-	text-align:left;
 	max-width:70%;
 	
 	border:1px solid #AAFF66;

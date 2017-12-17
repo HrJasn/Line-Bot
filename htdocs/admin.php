@@ -34,29 +34,48 @@ function AutoRefresh(){
 
 function Change()
 {
-	ifr1=document.getElementById("load_message1");
-	ifr2=document.getElementById("load_message2");
-	ifrdiv=document.getElementById("ifrdiv");
+	var ifr1=document.getElementById("load_message1");
+	var ifr2=document.getElementById("load_message2");
+	var ifrdiv=document.getElementById("ifrdiv");
 	
 	if( ifr1.style.display == 'none' )  {
 		ifr1.src = ifr1.src;
 		ifr1.style.display='';
-		if(ifrdiv.style.height != ((ifr1.contentWindow.document.body.scrollHeight+120) + 'px')){
-			ifrdiv.style.height = (ifr1.contentWindow.document.body.scrollHeight+120) + 'px';
-			document.body.scrollTop = document.body.scrollHeight;
-			document.documentElement.scrollTop = document.documentElement.scrollHeight;
-		}
-		setTimeout("ifr2.style.display='none'", 200);
+		setIframeHeight(window.top.document.getElementById('load_message1'));
+		setTimeout("document.getElementById('load_message2').style.display='none'", 200);
 	}else{
 		ifr2.src = ifr2.src;
 		ifr2.style.display='';
-		if(ifrdiv.style.height != ((ifr2.contentWindow.document.body.scrollHeight+120) + 'px')){
-			ifrdiv.style.height = (ifr2.contentWindow.document.body.scrollHeight+120) + 'px';
-			document.body.scrollTop = document.body.scrollHeight;
-			document.documentElement.scrollTop = document.documentElement.scrollHeight;
-		}
-		setTimeout("ifr1.style.display='none'", 200);
+		setIframeHeight(window.top.document.getElementById('load_message2'));
+		setTimeout("document.getElementById('load_message1').style.display='none'", 200);
 	}
+}
+
+
+function setIframeHeight(ifrm){
+	var ifrdiv=document.getElementById("ifrdiv");
+	var doc = ifrm.contentDocument? ifrm.contentDocument:
+    ifrm.contentWindow.document;
+    var RestHeight=ifrm.style.height;
+    ifrdiv.style.height = "10px";
+    var NewHeight = getDocHeight( doc ) + 10;
+    if (NewHeight>20){
+		ifrdiv.style.height=(NewHeight+220) + "px";			
+		document.body.scrollTop = (NewHeight+220);
+		document.documentElement.scrollTop = (NewHeight+220);
+    } else {
+        ifrdiv.style.height=(RestHeight+220) + "px";
+		document.body.scrollTop = (RestHeight+220);
+		document.documentElement.scrollTop = (RestHeight+220);
+    }
+}
+
+function getDocHeight(doc) {
+    doc = doc || document;
+    var body = doc.body, html = doc.documentElement;
+    var height = Math.max( body.scrollHeight, body.offsetHeight, html.clientHeight,
+    html.scrollHeight, html.offsetHeight );
+    return height;
 }
 
 </script>
