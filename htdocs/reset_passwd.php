@@ -22,8 +22,7 @@
 			$result = mysqli_query($db,"SELECT Password,Permission FROM users where Account = '".$id."'");
 			$row = mysqli_fetch_array($result,MYSQLI_NUM);
 
-			if(password_verify($pw,$row[0]))
-			{			
+			if(password_verify($oldpw,$row[0])){			
 				$hash = password_hash($pw, PASSWORD_DEFAULT);
 				mysqli_query($db,"UPDATE users SET Password = '".$hash."' WHERE Account = '".$_SESSION["Account"]."'");	
 				header('Location: login.php');
