@@ -26,7 +26,7 @@
 <link rel=stylesheet type="text/css" href="css\menu.css">
 
 <script>
-
+/*
 function AutoRefresh(){
 	Change();
 	setTimeout("AutoRefresh()", 3000);
@@ -48,7 +48,7 @@ function Change()
 	}
 	
 }
-
+*/
 </script>
 
 </head>
