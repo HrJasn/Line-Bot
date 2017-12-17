@@ -38,43 +38,53 @@ function Change()
 	var ifr2=document.getElementById("load_message2");
 	var ifrdiv=document.getElementById("ifrdiv");
 	
+	var scrollTop_tmp;
+	
+	if(document.body.scrollTop){
+		scrollTop_tmp = document.body.scrollTop;
+	}else{
+		scrollTop_tmp = document.documentElement.scrollTop;
+	}
+
 	if( ifr1.style.display == 'none' )  {
 		ifr1.src = ifr1.src;
 		ifr1.style.display='';
-		setIframeHeight(window.top.document.getElementById('load_message1'));
+		setIframeHeight(window.top.document.getElementById('load_message1'),scrollTop_tmp);
 		setTimeout("document.getElementById('load_message2').style.display='none'", 200);
 	}else{
 		ifr2.src = ifr2.src;
 		ifr2.style.display='';
-		setIframeHeight(window.top.document.getElementById('load_message2'));
+		setIframeHeight(window.top.document.getElementById('load_message2'),scrollTop_tmp);
 		setTimeout("document.getElementById('load_message1').style.display='none'", 200);
 	}
 }
 
 
-function setIframeHeight(ifrm){
+function setIframeHeight(ifrm,scrollTop_tmp){
 	var ifrdiv=document.getElementById("ifrdiv");
 	var doc = ifrm.contentDocument? ifrm.contentDocument:
     ifrm.contentWindow.document;
     var RestHeight=ifrm.style.height;
     ifrdiv.style.height = "10px";
-    var NewHeight = getDocHeight( doc ) + 10;
+    var NewHeight = getDocHeight(doc) + 10;
     if (NewHeight>20){
-		ifrdiv.style.height=(NewHeight+220) + "px";			
-		document.body.scrollTop = (NewHeight+220);
-		document.documentElement.scrollTop = (NewHeight+220);
+		ifrdiv.style.height=(NewHeight+120) + "px";
+		document.body.scrollTop = scrollTop_tmp;
+		document.documentElement.scrollTop = scrollTop_tmp;
+		var HeightTmp = NewHeight;
     } else {
-        ifrdiv.style.height=(RestHeight+220) + "px";
-		document.body.scrollTop = (RestHeight+220);
-		document.documentElement.scrollTop = (RestHeight+220);
+		ifrdiv.style.height=(RestHeight+120) + "px";
+		document.body.scrollTop = scrollTop_tmp;
+		document.documentElement.scrollTop = scrollTop_tmp;
+		var HeightTmp = RestHeight;
     }
+
 }
 
 function getDocHeight(doc) {
     doc = doc || document;
     var body = doc.body, html = doc.documentElement;
-    var height = Math.max( body.scrollHeight, body.offsetHeight, html.clientHeight,
-    html.scrollHeight, html.offsetHeight );
+    var height = Math.max( body.scrollHeight, body.offsetHeight, html.clientHeight,html.scrollHeight, html.offsetHeight );
     return height;
 }
 
