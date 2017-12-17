@@ -27,6 +27,8 @@
 
 <script>
 
+var HeightTmp;
+
 function AutoRefresh(){
 	Change();
 	setTimeout("AutoRefresh()", 800);
@@ -69,16 +71,19 @@ function setIframeHeight(ifrm,scrollTop_tmp){
     var NewHeight = getDocHeight(doc) + 10;
     if (NewHeight>20){
 		ifrdiv.style.height=(NewHeight+120) + "px";
-		document.body.scrollTop = scrollTop_tmp;
-		document.documentElement.scrollTop = scrollTop_tmp;
-		var HeightTmp = NewHeight;
     } else {
 		ifrdiv.style.height=(RestHeight+120) + "px";
-		document.body.scrollTop = scrollTop_tmp;
-		document.documentElement.scrollTop = scrollTop_tmp;
-		var HeightTmp = RestHeight;
     }
 
+	if(HeightTmp != ifrdiv.style.height){
+		document.body.scrollTop = document.body.scrollHeight;
+		document.documentElement.scrollTop = document.documentElement.scrollHeight;
+		HeightTmp = ifrdiv.style.height;
+	}else{
+		document.body.scrollTop = scrollTop_tmp;
+		document.documentElement.scrollTop = scrollTop_tmp;
+	}
+	return HeightTmp;
 }
 
 function getDocHeight(doc) {

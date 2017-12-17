@@ -302,3 +302,20 @@
 [Sun Dec 17 17:48:00.173294 2017] [mpm_winnt:notice] [pid 9488:tid 300] AH00422: Parent: Received shutdown signal -- Shutting down the server.
 [Sun Dec 17 17:48:02.173297 2017] [mpm_winnt:notice] [pid 7360:tid 184] AH00364: Child: All worker threads have exited.
 [Sun Dec 17 17:48:02.323297 2017] [mpm_winnt:notice] [pid 9488:tid 300] AH00430: Parent: Child process 7360 exited successfully.
+[Sun Dec 17 17:48:53.798693 2017] [mpm_winnt:notice] [pid 6688:tid 300] AH00455: Apache/2.4.29 (Win32) OpenSSL/1.0.2l PHP/7.1.11 configured -- resuming normal operations
+[Sun Dec 17 17:48:53.798693 2017] [mpm_winnt:notice] [pid 6688:tid 300] AH00456: Apache Lounge VC14 Server built: Oct 22 2017 11:52:30
+[Sun Dec 17 17:48:53.798693 2017] [core:notice] [pid 6688:tid 300] AH00094: Command line: 'C:\\web\\apache\\bin\\httpd.exe -d C:/web/apache'
+[Sun Dec 17 17:48:53.798693 2017] [mpm_winnt:notice] [pid 6688:tid 300] AH00418: Parent: Created child process 8004
+[Sun Dec 17 17:48:54.408694 2017] [mpm_winnt:notice] [pid 8004:tid 184] AH00354: Child: Starting 150 worker threads.
+[Sun Dec 17 19:31:10.634904 2017] [authz_core:error] [pid 8004:tid 1656] [client 191.96.249.136:45614] AH01630: client denied by server configuration: C:/web/phpMyAdmin/scripts
+[Sun Dec 17 19:42:40.642254 2017] [mpm_winnt:notice] [pid 6688:tid 300] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Dec 17 19:42:42.642256 2017] [mpm_winnt:notice] [pid 8004:tid 184] AH00364: Child: All worker threads have exited.
+[Sun Dec 17 19:42:42.702256 2017] [mpm_winnt:notice] [pid 6688:tid 300] AH00430: Parent: Child process 8004 exited successfully.
+[Sun Dec 17 19:43:05.634289 2017] [mpm_winnt:notice] [pid 1140:tid 300] AH00455: Apache/2.4.29 (Win32) OpenSSL/1.0.2l PHP/7.1.11 configured -- resuming normal operations
+[Sun Dec 17 19:43:05.634289 2017] [mpm_winnt:notice] [pid 1140:tid 300] AH00456: Apache Lounge VC14 Server built: Oct 22 2017 11:52:30
+[Sun Dec 17 19:43:05.634289 2017] [core:notice] [pid 1140:tid 300] AH00094: Command line: 'C:\\web\\apache\\bin\\httpd.exe -d C:/web/apache'
+[Sun Dec 17 19:43:05.644289 2017] [mpm_winnt:notice] [pid 1140:tid 300] AH00418: Parent: Created child process 8244
+[Sun Dec 17 19:43:06.254290 2017] [mpm_winnt:notice] [pid 8244:tid 184] AH00354: Child: Starting 150 worker threads.
+[Sun Dec 17 19:43:18.434307 2017] [mpm_winnt:notice] [pid 1140:tid 300] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Dec 17 19:43:20.434310 2017] [mpm_winnt:notice] [pid 8244:tid 184] AH00364: Child: All worker threads have exited.
+[Sun Dec 17 19:43:20.454310 2017] [mpm_winnt:notice] [pid 1140:tid 300] AH00430: Parent: Child process 8244 exited successfully.
