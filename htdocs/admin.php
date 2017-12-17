@@ -26,37 +26,50 @@
 <link rel=stylesheet type="text/css" href="css\menu.css">
 
 <script>
-/*
+
 function AutoRefresh(){
 	Change();
-	setTimeout("AutoRefresh()", 3000);
+	setTimeout("AutoRefresh()", 800);
 }
 
 function Change()
 {
 	ifr1=document.getElementById("load_message1");
 	ifr2=document.getElementById("load_message2");
-
+	ifrdiv=document.getElementById("ifrdiv");
+	
 	if( ifr1.style.display == 'none' )  {
 		ifr1.src = ifr1.src;
 		ifr1.style.display='';
-		setTimeout("ifr2.style.display='none'", 1000);
+		if(ifrdiv.style.height != ((ifr1.contentWindow.document.body.scrollHeight+120) + 'px')){
+			ifrdiv.style.height = (ifr1.contentWindow.document.body.scrollHeight+120) + 'px';
+			document.body.scrollTop = document.body.scrollHeight;
+			document.documentElement.scrollTop = document.documentElement.scrollHeight;
+		}
+		setTimeout("ifr2.style.display='none'", 200);
 	}else{
 		ifr2.src = ifr2.src;
 		ifr2.style.display='';
-		setTimeout("ifr1.style.display='none'", 1000);
+		if(ifrdiv.style.height != ((ifr2.contentWindow.document.body.scrollHeight+120) + 'px')){
+			ifrdiv.style.height = (ifr2.contentWindow.document.body.scrollHeight+120) + 'px';
+			document.body.scrollTop = document.body.scrollHeight;
+			document.documentElement.scrollTop = document.documentElement.scrollHeight;
+		}
+		setTimeout("ifr1.style.display='none'", 200);
 	}
-	
 }
-*/
+
 </script>
 
 </head>
 
-<body style="height:100%" onload="JavaScript:AutoRefresh();">
+<body style="height:100%;" onload="JavaScript:AutoRefresh();">
 
-<iframe id="load_message1" src="load_message.php" width="100%" frameborder="0" scrolling="no" height="100%" width="100%" ></iframe>
-<iframe id="load_message2" src="load_message.php" width="100%" frameborder="0" scrolling="no" style="display:none;" height="100%" width="100%" ></iframe>
+<div id="ifrdiv" class="iframe-out-div">
+	<iframe id="load_message1" class="iframe" src="load_message.php" frameborder="0" scrolling="no"></iframe>
+	<iframe id="load_message2" class="iframe" src="load_message.php" frameborder="0" scrolling="no" style="display:none;"></iframe>
+	<div style="width:100%;height:100px;clear:both;"></div>
+</div>
 
 <form action="admin.php" method="post" style="font-size:1em;-moz-appearance:none;text-align:center;text-align-last:center;" >
 	<select class="title" name="ChooseUser" onchange="this.form.submit()" style="font-size:1em;-moz-appearance:none;text-align:center;text-align-last:center;">
@@ -103,7 +116,7 @@ function Change()
 </div>
 
 <form class="post" action="push.php" method="post">
-	<input class="sdtext" type="text" name="send_text" placeholder="輸入公告" onfocus="this.placeholder = ''" onblur="this.placeholder = '輸入公告'" ><input class="sdbtn" type="submit" name="pushText" value="發送">
+	<input class="sdtext" type="text" name="send_text" placeholder="輸入訊息" onfocus="this.placeholder = ''" onblur="this.placeholder = '輸入公告'" ><input class="sdbtn" type="submit" name="pushText" value="發送">
 	<script>document.getElementsByName("send_text")[0].focus();</script>
 </form>
 

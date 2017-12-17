@@ -57,13 +57,6 @@
 
 ?>
 
-<script>
-/*
-var textarea = document.getElementById("load-msg");
-textarea.scrollTop = textarea.scrollHeight;
-*/
-</script>
-
 </div>
 
 </body>
