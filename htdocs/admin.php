@@ -130,8 +130,9 @@ function setIframeHeight(ifrm){
 		ifrm.style.height=(RestHeight) + "px";
     }
 		
-	if(HeightTmp != ifrm.style.height){
-		ifrdiv.scrollTop = ifrdiv.scrollHeight;
+	if(HeightTmp != ifrm.style.height){		
+		var ifrdiv_scrollTop = ifrdiv.scrollTop;
+		movescroll(ifrdiv_scrollTop);
 		HeightTmp = ifrm.style.height;
 	}
 
@@ -142,6 +143,15 @@ function getDocHeight(doc) {
     var body = doc.body, html = doc.documentElement;
     var height = Math.max( body.scrollHeight, body.offsetHeight, html.clientHeight,html.scrollHeight, html.offsetHeight );
     return height;
+}
+
+function movescroll(ifrdiv_scrollTop){
+	var ifrdiv=document.getElementById("ifrdiv");
+	if((ifrdiv_scrollTop < ifrdiv.scrollHeight) && (ifrdiv.scrollTop==ifrdiv_scrollTop)){
+		ifrdiv_scrollTop=ifrdiv_scrollTop+Math.ceil((ifrdiv.scrollHeight-ifrdiv_scrollTop)/25);
+		ifrdiv.scrollTop=ifrdiv_scrollTop;
+		setTimeout("movescroll("+ifrdiv_scrollTop+")", ifrdiv.scrollTop/100);	
+	}
 }
 
 </script>
