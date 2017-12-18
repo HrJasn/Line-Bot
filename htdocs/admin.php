@@ -91,6 +91,7 @@
 <script>
 
 var HeightTmp;
+var scrollTop_tmp;
 
 function AutoRefresh(){
 	Change();
@@ -102,9 +103,7 @@ function Change()
 	var ifr1=document.getElementById("load_message1");
 	var ifr2=document.getElementById("load_message2");
 	var ifrdiv=document.getElementById("ifrdiv");
-	
-	var scrollTop_tmp;
-	
+
 	if(document.body.scrollTop){
 		scrollTop_tmp = document.body.scrollTop;
 	}else{
@@ -122,22 +121,7 @@ function Change()
 		setIframeHeight(window.top.document.getElementById('load_message2'),scrollTop_tmp);
 		setTimeout("document.getElementById('load_message1').style.display='none'", 200);
 	}
-}
-
-
-function setIframeHeight(ifrm,scrollTop_tmp){
-	var ifrdiv=document.getElementById("ifrdiv");
-	var doc = ifrm.contentDocument? ifrm.contentDocument:
-    ifrm.contentWindow.document;
-    var RestHeight=ifrm.style.height;
-    ifrdiv.style.height = "10px";
-    var NewHeight = getDocHeight(doc) + 10;
-    if (NewHeight>20){
-		ifrdiv.style.height=(NewHeight+120) + "px";
-    } else {
-		ifrdiv.style.height=(RestHeight+120) + "px";
-    }
-
+	
 	if(HeightTmp != ifrdiv.style.height){
 		document.body.scrollTop = document.body.scrollHeight;
 		document.documentElement.scrollTop = document.documentElement.scrollHeight;
@@ -146,7 +130,21 @@ function setIframeHeight(ifrm,scrollTop_tmp){
 		document.body.scrollTop = scrollTop_tmp;
 		document.documentElement.scrollTop = scrollTop_tmp;
 	}
-	return HeightTmp;
+}
+
+
+function setIframeHeight(ifrm){
+	var ifrdiv=document.getElementById("ifrdiv");
+	var doc = ifrm.contentDocument? ifrm.contentDocument:
+    ifrm.contentWindow.document;
+    var RestHeight=ifrm.style.height;
+    ifrdiv.style.height = "10px";
+    var NewHeight = getDocHeight(doc) + 10;
+    if (NewHeight>20){
+		ifrdiv.style.height=(NewHeight+220) + "px";
+    } else {
+		ifrdiv.style.height=(RestHeight+220) + "px";
+    }
 }
 
 function getDocHeight(doc) {
