@@ -91,7 +91,6 @@
 <script>
 
 var HeightTmp;
-var scrollTop_tmp;
 
 function AutoRefresh(){
 	Change();
@@ -102,34 +101,19 @@ function Change()
 {
 	var ifr1=document.getElementById("load_message1");
 	var ifr2=document.getElementById("load_message2");
-	var ifrdiv=document.getElementById("ifrdiv");
 
-	if(document.body.scrollTop){
-		scrollTop_tmp = document.body.scrollTop;
-	}else{
-		scrollTop_tmp = document.documentElement.scrollTop;
-	}
-
-	if( ifr1.style.display == 'none' )  {
+	if(ifr1.style.display=='none')  {
 		ifr1.src = ifr1.src;
 		ifr1.style.display='';
-		setIframeHeight(window.top.document.getElementById('load_message1'),scrollTop_tmp);
+		setIframeHeight(window.top.document.getElementById('load_message1'));
 		setTimeout("document.getElementById('load_message2').style.display='none'", 200);
 	}else{
 		ifr2.src = ifr2.src;
 		ifr2.style.display='';
-		setIframeHeight(window.top.document.getElementById('load_message2'),scrollTop_tmp);
+		setIframeHeight(window.top.document.getElementById('load_message2'));
 		setTimeout("document.getElementById('load_message1').style.display='none'", 200);
 	}
-	
-	if(HeightTmp != ifrdiv.style.height){
-		document.body.scrollTop = document.body.scrollHeight;
-		document.documentElement.scrollTop = document.documentElement.scrollHeight;
-		HeightTmp = ifrdiv.style.height;
-	}else{
-		document.body.scrollTop = scrollTop_tmp;
-		document.documentElement.scrollTop = scrollTop_tmp;
-	}
+
 }
 
 
@@ -138,13 +122,19 @@ function setIframeHeight(ifrm){
 	var doc = ifrm.contentDocument? ifrm.contentDocument:
     ifrm.contentWindow.document;
     var RestHeight=ifrm.style.height;
-    ifrdiv.style.height = "10px";
+    ifrm.style.height = "10px";
     var NewHeight = getDocHeight(doc) + 10;
     if (NewHeight>20){
-		ifrdiv.style.height=(NewHeight+220) + "px";
+		ifrm.style.height=(NewHeight) + "px";
     } else {
-		ifrdiv.style.height=(RestHeight+220) + "px";
+		ifrm.style.height=(RestHeight) + "px";
     }
+		
+	if(HeightTmp != ifrm.style.height){
+		ifrdiv.scrollTop = ifrdiv.scrollHeight;
+		HeightTmp = ifrm.style.height;
+	}
+
 }
 
 function getDocHeight(doc) {
