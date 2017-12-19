@@ -15,22 +15,29 @@
 		
 		$id = $_POST['id'];
 		$pw = substr(md5(rand()),0,8);
-		$hash = password_hash($pw, PASSWORD_DEFAULT);
 
-		$db_res = mysqli_query($db,"SELECT COUNT(Account),UserID from users WHERE Account = '".$id."'");
-		$row=mysqli_fetch_array($db_res,MYSQLI_NUM);
-		
-		if($row[0]!='0'){
-			mysqli_query($db,"UPDATE users SET Password = '".$hash."' WHERE Account = '".$id."'");	
+		$stmt = $db->prepare("SELECT UserID from users WHERE Account = ?");
+		$stmt->bind_param("s", $id);		
+		$stmt->execute();
+		$stmt->bind_result($userid);
+		$stmt->fetch();
+		$stmt->close();
+
+		if($userid!=null){
+			$stmt = $db->prepare("UPDATE users SET Password = ? WHERE Account = ?");
+			$stmt->bind_param("ss", $hash, $id);
+			$hash = password_hash($pw,PASSWORD_DEFAULT);
+			$stmt->execute();
+			$stmt->close();
 			$pw="您的暫時密碼：".$pw;	
-			push($channel_access_token,$row[1],'text',$pw);
-			header('Location: login.php');		
+			push($channel_access_token,$userid,'text',$pw);
+			header('Location: login.php');
 		}else{
 			$_SESSION["forget_alert"] = '無此帳號';
 			header('Location: forget_passwd.php');
 		}
 		
-		mysqli_free_result($db_res);
+		//mysqli_free_result($db_res);
 		mysqli_close($db);
 	
 	}else{
