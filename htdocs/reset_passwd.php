@@ -19,14 +19,17 @@
 			$pw = $_POST['pw'];
 			$pwagn = $_POST['pwagn'];
 			
-			$result = mysqli_query($db,"SELECT Password,Permission FROM users where Account = '".$id."'");
-			$row = mysqli_fetch_array($result,MYSQLI_NUM);
+			$stmt = $db->prepare("SELECT Password FROM users where Account = ?");
+			$stmt->bind_param("s", $id);			
+			$stmt->execute();
+			$stmt->bind_result($sqlpw);
+			$stmt->fetch();
+			$stmt->close();
 
-			if(password_verify($oldpw,$row[0])){
+			if(password_verify($oldpw,$sqlpw)){
 				$stmt = $db->prepare("UPDATE users SET Password = ? WHERE Account = ?");
 				$stmt->bind_param("ss", $hash, $id);
 				$hash = password_hash($pw, PASSWORD_DEFAULT);
-				//mysqli_query($db,"UPDATE users SET Password = '".$hash."' WHERE Account = '".$id."'");	
 				$stmt->execute();
 				$stmt->close();
 				header('Location: login.php');
