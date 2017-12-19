@@ -189,10 +189,10 @@ iframe{
 	float:right;
 	max-width:70%;
 	
-	border:1px solid #CCCCCC;
+	border:1px solid #AAFF66;
 	border-radius:50px;
 	
-	background-color:#CCCCCC;
+	background-color:#AAFF66;
 	color:#000000;
 	
 	margin:10px;
@@ -204,10 +204,10 @@ iframe{
 	float:left;
 	max-width:70%;
 	
-	border:1px solid #AAFF66;
+	border:1px solid #CCCCCC;
 	border-radius:50px;
 	
-	background-color:#AAFF66;
+	background-color:#CCCCCC;
 	color:#000000;
 	
 	margin:10px;
