@@ -92,6 +92,11 @@
 
 var HeightTmp;
 
+function firstonload(){
+	var ifrdiv=document.getElementById("ifrdiv");
+	ifrdiv.scrollTop=ifrdiv.scrollHeight;
+}
+
 function AutoRefresh(){
 	Change();
 	setTimeout("AutoRefresh()", 800);
@@ -158,7 +163,7 @@ function movescroll(ifrdiv_scrollTop){
 
 </head>
 
-<body style="height:100%;" onload="JavaScript:AutoRefresh();">
+<body style="height:100%;" onload="JavaScript:AutoRefresh();firstonload();">
 
 <div id="ifrdiv" class="iframe-out-div">
 	<iframe id="load_message1" class="iframe" src="load_message.php" frameborder="0" scrolling="no"></iframe>
