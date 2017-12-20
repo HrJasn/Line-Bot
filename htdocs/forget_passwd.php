@@ -2,47 +2,6 @@
 
 	session_start();
 
-	if(!empty($_POST['id'])){
-		
-		include("db_include.php");
-		include("line.php");
-
-		$channel_access_token = "bxFwr3Y8HcIg2vkudiwGpjVy7bIXcJQqtH0fYIcaTyFD1TFIV3CC8SSDDNkFWql3dDuwpWUwjSV4SqnwEFNMkvkJixqkTajgOR/w9mziLCq0auUlLDOq2cbu42CLBaPG8Z9imBTsNX6A05Kq2cpOvAdB04t89/1O/w1cDnyilFU=";
-
-		$db = mysqli_connect($DB_Server,$DB_User,$DB_Passwd);
-		mysqli_select_db($db,"line");
-		mysqli_query($db,"SET NAMES 'utf8'");													
-		
-		$id = $_POST['id'];
-		$pw = substr(md5(rand()),0,8);
-
-		$stmt = $db->prepare("SELECT UserID from users WHERE Account = ?");
-		$stmt->bind_param("s", $id);		
-		$stmt->execute();
-		$stmt->bind_result($userid);
-		$stmt->fetch();
-		$stmt->close();
-
-		if($userid!=null){
-			$stmt = $db->prepare("UPDATE users SET Password = ? WHERE Account = ?");
-			$stmt->bind_param("ss", $hash, $id);
-			$hash = password_hash($pw,PASSWORD_DEFAULT);
-			$stmt->execute();
-			$stmt->close();
-			$pw="您的暫時密碼：".$pw;	
-			push($channel_access_token,$userid,'text',$pw);
-			header('Location: login.php');
-		}else{
-			$_SESSION["forget_alert"] = '無此帳號';
-			header('Location: forget_passwd.php');
-		}
-		
-		//mysqli_free_result($db_res);
-		mysqli_close($db);
-	
-	}else{
-		//$_SESSION["forget_alert"] = '請輸入帳號';
-	}
 ?>
 <!DOCTYPE html>
 <html lang="zh-hans">
@@ -105,3 +64,48 @@ text-align:center;
 </body>
 
 </html>
+<?php
+
+	if(!empty($_POST['id'])){
+		
+		include("db_include.php");
+		include("line.php");
+
+		$channel_access_token = "bxFwr3Y8HcIg2vkudiwGpjVy7bIXcJQqtH0fYIcaTyFD1TFIV3CC8SSDDNkFWql3dDuwpWUwjSV4SqnwEFNMkvkJixqkTajgOR/w9mziLCq0auUlLDOq2cbu42CLBaPG8Z9imBTsNX6A05Kq2cpOvAdB04t89/1O/w1cDnyilFU=";
+
+		$db = mysqli_connect($DB_Server,$DB_User,$DB_Passwd);
+		mysqli_select_db($db,"line");
+		mysqli_query($db,"SET NAMES 'utf8'");													
+		
+		$id = $_POST['id'];
+		$pw = substr(md5(rand()),0,8);
+
+		$stmt = $db->prepare("SELECT UserID from users WHERE Account = ?");
+		$stmt->bind_param("s", $id);		
+		$stmt->execute();
+		$stmt->bind_result($userid);
+		$stmt->fetch();
+		$stmt->close();
+
+		if($userid!=null){
+			$stmt = $db->prepare("UPDATE users SET Password = ? WHERE Account = ?");
+			$stmt->bind_param("ss", $hash, $id);
+			$hash = password_hash($pw,PASSWORD_DEFAULT);
+			$stmt->execute();
+			$stmt->close();
+			$pw="您的暫時密碼：".$pw;	
+			push($channel_access_token,$userid,'text',$pw);
+			header('Location: login.php');
+		}else{
+			$_SESSION["forget_alert"] = '無此帳號';
+			header('Location: forget_passwd.php');
+		}
+		
+		//mysqli_free_result($db_res);
+		mysqli_close($db);
+	
+	}else{
+		$_SESSION["forget_alert"] = '請輸入帳號';
+	}
+
+?>
