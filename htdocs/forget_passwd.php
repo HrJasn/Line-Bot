@@ -77,8 +77,8 @@ text-align:center;
 <div id="alert" class="alert" style="display:none;">
 	<script>
 		var alert = document.getElementById("alert");
-		alert.style.display = "<?php echo !empty($_SESSION["forget_alert"])?'':'none';?>";
-		alert.innerText = "<?php echo $_SESSION["forget_alert"];?>";	
+		alert.style.display = "<?php echo isset($_SESSION["forget_alert"])?'':'none';?>";
+		alert.innerText = "<?php echo isset($_SESSION["forget_alert"])?$_SESSION["forget_alert"]:'';?>";	
 	</script>
 </div>
 

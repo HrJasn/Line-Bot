@@ -2,7 +2,7 @@
 
 	session_start();
 	
-	if($_SESSION["Account"] != null){		
+	if(isset($_SESSION["Account"])){		
 		header('Location: admin.php');
 	}
 
@@ -41,8 +41,8 @@ form{
 <div id="alert" class="alert" style="display:none;">
 	<script>
 		var alert = document.getElementById("alert");
-		alert.style.display = "<?php echo !empty($_SESSION["login_alert"])?'':'none';?>";
-		alert.innerText = "<?php echo $_SESSION["login_alert"];?>";	
+		alert.style.display = "<?php echo isset($_SESSION["login_alert"])?'':'none';?>";
+		alert.innerText = "<?php echo isset($_SESSION["login_alert"])?$_SESSION["login_alert"]:'';?>";	
 	</script>
 </div>
 
