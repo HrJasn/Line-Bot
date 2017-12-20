@@ -4,13 +4,17 @@ session_start();
 
 error_reporting(0);
 
-if($_SESSION["Account"] == null){
+if(!isset($_SESSION["Account"])){
 	header('Location: login.php');
 }
 	
 if(!empty($_POST['send_text'])){	
-				
-	$ChooseUser = $_SESSION['ChooseUser'];
+		
+	if(isset($_SESSION['ChooseUser'])){
+		$ChooseUser = $_SESSION['ChooseUser'];
+	}else{
+		$ChooseUser = '%';
+	}
 
 	if(!empty($_SERVER['HTTP_CLIENT_IP'])){
 	   $myip = $_SERVER['HTTP_CLIENT_IP'];
