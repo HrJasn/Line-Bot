@@ -746,3 +746,552 @@
 下午 07:30:57  [main] 	Deinitializing Modules
 下午 07:30:57  [main] 	Deinitializing Control Panel
 
+下午 12:56:18  [main] 	Initializing Control Panel
+下午 12:56:18  [main] 	Windows Version: Windows 7 Ultimate SP1 64-bit
+下午 12:56:18  [main] 	XAMPP Version: 7.1.11
+下午 12:56:18  [main] 	Control Panel Version: 3.2.2  [ Compiled: Nov 12th 2015 ]
+下午 12:56:18  [main] 	Running with Administrator rights - good!
+下午 12:56:18  [main] 	XAMPP Installation Directory: "c:\web\"
+下午 12:56:18  [main] 	Checking for prerequisites
+下午 12:56:18  [main] 	All prerequisites found
+下午 12:56:18  [main] 	Initializing Modules
+下午 12:56:18  [Apache] 	XAMPP Apache Service is already running on port 80
+下午 12:56:18  [Apache] 	XAMPP Apache Service is already running on port 443
+下午 12:56:18  [mysql] 	XAMPP MySQL Service is already running on port 3306
+下午 12:56:18  [filezilla] 	XAMPP FileZilla Service is already running on port 21
+下午 12:56:18  [filezilla] 	XAMPP FileZilla Service is already running on port 14147
+下午 12:56:18  [main] 	Starting Check-Timer
+下午 12:56:18  [main] 	Control Panel Ready
+下午 09:42:13  [Apache] 	Attempting to stop Apache service...
+下午 09:42:16  [Apache] 	Status change detected: stopped
+下午 09:42:16  [mysql] 	Attempting to stop MySQL service...
+下午 09:42:18  [mysql] 	Status change detected: stopped
+下午 09:42:56  [mysql] 	Attempting to start MySQL service...
+下午 09:43:00  [mysql] 	Status change detected: running
+下午 09:43:02  [Apache] 	Attempting to start Apache service...
+下午 09:43:03  [Apache] 	Status change detected: running
+下午 09:51:40  [mysql] 	Attempting to stop MySQL service...
+下午 09:51:42  [Apache] 	Attempting to stop Apache service...
+下午 09:51:42  [mysql] 	Status change detected: stopped
+下午 09:51:44  [Apache] 	Status change detected: stopped
+下午 09:53:14  [mysql] 	Attempting to start MySQL service...
+下午 09:53:14  [mysql] 	Status change detected: running
+下午 09:53:17  [Apache] 	Attempting to start Apache service...
+下午 09:53:17  [Apache] 	Status change detected: running
+下午 08:52:54  [Apache] 	Attempting to stop Apache service...
+下午 08:52:57  [Apache] 	Status change detected: stopped
+下午 08:52:58  [mysql] 	Attempting to stop MySQL service...
+下午 08:53:00  [mysql] 	Status change detected: stopped
+下午 08:53:35  [mysql] 	Attempting to start MySQL service...
+下午 08:53:37  [mysql] 	Status change detected: running
+下午 08:53:38  [Apache] 	Attempting to start Apache service...
+下午 08:53:39  [Apache] 	Status change detected: running
+下午 10:32:14  [mysql] 	Attempting to stop MySQL service...
+下午 10:32:16  [mysql] 	Status change detected: stopped
+下午 10:32:18  [Apache] 	Attempting to stop Apache service...
+下午 10:32:20  [Apache] 	Status change detected: stopped
+下午 10:32:46  [Apache] 	Attempting to start Apache service...
+下午 10:32:46  [Apache] 	Status change detected: running
+下午 10:32:47  [mysql] 	Attempting to start MySQL service...
+下午 10:32:48  [mysql] 	Status change detected: running
+下午 02:48:59  [mysql] 	Status change detected: stopped
+下午 02:48:59  [mysql] 	Error: MySQL shutdown unexpectedly.
+下午 02:48:59  [mysql] 	This may be due to a blocked port, missing dependencies, 
+下午 02:48:59  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+下午 02:48:59  [mysql] 	Press the Logs button to view error logs and check
+下午 02:48:59  [mysql] 	the Windows Event Viewer for more clues
+下午 02:48:59  [mysql] 	If you need more help, copy and post this
+下午 02:48:59  [mysql] 	entire log window on the forums
+下午 02:49:03  [Apache] 	Status change detected: stopped
+下午 02:49:03  [Apache] 	Error: Apache shutdown unexpectedly.
+下午 02:49:03  [Apache] 	This may be due to a blocked port, missing dependencies, 
+下午 02:49:03  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+下午 02:49:03  [Apache] 	Press the Logs button to view error logs and check
+下午 02:49:03  [Apache] 	the Windows Event Viewer for more clues
+下午 02:49:03  [Apache] 	If you need more help, copy and post this
+下午 02:49:03  [Apache] 	entire log window on the forums
+下午 02:50:02  [mysql] 	Status change detected: running
+下午 02:50:05  [Apache] 	Status change detected: running
+下午 04:13:38  [Apache] 	Status change detected: stopped
+下午 04:13:38  [Apache] 	Error: Apache shutdown unexpectedly.
+下午 04:13:38  [Apache] 	This may be due to a blocked port, missing dependencies, 
+下午 04:13:38  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+下午 04:13:38  [Apache] 	Press the Logs button to view error logs and check
+下午 04:13:38  [Apache] 	the Windows Event Viewer for more clues
+下午 04:13:38  [Apache] 	If you need more help, copy and post this
+下午 04:13:38  [Apache] 	entire log window on the forums
+下午 04:13:41  [mysql] 	Status change detected: stopped
+下午 04:13:41  [mysql] 	Error: MySQL shutdown unexpectedly.
+下午 04:13:41  [mysql] 	This may be due to a blocked port, missing dependencies, 
+下午 04:13:41  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+下午 04:13:41  [mysql] 	Press the Logs button to view error logs and check
+下午 04:13:41  [mysql] 	the Windows Event Viewer for more clues
+下午 04:13:41  [mysql] 	If you need more help, copy and post this
+下午 04:13:41  [mysql] 	entire log window on the forums
+下午 04:15:18  [mysql] 	Status change detected: running
+下午 04:15:20  [Apache] 	Status change detected: running
+下午 05:48:02  [Apache] 	Status change detected: stopped
+下午 05:48:02  [Apache] 	Error: Apache shutdown unexpectedly.
+下午 05:48:02  [Apache] 	This may be due to a blocked port, missing dependencies, 
+下午 05:48:02  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+下午 05:48:02  [Apache] 	Press the Logs button to view error logs and check
+下午 05:48:02  [Apache] 	the Windows Event Viewer for more clues
+下午 05:48:02  [Apache] 	If you need more help, copy and post this
+下午 05:48:02  [Apache] 	entire log window on the forums
+下午 05:48:05  [mysql] 	Status change detected: stopped
+下午 05:48:05  [mysql] 	Error: MySQL shutdown unexpectedly.
+下午 05:48:05  [mysql] 	This may be due to a blocked port, missing dependencies, 
+下午 05:48:05  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+下午 05:48:05  [mysql] 	Press the Logs button to view error logs and check
+下午 05:48:05  [mysql] 	the Windows Event Viewer for more clues
+下午 05:48:05  [mysql] 	If you need more help, copy and post this
+下午 05:48:05  [mysql] 	entire log window on the forums
+下午 05:48:50  [mysql] 	Status change detected: running
+下午 05:48:53  [Apache] 	Status change detected: running
+下午 07:42:43  [Apache] 	Status change detected: stopped
+下午 07:42:43  [Apache] 	Error: Apache shutdown unexpectedly.
+下午 07:42:43  [Apache] 	This may be due to a blocked port, missing dependencies, 
+下午 07:42:43  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+下午 07:42:43  [Apache] 	Press the Logs button to view error logs and check
+下午 07:42:43  [Apache] 	the Windows Event Viewer for more clues
+下午 07:42:43  [Apache] 	If you need more help, copy and post this
+下午 07:42:43  [Apache] 	entire log window on the forums
+下午 07:42:45  [mysql] 	Status change detected: stopped
+下午 07:42:45  [mysql] 	Error: MySQL shutdown unexpectedly.
+下午 07:42:45  [mysql] 	This may be due to a blocked port, missing dependencies, 
+下午 07:42:45  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+下午 07:42:45  [mysql] 	Press the Logs button to view error logs and check
+下午 07:42:45  [mysql] 	the Windows Event Viewer for more clues
+下午 07:42:45  [mysql] 	If you need more help, copy and post this
+下午 07:42:45  [mysql] 	entire log window on the forums
+下午 07:43:03  [mysql] 	Status change detected: running
+下午 07:43:05  [Apache] 	Status change detected: running
+下午 07:43:20  [Apache] 	Status change detected: stopped
+下午 07:43:20  [Apache] 	Error: Apache shutdown unexpectedly.
+下午 07:43:20  [Apache] 	This may be due to a blocked port, missing dependencies, 
+下午 07:43:20  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+下午 07:43:20  [Apache] 	Press the Logs button to view error logs and check
+下午 07:43:20  [Apache] 	the Windows Event Viewer for more clues
+下午 07:43:20  [Apache] 	If you need more help, copy and post this
+下午 07:43:20  [Apache] 	entire log window on the forums
+下午 07:43:23  [mysql] 	Status change detected: stopped
+下午 07:43:23  [mysql] 	Error: MySQL shutdown unexpectedly.
+下午 07:43:23  [mysql] 	This may be due to a blocked port, missing dependencies, 
+下午 07:43:23  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+下午 07:43:23  [mysql] 	Press the Logs button to view error logs and check
+下午 07:43:23  [mysql] 	the Windows Event Viewer for more clues
+下午 07:43:23  [mysql] 	If you need more help, copy and post this
+下午 07:43:23  [mysql] 	entire log window on the forums
+下午 07:44:43  [mysql] 	Status change detected: running
+下午 07:44:44  [Apache] 	Status change detected: running
+下午 08:50:07  [Apache] 	Status change detected: stopped
+下午 08:50:07  [Apache] 	Error: Apache shutdown unexpectedly.
+下午 08:50:07  [Apache] 	This may be due to a blocked port, missing dependencies, 
+下午 08:50:07  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+下午 08:50:07  [Apache] 	Press the Logs button to view error logs and check
+下午 08:50:07  [Apache] 	the Windows Event Viewer for more clues
+下午 08:50:07  [Apache] 	If you need more help, copy and post this
+下午 08:50:07  [Apache] 	entire log window on the forums
+下午 08:50:09  [mysql] 	Status change detected: stopped
+下午 08:50:09  [mysql] 	Error: MySQL shutdown unexpectedly.
+下午 08:50:09  [mysql] 	This may be due to a blocked port, missing dependencies, 
+下午 08:50:09  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+下午 08:50:09  [mysql] 	Press the Logs button to view error logs and check
+下午 08:50:09  [mysql] 	the Windows Event Viewer for more clues
+下午 08:50:09  [mysql] 	If you need more help, copy and post this
+下午 08:50:09  [mysql] 	entire log window on the forums
+下午 08:51:21  [mysql] 	Status change detected: running
+下午 08:51:24  [Apache] 	Status change detected: running
+下午 12:11:25  [main] 	Deinitializing Modules
+下午 12:11:25  [main] 	Deinitializing Control Panel
+
+下午 10:43:00  [main] 	Initializing Control Panel
+下午 10:43:00  [main] 	Windows Version: Windows 7 Ultimate SP1 64-bit
+下午 10:43:00  [main] 	XAMPP Version: 7.1.11
+下午 10:43:00  [main] 	Control Panel Version: 3.2.2  [ Compiled: Nov 12th 2015 ]
+下午 10:43:00  [main] 	Running with Administrator rights - good!
+下午 10:43:00  [main] 	XAMPP Installation Directory: "c:\web\"
+下午 10:43:00  [main] 	Checking for prerequisites
+下午 10:43:00  [main] 	All prerequisites found
+下午 10:43:00  [main] 	Initializing Modules
+下午 10:43:00  [Apache] 	XAMPP Apache Service is already running on port 80
+下午 10:43:00  [Apache] 	XAMPP Apache Service is already running on port 443
+下午 10:43:00  [mysql] 	XAMPP MySQL Service is already running on port 3306
+下午 10:43:00  [filezilla] 	XAMPP FileZilla Service is already running on port 21
+下午 10:43:00  [filezilla] 	XAMPP FileZilla Service is already running on port 14147
+下午 10:43:00  [main] 	Starting Check-Timer
+下午 10:43:00  [main] 	Control Panel Ready
+下午 12:11:27  [main] 	Deinitializing Modules
+下午 12:11:27  [main] 	Deinitializing Control Panel
+
+下午 08:50:03  [main] 	Initializing Control Panel
+下午 08:50:03  [main] 	Windows Version: Windows 7 Ultimate SP1 64-bit
+下午 08:50:03  [main] 	XAMPP Version: 7.1.11
+下午 08:50:03  [main] 	Control Panel Version: 3.2.2  [ Compiled: Nov 12th 2015 ]
+下午 08:50:03  [main] 	Running with Administrator rights - good!
+下午 08:50:03  [main] 	XAMPP Installation Directory: "c:\web\"
+下午 08:50:03  [main] 	Checking for prerequisites
+下午 08:50:03  [main] 	All prerequisites found
+下午 08:50:03  [main] 	Initializing Modules
+下午 08:50:03  [Apache] 	XAMPP Apache Service is already running on port 80
+下午 08:50:03  [Apache] 	XAMPP Apache Service is already running on port 443
+下午 08:50:03  [mysql] 	XAMPP MySQL Service is already running on port 3306
+下午 08:50:03  [filezilla] 	XAMPP FileZilla Service is already running on port 21
+下午 08:50:03  [filezilla] 	XAMPP FileZilla Service is already running on port 14147
+下午 08:50:03  [main] 	Starting Check-Timer
+下午 08:50:03  [main] 	Control Panel Ready
+下午 08:50:04  [Apache] 	Attempting to stop Apache service...
+下午 08:50:07  [Apache] 	Status change detected: stopped
+下午 08:50:07  [mysql] 	Attempting to stop MySQL service...
+下午 08:50:09  [mysql] 	Status change detected: stopped
+下午 08:51:20  [mysql] 	Attempting to start MySQL service...
+下午 08:51:22  [mysql] 	Status change detected: running
+下午 08:51:23  [Apache] 	Attempting to start Apache service...
+下午 08:51:24  [Apache] 	Status change detected: running
+下午 12:11:30  [main] 	Deinitializing Modules
+下午 12:11:30  [main] 	Deinitializing Control Panel
+
+下午 04:12:54  [main] 	Initializing Control Panel
+下午 04:12:54  [main] 	Windows Version: Windows 7 Ultimate SP1 64-bit
+下午 04:12:54  [main] 	XAMPP Version: 7.1.11
+下午 04:12:54  [main] 	Control Panel Version: 3.2.2  [ Compiled: Nov 12th 2015 ]
+下午 04:12:54  [main] 	Running with Administrator rights - good!
+下午 04:12:54  [main] 	XAMPP Installation Directory: "c:\web\"
+下午 04:12:54  [main] 	Checking for prerequisites
+下午 04:12:56  [main] 	All prerequisites found
+下午 04:12:56  [main] 	Initializing Modules
+下午 04:12:56  [Apache] 	XAMPP Apache Service is already running on port 80
+下午 04:12:56  [Apache] 	XAMPP Apache Service is already running on port 443
+下午 04:12:56  [mysql] 	XAMPP MySQL Service is already running on port 3306
+下午 04:12:56  [filezilla] 	XAMPP FileZilla Service is already running on port 21
+下午 04:12:56  [filezilla] 	XAMPP FileZilla Service is already running on port 14147
+下午 04:12:56  [main] 	Starting Check-Timer
+下午 04:12:56  [main] 	Control Panel Ready
+下午 04:13:35  [Apache] 	Attempting to stop Apache service...
+下午 04:13:38  [Apache] 	Status change detected: stopped
+下午 04:13:38  [mysql] 	Attempting to stop MySQL service...
+下午 04:13:41  [mysql] 	Status change detected: stopped
+下午 04:15:13  [mysql] 	Attempting to start MySQL service...
+下午 04:15:17  [mysql] 	Status change detected: running
+下午 04:15:18  [Apache] 	Attempting to start Apache service...
+下午 04:15:19  [Apache] 	Status change detected: running
+下午 05:47:59  [Apache] 	Attempting to stop Apache service...
+下午 05:48:02  [Apache] 	Status change detected: stopped
+下午 05:48:03  [mysql] 	Attempting to stop MySQL service...
+下午 05:48:05  [mysql] 	Status change detected: stopped
+下午 05:48:50  [mysql] 	Attempting to start MySQL service...
+下午 05:48:51  [mysql] 	Status change detected: running
+下午 05:48:52  [Apache] 	Attempting to start Apache service...
+下午 05:48:53  [Apache] 	Status change detected: running
+下午 07:42:40  [Apache] 	Attempting to stop Apache service...
+下午 07:42:43  [mysql] 	Attempting to stop MySQL service...
+下午 07:42:43  [Apache] 	Status change detected: stopped
+下午 07:42:45  [mysql] 	Status change detected: stopped
+下午 07:43:03  [mysql] 	Attempting to start MySQL service...
+下午 07:43:03  [mysql] 	Status change detected: running
+下午 07:43:04  [Apache] 	Attempting to start Apache service...
+下午 07:43:05  [Apache] 	Status change detected: running
+下午 07:43:18  [Apache] 	Attempting to stop Apache service...
+下午 07:43:20  [Apache] 	Status change detected: stopped
+下午 07:43:21  [mysql] 	Attempting to stop MySQL service...
+下午 07:43:23  [mysql] 	Status change detected: stopped
+下午 07:44:42  [mysql] 	Attempting to start MySQL service...
+下午 07:44:43  [mysql] 	Status change detected: running
+下午 07:44:44  [Apache] 	Attempting to start Apache service...
+下午 07:44:44  [Apache] 	Status change detected: running
+下午 08:50:07  [Apache] 	Status change detected: stopped
+下午 08:50:07  [Apache] 	Error: Apache shutdown unexpectedly.
+下午 08:50:07  [Apache] 	This may be due to a blocked port, missing dependencies, 
+下午 08:50:07  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+下午 08:50:07  [Apache] 	Press the Logs button to view error logs and check
+下午 08:50:07  [Apache] 	the Windows Event Viewer for more clues
+下午 08:50:07  [Apache] 	If you need more help, copy and post this
+下午 08:50:07  [Apache] 	entire log window on the forums
+下午 08:50:09  [mysql] 	Status change detected: stopped
+下午 08:50:09  [mysql] 	Error: MySQL shutdown unexpectedly.
+下午 08:50:09  [mysql] 	This may be due to a blocked port, missing dependencies, 
+下午 08:50:09  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+下午 08:50:09  [mysql] 	Press the Logs button to view error logs and check
+下午 08:50:09  [mysql] 	the Windows Event Viewer for more clues
+下午 08:50:09  [mysql] 	If you need more help, copy and post this
+下午 08:50:09  [mysql] 	entire log window on the forums
+下午 08:51:21  [mysql] 	Status change detected: running
+下午 08:51:24  [Apache] 	Status change detected: running
+下午 12:11:35  [main] 	Deinitializing Modules
+下午 12:11:35  [main] 	Deinitializing Control Panel
+
+下午 01:50:58  [main] 	Initializing Control Panel
+下午 01:50:58  [main] 	Windows Version: Windows 7 Ultimate SP1 64-bit
+下午 01:50:58  [main] 	XAMPP Version: 7.1.11
+下午 01:50:58  [main] 	Control Panel Version: 3.2.2  [ Compiled: Nov 12th 2015 ]
+下午 01:50:58  [main] 	Running with Administrator rights - good!
+下午 01:50:58  [main] 	XAMPP Installation Directory: "c:\web\"
+下午 01:50:58  [main] 	Checking for prerequisites
+下午 01:51:01  [main] 	All prerequisites found
+下午 01:51:01  [main] 	Initializing Modules
+下午 01:51:01  [Apache] 	XAMPP Apache Service is already running on port 80
+下午 01:51:01  [Apache] 	XAMPP Apache Service is already running on port 443
+下午 01:51:01  [mysql] 	XAMPP MySQL Service is already running on port 3306
+下午 01:51:01  [filezilla] 	XAMPP FileZilla Service is already running on port 21
+下午 01:51:01  [filezilla] 	XAMPP FileZilla Service is already running on port 14147
+下午 01:51:01  [main] 	Starting Check-Timer
+下午 01:51:01  [main] 	Control Panel Ready
+下午 02:48:55  [mysql] 	Attempting to stop MySQL service...
+下午 02:48:57  [Apache] 	Attempting to stop Apache service...
+下午 02:48:59  [mysql] 	Status change detected: stopped
+下午 02:49:01  [Apache] 	Attempting to stop Apache service...
+下午 02:49:03  [Apache] 	Status change detected: stopped
+下午 02:50:00  [mysql] 	Attempting to start MySQL service...
+下午 02:50:02  [mysql] 	Status change detected: running
+下午 02:50:04  [Apache] 	Attempting to start Apache service...
+下午 02:50:05  [Apache] 	Status change detected: running
+下午 04:13:38  [Apache] 	Status change detected: stopped
+下午 04:13:38  [Apache] 	Error: Apache shutdown unexpectedly.
+下午 04:13:38  [Apache] 	This may be due to a blocked port, missing dependencies, 
+下午 04:13:38  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+下午 04:13:38  [Apache] 	Press the Logs button to view error logs and check
+下午 04:13:38  [Apache] 	the Windows Event Viewer for more clues
+下午 04:13:38  [Apache] 	If you need more help, copy and post this
+下午 04:13:38  [Apache] 	entire log window on the forums
+下午 04:13:41  [mysql] 	Status change detected: stopped
+下午 04:13:41  [mysql] 	Error: MySQL shutdown unexpectedly.
+下午 04:13:41  [mysql] 	This may be due to a blocked port, missing dependencies, 
+下午 04:13:41  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+下午 04:13:41  [mysql] 	Press the Logs button to view error logs and check
+下午 04:13:41  [mysql] 	the Windows Event Viewer for more clues
+下午 04:13:41  [mysql] 	If you need more help, copy and post this
+下午 04:13:41  [mysql] 	entire log window on the forums
+下午 04:15:18  [mysql] 	Status change detected: running
+下午 04:15:20  [Apache] 	Status change detected: running
+下午 05:48:02  [Apache] 	Status change detected: stopped
+下午 05:48:02  [Apache] 	Error: Apache shutdown unexpectedly.
+下午 05:48:02  [Apache] 	This may be due to a blocked port, missing dependencies, 
+下午 05:48:02  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+下午 05:48:02  [Apache] 	Press the Logs button to view error logs and check
+下午 05:48:02  [Apache] 	the Windows Event Viewer for more clues
+下午 05:48:02  [Apache] 	If you need more help, copy and post this
+下午 05:48:02  [Apache] 	entire log window on the forums
+下午 05:48:05  [mysql] 	Status change detected: stopped
+下午 05:48:05  [mysql] 	Error: MySQL shutdown unexpectedly.
+下午 05:48:05  [mysql] 	This may be due to a blocked port, missing dependencies, 
+下午 05:48:05  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+下午 05:48:05  [mysql] 	Press the Logs button to view error logs and check
+下午 05:48:05  [mysql] 	the Windows Event Viewer for more clues
+下午 05:48:05  [mysql] 	If you need more help, copy and post this
+下午 05:48:05  [mysql] 	entire log window on the forums
+下午 05:48:50  [mysql] 	Status change detected: running
+下午 05:48:53  [Apache] 	Status change detected: running
+下午 07:42:43  [Apache] 	Status change detected: stopped
+下午 07:42:43  [Apache] 	Error: Apache shutdown unexpectedly.
+下午 07:42:43  [Apache] 	This may be due to a blocked port, missing dependencies, 
+下午 07:42:43  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+下午 07:42:43  [Apache] 	Press the Logs button to view error logs and check
+下午 07:42:43  [Apache] 	the Windows Event Viewer for more clues
+下午 07:42:43  [Apache] 	If you need more help, copy and post this
+下午 07:42:43  [Apache] 	entire log window on the forums
+下午 07:42:45  [mysql] 	Status change detected: stopped
+下午 07:42:45  [mysql] 	Error: MySQL shutdown unexpectedly.
+下午 07:42:45  [mysql] 	This may be due to a blocked port, missing dependencies, 
+下午 07:42:45  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+下午 07:42:45  [mysql] 	Press the Logs button to view error logs and check
+下午 07:42:45  [mysql] 	the Windows Event Viewer for more clues
+下午 07:42:45  [mysql] 	If you need more help, copy and post this
+下午 07:42:45  [mysql] 	entire log window on the forums
+下午 07:43:03  [mysql] 	Status change detected: running
+下午 07:43:05  [Apache] 	Status change detected: running
+下午 07:43:20  [Apache] 	Status change detected: stopped
+下午 07:43:20  [Apache] 	Error: Apache shutdown unexpectedly.
+下午 07:43:20  [Apache] 	This may be due to a blocked port, missing dependencies, 
+下午 07:43:20  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+下午 07:43:20  [Apache] 	Press the Logs button to view error logs and check
+下午 07:43:20  [Apache] 	the Windows Event Viewer for more clues
+下午 07:43:20  [Apache] 	If you need more help, copy and post this
+下午 07:43:20  [Apache] 	entire log window on the forums
+下午 07:43:23  [mysql] 	Status change detected: stopped
+下午 07:43:23  [mysql] 	Error: MySQL shutdown unexpectedly.
+下午 07:43:23  [mysql] 	This may be due to a blocked port, missing dependencies, 
+下午 07:43:23  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+下午 07:43:23  [mysql] 	Press the Logs button to view error logs and check
+下午 07:43:23  [mysql] 	the Windows Event Viewer for more clues
+下午 07:43:23  [mysql] 	If you need more help, copy and post this
+下午 07:43:23  [mysql] 	entire log window on the forums
+下午 07:44:43  [mysql] 	Status change detected: running
+下午 07:44:44  [Apache] 	Status change detected: running
+下午 08:50:07  [Apache] 	Status change detected: stopped
+下午 08:50:07  [Apache] 	Error: Apache shutdown unexpectedly.
+下午 08:50:07  [Apache] 	This may be due to a blocked port, missing dependencies, 
+下午 08:50:07  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+下午 08:50:07  [Apache] 	Press the Logs button to view error logs and check
+下午 08:50:07  [Apache] 	the Windows Event Viewer for more clues
+下午 08:50:07  [Apache] 	If you need more help, copy and post this
+下午 08:50:07  [Apache] 	entire log window on the forums
+下午 08:50:09  [mysql] 	Status change detected: stopped
+下午 08:50:09  [mysql] 	Error: MySQL shutdown unexpectedly.
+下午 08:50:09  [mysql] 	This may be due to a blocked port, missing dependencies, 
+下午 08:50:09  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+下午 08:50:09  [mysql] 	Press the Logs button to view error logs and check
+下午 08:50:09  [mysql] 	the Windows Event Viewer for more clues
+下午 08:50:09  [mysql] 	If you need more help, copy and post this
+下午 08:50:09  [mysql] 	entire log window on the forums
+下午 08:51:21  [mysql] 	Status change detected: running
+下午 08:51:24  [Apache] 	Status change detected: running
+下午 12:11:38  [main] 	Deinitializing Modules
+下午 12:11:38  [main] 	Deinitializing Control Panel
+
+下午 09:07:22  [main] 	Initializing Control Panel
+下午 09:07:22  [main] 	Windows Version: Windows 7 Ultimate SP1 64-bit
+下午 09:07:22  [main] 	XAMPP Version: 7.1.11
+下午 09:07:22  [main] 	Control Panel Version: 3.2.2  [ Compiled: Nov 12th 2015 ]
+下午 09:07:22  [main] 	Running with Administrator rights - good!
+下午 09:07:22  [main] 	XAMPP Installation Directory: "c:\web\"
+下午 09:07:22  [main] 	Checking for prerequisites
+下午 09:07:23  [main] 	All prerequisites found
+下午 09:07:23  [main] 	Initializing Modules
+下午 09:07:23  [Apache] 	XAMPP Apache Service is already running on port 80
+下午 09:07:23  [Apache] 	XAMPP Apache Service is already running on port 443
+下午 09:07:23  [mysql] 	XAMPP MySQL Service is already running on port 3306
+下午 09:07:23  [filezilla] 	XAMPP FileZilla Service is already running on port 21
+下午 09:07:23  [filezilla] 	XAMPP FileZilla Service is already running on port 14147
+下午 09:07:23  [main] 	Starting Check-Timer
+下午 09:07:23  [main] 	Control Panel Ready
+下午 10:22:30  [main] 	Executing "c:\web\"
+下午 08:50:07  [Apache] 	Status change detected: stopped
+下午 08:50:07  [Apache] 	Error: Apache shutdown unexpectedly.
+下午 08:50:07  [Apache] 	This may be due to a blocked port, missing dependencies, 
+下午 08:50:07  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+下午 08:50:07  [Apache] 	Press the Logs button to view error logs and check
+下午 08:50:07  [Apache] 	the Windows Event Viewer for more clues
+下午 08:50:07  [Apache] 	If you need more help, copy and post this
+下午 08:50:07  [Apache] 	entire log window on the forums
+下午 08:50:09  [mysql] 	Status change detected: stopped
+下午 08:50:09  [mysql] 	Error: MySQL shutdown unexpectedly.
+下午 08:50:09  [mysql] 	This may be due to a blocked port, missing dependencies, 
+下午 08:50:09  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+下午 08:50:09  [mysql] 	Press the Logs button to view error logs and check
+下午 08:50:09  [mysql] 	the Windows Event Viewer for more clues
+下午 08:50:09  [mysql] 	If you need more help, copy and post this
+下午 08:50:09  [mysql] 	entire log window on the forums
+下午 08:51:21  [mysql] 	Status change detected: running
+下午 08:51:24  [Apache] 	Status change detected: running
+下午 12:11:41  [main] 	Deinitializing Modules
+下午 12:11:41  [main] 	Deinitializing Control Panel
+
+下午 08:55:55  [main] 	Initializing Control Panel
+下午 08:55:55  [main] 	Windows Version: Windows 7 Ultimate SP1 64-bit
+下午 08:55:55  [main] 	XAMPP Version: 7.1.11
+下午 08:55:55  [main] 	Control Panel Version: 3.2.2  [ Compiled: Nov 12th 2015 ]
+下午 08:55:55  [main] 	Running with Administrator rights - good!
+下午 08:55:55  [main] 	XAMPP Installation Directory: "c:\web\"
+下午 08:55:55  [main] 	Checking for prerequisites
+下午 08:55:55  [main] 	All prerequisites found
+下午 08:55:55  [main] 	Initializing Modules
+下午 08:55:55  [Apache] 	XAMPP Apache Service is already running on port 80
+下午 08:55:55  [Apache] 	XAMPP Apache Service is already running on port 443
+下午 08:55:55  [mysql] 	XAMPP MySQL Service is already running on port 3306
+下午 08:55:55  [filezilla] 	XAMPP FileZilla Service is already running on port 21
+下午 08:55:55  [filezilla] 	XAMPP FileZilla Service is already running on port 14147
+下午 08:55:55  [main] 	Starting Check-Timer
+下午 08:55:55  [main] 	Control Panel Ready
+上午 10:55:47  [main] 	Deinitializing Modules
+上午 10:55:47  [main] 	Deinitializing Control Panel
+
+上午 10:55:39  [main] 	Initializing Control Panel
+上午 10:55:39  [main] 	Windows Version: Windows 7 Ultimate SP1 64-bit
+上午 10:55:39  [main] 	XAMPP Version: 7.1.11
+上午 10:55:39  [main] 	Control Panel Version: 3.2.2  [ Compiled: Nov 12th 2015 ]
+上午 10:55:39  [main] 	Running with Administrator rights - good!
+上午 10:55:39  [main] 	XAMPP Installation Directory: "c:\web\"
+上午 10:55:39  [main] 	Checking for prerequisites
+上午 10:55:39  [main] 	All prerequisites found
+上午 10:55:39  [main] 	Initializing Modules
+上午 10:55:39  [Apache] 	XAMPP Apache Service is already running on port 80
+上午 10:55:39  [Apache] 	XAMPP Apache Service is already running on port 443
+上午 10:55:39  [mysql] 	XAMPP MySQL Service is already running on port 3306
+上午 10:55:39  [filezilla] 	XAMPP FileZilla Service is already running on port 21
+上午 10:55:39  [filezilla] 	XAMPP FileZilla Service is already running on port 14147
+上午 10:55:39  [Tomcat] 	Problem detected!
+上午 10:55:39  [Tomcat] 	Port 8009 in use by "C:\Program Files (x86)\Mozilla Firefox\firefox.exe"!
+上午 10:55:39  [Tomcat] 	Tomcat WILL NOT start without the configured ports free!
+上午 10:55:39  [Tomcat] 	You need to uninstall/disable/reconfigure the blocking application
+上午 10:55:39  [Tomcat] 	or reconfigure Tomcat and the Control Panel to listen on a different port
+上午 10:55:39  [main] 	Starting Check-Timer
+上午 10:55:39  [main] 	Control Panel Ready
+下午 10:51:40  [main] 	Deinitializing Modules
+下午 10:51:40  [main] 	Deinitializing Control Panel
+
+下午 05:25:10  [main] 	Initializing Control Panel
+下午 05:25:10  [main] 	Windows Version: Windows 7 Ultimate SP1 64-bit
+下午 05:25:10  [main] 	XAMPP Version: 7.1.11
+下午 05:25:10  [main] 	Control Panel Version: 3.2.2  [ Compiled: Nov 12th 2015 ]
+下午 05:25:10  [main] 	Running with Administrator rights - good!
+下午 05:25:10  [main] 	XAMPP Installation Directory: "c:\web\"
+下午 05:25:10  [main] 	Checking for prerequisites
+下午 05:25:11  [main] 	All prerequisites found
+下午 05:25:11  [main] 	Initializing Modules
+下午 05:25:11  [Apache] 	XAMPP Apache Service is already running on port 80
+下午 05:25:11  [Apache] 	XAMPP Apache Service is already running on port 443
+下午 05:25:11  [mysql] 	XAMPP MySQL Service is already running on port 3306
+下午 05:25:11  [filezilla] 	XAMPP FileZilla Service is already running on port 21
+下午 05:25:11  [filezilla] 	XAMPP FileZilla Service is already running on port 14147
+下午 05:25:11  [main] 	Starting Check-Timer
+下午 05:25:11  [main] 	Control Panel Ready
+下午 11:50:31  [main] 	Deinitializing Modules
+下午 11:50:31  [main] 	Deinitializing Control Panel
+
+下午 02:10:48  [main] 	Initializing Control Panel
+下午 02:10:48  [main] 	Windows Version: Windows 7 Ultimate SP1 64-bit
+下午 02:10:48  [main] 	XAMPP Version: 7.1.11
+下午 02:10:48  [main] 	Control Panel Version: 3.2.2  [ Compiled: Nov 12th 2015 ]
+下午 02:10:48  [main] 	Running with Administrator rights - good!
+下午 02:10:48  [main] 	XAMPP Installation Directory: "c:\web\"
+下午 02:10:48  [main] 	Checking for prerequisites
+下午 02:10:54  [main] 	All prerequisites found
+下午 02:10:54  [main] 	Initializing Modules
+下午 02:10:54  [Apache] 	XAMPP Apache Service is already running on port 80
+下午 02:10:54  [Apache] 	XAMPP Apache Service is already running on port 443
+下午 02:10:54  [mysql] 	XAMPP MySQL Service is already running on port 3306
+下午 02:10:54  [filezilla] 	XAMPP FileZilla Service is already running on port 21
+下午 02:10:54  [filezilla] 	XAMPP FileZilla Service is already running on port 14147
+下午 02:10:54  [main] 	Starting Check-Timer
+下午 02:10:54  [main] 	Control Panel Ready
+下午 11:54:33  [main] 	Deinitializing Modules
+下午 11:54:33  [main] 	Deinitializing Control Panel
+
+下午 02:21:04  [main] 	Initializing Control Panel
+下午 02:21:04  [main] 	Windows Version: Windows 7 Ultimate SP1 64-bit
+下午 02:21:04  [main] 	XAMPP Version: 7.1.11
+下午 02:21:04  [main] 	Control Panel Version: 3.2.2  [ Compiled: Nov 12th 2015 ]
+下午 02:21:04  [main] 	Running with Administrator rights - good!
+下午 02:21:04  [main] 	XAMPP Installation Directory: "c:\web\"
+下午 02:21:04  [main] 	Checking for prerequisites
+下午 02:21:07  [main] 	All prerequisites found
+下午 02:21:07  [main] 	Initializing Modules
+下午 02:21:07  [Apache] 	XAMPP Apache Service is already running on port 80
+下午 02:21:07  [Apache] 	XAMPP Apache Service is already running on port 443
+下午 02:21:07  [mysql] 	XAMPP MySQL Service is already running on port 3306
+下午 02:21:07  [filezilla] 	XAMPP FileZilla Service is already running on port 21
+下午 02:21:07  [filezilla] 	XAMPP FileZilla Service is already running on port 14147
+下午 02:21:07  [main] 	Starting Check-Timer
+下午 02:21:07  [main] 	Control Panel Ready
+下午 10:49:33  [main] 	Deinitializing Modules
+下午 10:49:33  [main] 	Deinitializing Control Panel
+
+下午 06:53:06  [main] 	Initializing Control Panel
+下午 06:53:06  [main] 	Windows Version: Windows 7 Ultimate SP1 64-bit
+下午 06:53:06  [main] 	XAMPP Version: 7.1.11
+下午 06:53:06  [main] 	Control Panel Version: 3.2.2  [ Compiled: Nov 12th 2015 ]
+下午 06:53:06  [main] 	Running with Administrator rights - good!
+下午 06:53:06  [main] 	XAMPP Installation Directory: "c:\web\"
+下午 06:53:06  [main] 	Checking for prerequisites
+下午 06:53:12  [main] 	All prerequisites found
+下午 06:53:12  [main] 	Initializing Modules
+下午 06:53:12  [Apache] 	XAMPP Apache Service is already running on port 80
+下午 06:53:12  [Apache] 	XAMPP Apache Service is already running on port 443
+下午 06:53:12  [mysql] 	XAMPP MySQL Service is already running on port 3306
+下午 06:53:12  [filezilla] 	XAMPP FileZilla Service is already running on port 21
+下午 06:53:12  [filezilla] 	XAMPP FileZilla Service is already running on port 14147
+下午 06:53:12  [main] 	Starting Check-Timer
+下午 06:53:12  [main] 	Control Panel Ready
+下午 07:33:08  [main] 	Deinitializing Modules
+下午 07:33:08  [main] 	Deinitializing Control Panel
+

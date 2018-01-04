@@ -20,30 +20,45 @@
                 <Allowed />
             </IpFilter>
             <Permissions>
+                <Permission Dir="C:\Users\HrJasn\Desktop\PO">
+                    <Aliases>
+                        <Alias>D:\PO</Alias>
+                    </Aliases>
+                    <Option Name="FileRead">1</Option>
+                    <Option Name="FileWrite">1</Option>
+                    <Option Name="FileDelete">1</Option>
+                    <Option Name="FileAppend">0</Option>
+                    <Option Name="DirCreate">1</Option>
+                    <Option Name="DirDelete">1</Option>
+                    <Option Name="DirList">1</Option>
+                    <Option Name="DirSubdirs">1</Option>
+                    <Option Name="IsHome">0</Option>
+                    <Option Name="AutoCreate">0</Option>
+                </Permission>
                 <Permission Dir="D:">
                     <Option Name="FileRead">1</Option>
-                    <Option Name="FileWrite">0</Option>
-                    <Option Name="FileDelete">0</Option>
-                    <Option Name="FileAppend">0</Option>
-                    <Option Name="DirCreate">0</Option>
-                    <Option Name="DirDelete">0</Option>
+                    <Option Name="FileWrite">1</Option>
+                    <Option Name="FileDelete">1</Option>
+                    <Option Name="FileAppend">1</Option>
+                    <Option Name="DirCreate">1</Option>
+                    <Option Name="DirDelete">1</Option>
                     <Option Name="DirList">1</Option>
                     <Option Name="DirSubdirs">1</Option>
                     <Option Name="IsHome">1</Option>
                     <Option Name="AutoCreate">0</Option>
                 </Permission>
-                <Permission Dir="C:\Users\HrJasn\Desktop\PO">
+                <Permission Dir="C:">
                     <Aliases>
-                        <Alias>\PO</Alias>
+                        <Alias>D:\C</Alias>
                     </Aliases>
                     <Option Name="FileRead">1</Option>
                     <Option Name="FileWrite">0</Option>
                     <Option Name="FileDelete">0</Option>
-                    <Option Name="FileAppend">0</Option>
-                    <Option Name="DirCreate">0</Option>
+                    <Option Name="FileAppend">1</Option>
+                    <Option Name="DirCreate">1</Option>
                     <Option Name="DirDelete">0</Option>
                     <Option Name="DirList">1</Option>
-                    <Option Name="DirSubdirs">1</Option>
+                    <Option Name="DirSubdirs">0</Option>
                     <Option Name="IsHome">0</Option>
                     <Option Name="AutoCreate">0</Option>
                 </Permission>
