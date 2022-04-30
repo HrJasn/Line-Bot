@@ -31,9 +31,9 @@ if(!empty($_POST['send_text'])){
 	mysqli_select_db($db,"line");
 	mysqli_query($db,"SET NAMES 'utf8'");
 
-	//$channel_id = "1549672834";
-	//$channel_secret = "3f330e05765e49b96f1a25a787252779";
-	$channel_access_token = "bxFwr3Y8HcIg2vkudiwGpjVy7bIXcJQqtH0fYIcaTyFD1TFIV3CC8SSDDNkFWql3dDuwpWUwjSV4SqnwEFNMkvkJixqkTajgOR/w9mziLCq0auUlLDOq2cbu42CLBaPG8Z9imBTsNX6A05Kq2cpOvAdB04t89/1O/w1cDnyilFU=";
+	//$channel_id = "";
+	//$channel_secret = "";
+	$channel_access_token = "";
 
 	$send_text = $_POST['send_text'];
 
